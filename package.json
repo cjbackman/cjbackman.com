@@ -7,9 +7,10 @@
     },
     "license": "MIT",
     "author": {
-        "email": "hej@cjbackman.com"
+        "email": "hej@cjbackman.com",
+        "name": "Carl-Johan Backman"
     },
     "config": {
-        "posts_per_page": 10
+        "posts_per_page": 3
     }
 }

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        {{ghost_head}}
+
+        <title>{{@blog.title}}</title>
+
+        <link href="https://fonts.googleapis.com/css?family=Special+Elite" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="{{asset "css/style.css"}}" />
+
+    </head>
+
+    <body>
+        <header><a href="/">cjbackman.com</a> | <a href="/about/">about</a></header>
+
+        {{{body}}}
+
+        <footer>&copy; <script>document.write(new Date().getFullYear());</script> Carl-Johan Backman</footer>
+
+        {{ghost_foot}}
+    </body>
+
+</html>
