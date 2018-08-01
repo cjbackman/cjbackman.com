@@ -21,6 +21,8 @@ footer {
   grid-template-rows: 85vh;
 }
 
+/* Links */
+
 a:link {
     color: black;
     text-decoration: none;
@@ -41,6 +43,10 @@ a:active {
     text-decoration: underline;
 }
 
+nav {
+  text-align: right;
+}
+
 /* Hexagons */
 
 .hexagon {
@@ -51,6 +57,8 @@ a:active {
 .hexagon path {
   -webkit-transition: fill 250ms linear;
   transition: fill 250ms linear;
+  stroke: white;
+  stroke-width: 3;
 }
 
 .hexagon :hover {
@@ -61,6 +69,13 @@ a:active {
   fill: steelblue;
 }
 
+.hexagon text {
+  fill: black;
+  font-size: 1.8em;
+  text-anchor: start;
+}
+
+/*
 .mesh {
   fill: none;
   stroke: #000;
@@ -74,3 +89,4 @@ a:active {
   stroke-width: 2px;
   pointer-events: none;
 }
+*/

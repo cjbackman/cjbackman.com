@@ -1,6 +1,6 @@
 {
     "name": "hexagon-theme",
-    "description": "Theme for my blog, cjbackman.com",
+    "description": "Theme for the blog cjbackman.com",
     "version": "0.1.1",
     "engines": {
         "ghost": ">=1.0.0"
