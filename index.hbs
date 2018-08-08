@@ -1,17 +1,14 @@
 {{!< default}}
 
-<div class="wrapper">
-    <div class="sidebar"></div>
-    <div class="mainbar">
-        <nav class="pagination" role="navigation">
-            <a id="newer-posts" href="#">&larr; Newer |</a>
-            <span class="page-number"> <span id="current-page"></span> / <span id="total-page"></span></span>
-            <a id="older-posts" href="#">| Older &rarr;</a>
-        </nav>
-        <div class="content"></div>
-    </div>
-    <div class="sidebar"></div>
-</div>
+
+<nav class="pagination" role="navigation">
+    <a id="newer-posts" href="#" style="visibility: hidden;">&larr; Newer |</a>
+        <span class="page-number">
+            <span id="current-page"></span> / <span id="total-page"></span>
+        </span>
+    <a id="older-posts" href="#">| Older &rarr;</a>
+</nav>
+<div class="content"></div>
 
 <script src="//d3js.org/d3.v3.min.js"></script>
 <script src="//d3js.org/topojson.v1.min.js"></script>

@@ -2,23 +2,31 @@ body {
     font-family: 'Special Elite';
 }
 
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: 40px auto 50px;
+  height: 98vh;
+}
+
+.mainbar {
+  font-family: 'Lato';
+}
+
 header {
-    font-size: 1.56em;
-    text-align: center;
-    font-weight: bold;
-    margin-bottom: 1em;
-    margin-top: 0.5em;
+  text-align: center;
+  font-weight: bold;
+  grid-column-start: 1;
+  grid-column-end:   4;
+  font-size: 1.56em;
+  margin-top: 15px;
 }
 
 footer {
-    margin-top: 1em;
-    text-align: center;
-}
-
-.wrapper {
-  display: grid;
-  grid-template-columns: 1fr 6fr 1fr;
-  grid-template-rows: 85vh;
+  grid-column-start: 1;
+  grid-column-end:   4;
+  text-align: center;
+  margin-top: 20px;
 }
 
 /* Links */
@@ -61,10 +69,6 @@ nav {
   stroke-width: 3;
 }
 
-.hexagon :hover {
-  fill: lightsteelblue;
-}
-
 .hexagon .fill {
   fill: steelblue;
 }
@@ -73,6 +77,19 @@ nav {
   fill: black;
   font-size: 1.8em;
   text-anchor: start;
+}
+
+.hexagon-text:hover {
+  fill: lightsteelblue;
+}
+
+.hexagon-text {
+  cursor: pointer;
+  font-family: 'Special Elite';
+}
+
+.hexagon-subtitle {
+  font-size: 14px;
 }
 
 /*

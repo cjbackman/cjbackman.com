@@ -1,10 +1,10 @@
 var width = document.getElementsByClassName('mainbar')["0"].clientWidth,
     height = document.getElementsByClassName('mainbar')["0"].clientHeight - 20,
-    radius = (height - 100) / 6,
-    xp = 250,
-    yp = 150,
+    radius = (height - 100) / 8,
+    xp = 1 * radius,
+    yp = 2 * radius,
     titleMarginX=10,
-    titleMarginY=10;
+    titleMarginY=0;
 
 var drawHexagon = d3.svg.line()
                     .x(function(d) { return d.x; })
@@ -20,7 +20,7 @@ var svg = d3.select(".content")
             .attr("class", "hexagon");
 
 // First call
-getPosts(3, 1);
+getPosts(4, 1);
 
 // Get posts
 function getPosts(limit, currentPage) {
@@ -29,36 +29,47 @@ function getPosts(limit, currentPage) {
 
   d3.json(url, (data) => {
 
-  // Pagination
-  var currentPage = data['meta']['pagination'].page,
-      totalPages = data['meta']['pagination'].pages,
-      totalPosts = data['meta']['pagination'].total,
-      hide_prev = data['meta']['pagination'].prev == null ? "hidden" : "visible",
-      hide_next = data['meta']['pagination'].next == null ? "hidden" : "visible",
-      nextPage = currentPage + 1,
-      prevPage = currentPage - 1;
+    console.log(data);
 
-  d3.select("#current-page").text(currentPage);
-  d3.select("#total-page").text(totalPages);
-  d3.select("#newer-posts").style("visibility", hide_prev).on("click", () => { getPosts(limit, prevPage) });
-  d3.select("#older-posts").style("visibility", hide_next).on("click", () => { getPosts(limit, nextPage) });
+    // Pagination
+    var currentPage = data['meta']['pagination'].page,
+        totalPages = data['meta']['pagination'].pages,
+        totalPosts = data['meta']['pagination'].total,
+        hide_prev = data['meta']['pagination'].prev == null ? "hidden" : "visible",
+        hide_next = data['meta']['pagination'].next == null ? "hidden" : "visible",
+        nextPage = currentPage + 1,
+        prevPage = currentPage - 1;
 
-  // Hexagons
-  var hexagons = svg.selectAll("path").data(data['posts'], (d) => d.id);
-  hexagons.exit().remove();
-  hexagons.enter()
-          .append("path")
-          .attr("d", (d, i) => drawHexagon(genHexagonPoints(i, radius, xp, yp )))
-          .attr("class", "fill");
+    d3.select("#current-page").text(currentPage);
+    d3.select("#total-page").text(totalPages);
+    d3.select("#newer-posts").style("visibility", hide_prev).on("click", () => { getPosts(limit, prevPage) });
+    d3.select("#older-posts").style("visibility", hide_next).on("click", () => { getPosts(limit, nextPage) });
 
-  // Titles
-  var titles = svg.selectAll("text").data(data['posts'], (d) => d.id);
-  titles.exit().remove();
-  titles.enter()
-        .append("text")
-        .attr("x", (d, i) => (i % 2) * radius + radius + xp + titleMarginX)
-        .attr("y", (d, i) => i * (Math.sqrt(3) * radius) + yp + titleMarginY)
-        .text((d) => d.title);
+    // Hexagons
+    var hexagons = svg.selectAll("path").data(data['posts'], (d) => d.id);
+    hexagons.exit().remove();
+    hexagons.enter()
+            .append("path")
+            .attr("d", (d, i) => drawHexagon(genHexagonPoints(i, radius, xp, yp)))
+            .attr("class", "fill");
+
+    // Titles
+    var titles = svg.selectAll(".hexagon-text").data(data['posts'], (d) => d.id);
+
+    titles.exit().remove();
+    titles.enter()
+          .append("text")
+          .attr("class", "hexagon-text")
+          .attr("x", (d, i) => (i % 2) * radius + radius + xp + titleMarginX)
+          .attr("y", (d, i) => i * (Math.sqrt(3) * radius) + yp + titleMarginY)
+          .text((d) => d.title)
+          .on("click", (d) => window.open(d.url, "_self"))
+          .append("tspan")
+          .attr("class", "hexagon-subtitle")
+          .attr("x", (d, i) => (i % 2) * radius + radius + xp + titleMarginX)
+          .attr("dy", 25)
+          .text((d) => new Date(d.published_at).toDateString());
+
   });
 }
 

@@ -1,3 +1,12 @@
 {{!< default}}
 
-{{{bio}}}
+{{#post}}
+
+    <article class="{{post_class}}">
+      <section class="page-content">
+        {{content}}
+      </section>
+      / {{author.name}}
+    </article>
+
+{{/post}}
