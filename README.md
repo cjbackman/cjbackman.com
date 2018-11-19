@@ -1,2 +1,3 @@
 # cjbackman.com
-Will hopefully contain code for a [blog](http://cjbackman.com) at some point...
+
+Code for a the blog [cjbackman.com](http://cjbackman.com).

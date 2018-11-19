@@ -1,6 +1,5 @@
 {{!< default}}
 
-
 <nav class="pagination" role="navigation">
     <a id="newer-posts" href="#" style="visibility: hidden;">&larr; Newer |</a>
         <span class="page-number">
@@ -13,3 +12,5 @@
 <script src="//d3js.org/d3.v3.min.js"></script>
 <script src="//d3js.org/topojson.v1.min.js"></script>
 <script src="assets/js/index.js"></script>
+
+{{^is "paged"}}<script>getPosts(4, 1);</script>{{/is}}

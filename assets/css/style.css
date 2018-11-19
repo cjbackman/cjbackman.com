@@ -4,9 +4,8 @@ body {
 
 .wrapper {
   display: grid;
-  grid-template-columns: 1fr 2fr 1fr;
-  grid-template-rows: 40px auto 50px;
-  height: 98vh;
+  grid-template-columns: 20% 60% 20%;
+  grid-template-rows: 40px minmax(500px, auto) 50px;
 }
 
 .mainbar {
@@ -75,7 +74,7 @@ nav {
 
 .hexagon text {
   fill: black;
-  font-size: 1.8em;
+  font-size: 2vw;
   text-anchor: start;
 }
 
@@ -89,7 +88,7 @@ nav {
 }
 
 .hexagon-subtitle {
-  font-size: 14px;
+  font-size: 1vw;
 }
 
 /*
