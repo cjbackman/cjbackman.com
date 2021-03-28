@@ -1,3 +1,3 @@
 # cjbackman.com
 
-Code for a the blog [cjbackman.com](http://cjbackman.com).
+Source code of [cjbackman.com](https://cjbackman.com).
