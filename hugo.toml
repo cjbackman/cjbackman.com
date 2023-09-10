@@ -13,7 +13,7 @@ languageName = "English"
   link = "https://cjbackman.com/"
 
 # Menu config
-#[menu]
+[menu]
 #  [[menu.main]]
 #    weight = 1
 #    identifier = "blog"
@@ -25,14 +25,14 @@ languageName = "English"
 #    url = "/blog/"
 #    # title will be shown when you hover on this menu link
 #    title = ""
-#  [[menu.main]]
-#    weight = 2
-#    identifier = "about"
-#    pre = ""
-#    post = ""
-#    name = "About"
-#    url = "/about/"
-#    title = "About"
+  [[menu.main]]
+    weight = 2
+    identifier = "about"
+    pre = ""
+    post = ""
+    name = "About"
+    url = "/about/"
+    title = ""
 
 # Markup related configuration in Hugo
 [markup]
