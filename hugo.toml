@@ -138,7 +138,7 @@ paginate = 12
       #  title shown in home page (HTML format is supported)
       title = "Hej, I'm CJ."
       # subtitle shown in home page (HTML format is supported)
-      subtitle = '<p>Empathic leader and technologist at heart. Lifelong learner.</p><p>Principal software engineer @ <a href="https://www.emma-sleep.co.uk/" target="_blank">Emma Sleep</a></p>'
+      subtitle = '<p>Empathic leader and technologist at heart.</p><p>Lifelong learner. Self-improvement enthusiast.</p><p>Principal software engineer @ <a href="https://www.emma-sleep.co.uk/" target="_blank">Emma Sleep</a></p>'
       # whether to use typeit animation for subtitle
       typeit = false
       # whether to show social links
