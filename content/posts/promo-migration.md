@@ -4,7 +4,7 @@ date = 2023-12-09T19:19:07+01:00
 draft = false
 +++
 
-> I wrote this post together with my collegue [Sadjad Fallah](https://www.linkedin.com/in/msadjad/). It was originally published on [Emma Sleep's tech blog](https://team.emma-sleep.com/tech-blog/making-the-bed-for-a-new-promotion-engine-blt4564f9d5c21110f4?mode=expand).
+> I wrote this post together with my friend and collegue [Sadjad Fallah](https://www.linkedin.com/in/msadjad/). It was originally published on [Emma Sleep's tech blog](https://team.emma-sleep.com/tech-blog/making-the-bed-for-a-new-promotion-engine-blt4564f9d5c21110f4?mode=expand).
 
 ---
 
