@@ -1,9 +1,11 @@
 +++
-title = 'Prelude'
+title = 'On writing a blog'
 date = 2023-11-26T16:56:17+01:00
 tags = ['Misc']
 draft = false
 +++
+
+## Prelude
 
 The content of this blog is not yet fully defined. It will likely be skewed toward technology, leadership, and the intersection of those. Simply because those topics are frequently on my mind. I'll strive for a less is more approach, with short and crisp posts.
 

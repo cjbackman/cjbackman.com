@@ -1,6 +1,7 @@
 +++
 title = 'Migrating a promotion engine'
 date = 2023-12-09T19:19:07+01:00
+tags = ['Technology','Software Architecture', 'Migration', 'E-Commerce']
 draft = false
 +++
 
@@ -66,7 +67,7 @@ Comparing the target state to our initial architecture, we can spot three new ki
 
 The first piece of the puzzle was the Promotions API. An API that would act as a middleware between the cart functionality in the backend and any promotion engine. This abstraction layer allows multiple promotion engines to run in parallel and simplifies integrating other promotion engines in the future.
 
-Some might rightfully say that we are treading into YAGNI territory with the above arguments. However, the most important aspect of the Promotions API was immediate risk management. Being able to run our legacy promotion engine alongside Talon.One meant we could apply [the strangler pattern](https://microservices.io/patterns/refactoring/strangler-application.html) to rolling out markets, i.e., doing one market at a time.
+Some might rightfully say that we are treading into [YAGNI](https://en.wikipedia.org/wiki/You_aren%27t_gonna_need_it) territory with the above arguments. However, the most important aspect of the Promotions API was immediate risk management. Being able to run our legacy promotion engine alongside Talon.One meant we could apply [the strangler pattern](https://microservices.io/patterns/refactoring/strangler-application.html) to rolling out markets, i.e., doing one market at a time.
 
 #### Modelling the interface
 
