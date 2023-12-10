@@ -148,6 +148,6 @@ _Figure 6. The migration roadmap._
 
 9 months after we set out on the journey described in this post, we migrated our 22<sup>nd</sup> and ultimate market to Talon.One, and we dismantled the integration team. We are deeply grateful to everyone who made this happen.
 
-This was a significant undertaking that involved around 30 teams and close to 400 users. We managed to replace a key component of our checkout with zero downtime. A testament to the flexibility of composable commerce, and a strong product and engineering organization.
+It was a significant undertaking that involved around 30 teams and close to 400 users. We managed to replace a key component of our checkout with zero downtime. A testament to the flexibility of composable commerce, and a strong product and engineering organization.
 
-The approach to first re-designing the interfaces to foster loose coupling required significant upfront investment, however, it was key to enable a swift rollout while mitigating risk. We went slow, to go fast.
+The approach to first re-design the interfaces to foster a looser coupling required significant upfront investment, however, it was key to enable a swift rollout while mitigating risk. We went slow, to go fast.
