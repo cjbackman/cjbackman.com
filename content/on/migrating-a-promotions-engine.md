@@ -1,5 +1,5 @@
 +++
-title = 'Migrating a promotion engine'
+title = 'Migrating a promotions engine'
 date = 2023-12-09T19:19:07+01:00
 tags = ['Technology','Software Architecture', 'Migration', 'E-Commerce']
 draft = false
@@ -39,7 +39,7 @@ Armed with context and a solution, we bootstrapped a small integration team of s
 
 To understand our journey, we need to first understand where we started. The overall architecture, dependencies, and imperfections that surrounded our promotion logic. A high-level architecture is depicted in the image below.
 
-![start.png](/promo-migration/start.png)
+![start.png](/migrating-a-promotions-engine/start.png)
 
 _Figure 1. The high-level architecture before the migration._
 
@@ -55,7 +55,7 @@ Finally, the representation of promotions was not consistent for upstream and do
 
 The diagram below shows our target state with the breaking changes highlighted in red. The architecture below loosens the coupling by exposing consistent promotion-agnostic interfaces for both synchronous and asynchronous consumers, and by decoupling carts and promotions in the backend. This architecture not only allowed us to replace our existing promotion engine with Talon.One, but also makes it easier to integrate a different promotion engine in the future, i.e., _anything-as-a-promotion-engine_.
 
-![end.png](/promo-migration/end.png)
+![end.png](/migrating-a-promotions-engine/end.png)
 
 _Figure 2. The high-level architecture after the migration._
 
@@ -81,7 +81,7 @@ The schema for the new promotion entity was modeled as having two discount types
 
 The detailed schemas of the objects are not relevant for this article, but to give an idea, a discount code looks like:
 
-![discount_codes.png](/promo-migration/discount_codes.png)
+![discount_codes.png](/migrating-a-promotions-engine/discount_codes.png)
 
 _Figure 3. An example of a discount code representation._
 
@@ -106,7 +106,7 @@ We wanted to create an API that maintained consistency irrespective of the promo
 
 We leveraged the new promotion object described above to associate carts and line items with discounts and discount codes. The representation of a cart in Checkout API v2 is depicted below:
 
-![cartv2.png](/promo-migration/cartv2.png)
+![cartv2.png](/migrating-a-promotions-engine/cartv2.png)
 
 _Figure 4. An simplified representation of the cart in Checkout API v2._
 
@@ -118,7 +118,7 @@ Additionally, we extended the Checkout API with a _warnings_ object. This addres
 
 The warnings can stem from price updates on products and shipping, discounts, and discount codes, and they can be associated with both the cart and specific line items. An example of the warnings object can be seen below.
 
-![warning.png](/promo-migration/warning.png)
+![warning.png](/migrating-a-promotions-engine/warning.png)
 
 _Figure 5. An example of the warnings object._
 
@@ -140,7 +140,7 @@ When the consumers were running on the new versions and Talon.One was integrated
 
 A high-level roadmap can be seen in the picture below.
 
-![roadmap.png](/promo-migration/roadmap.png)
+![roadmap.png](/migrating-a-promotions-engine/roadmap.png)
 
 _Figure 6. The migration roadmap._
 
