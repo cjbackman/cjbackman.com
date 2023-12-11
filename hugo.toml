@@ -24,7 +24,7 @@ languageName = "English"
     name = "Blog"
     url = "/on/"
     # title will be shown when you hover on this menu link
-    title = ""
+    title = "Written thoughts"
   [[menu.main]]
     weight = 2
     identifier = "about"
@@ -32,7 +32,7 @@ languageName = "English"
     post = ""
     name = "About"
     url = "/is-a-technologist/"
-    title = ""
+    title = "A brief introduction"
 
 # Markup related configuration in Hugo
 [markup]
@@ -46,7 +46,7 @@ paginate = 12
 
 [params]
   # site default theme ["auto", "light", "dark"]
-  defaultTheme = "light"
+  defaultTheme = "auto"
   #  date format
   dateFormat = "2006-01-02"
   # website title for Open Graph and Twitter Cards
