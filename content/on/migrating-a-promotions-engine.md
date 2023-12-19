@@ -81,7 +81,7 @@ The schema for the new promotion entity was modeled as having two discount types
 
 The detailed schemas of the objects are not relevant for this article, but to give an idea, a discount code looks like:
 
-![discount_codes.png](/migrating-a-promotions-engine/discount_codes.png)
+![discount-codes.png](/migrating-a-promotions-engine/discount-codes.png)
 
 _Figure 3. An example of a discount code representation._
 
