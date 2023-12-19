@@ -75,13 +75,13 @@ Alright, the example is stupid but the point I'm trying to make is not. Code cov
 
 We need to find a different way.
 
-## Test the tests with mutation testing
+## How can we check if our tests are good?
 
-What we're talking about here is to find a reliable method to test our tests. A possible approach to achieve that is to leverage something called _mutation testing_. It's a type of testing where errors are deliberately introduced in the source code to see if your test suite will detect them. These variants of the source code where an error has been introduced are called mutants, and we want to kill them.
+What we're talking about here is to find a reliable method to test our tests. A possible approach to achieve that is to leverage something called _mutation testing_. It's a type of testing where errors are deliberately introduced in the source code to see if your test suite will detect them. These modified variants of the source code with injected errors are called mutants, and we want to kill them.
 
-### Mutation testing is all about killing mutants
+## Mutation testing offers a way
 
-On a high level, the process of mutation testing is:
+Mutation testing is all about killing mutants. On a high level, the process is:
 
 1. Create mutants by modifying the source code to introduce errors.
 2. Execute your existing test suite against the mutants.​
@@ -90,17 +90,21 @@ On a high level, the process of mutation testing is:
 
 Or as a visual representation:
 
-// INSERT IMAGE HERE
+![process.jpg](/mutation-testing/process.jpg)
 
-The kind of modifications done to the source are not random but based on pre-defined rules, called _mutators_ or _operators_. There are many types of mutations, and different mutation testing frameworks will support different mutators (I'm using [Stryker](https://stryker-mutator.io) for these examples and here is [the full list of mutators supported by them](https://stryker-mutator.io/docs/mutation-testing-elements/supported-mutators/)). Three common types are statement, decision and value mutations, briefly described below.
+_Figure 1. A high-level process of how mutation testing works._
 
-- **Statement mutations** are changes to statements, e.g., duplicating or deleting a statement or a block of statements.​
-- **Decision mutations** are changes to operators, e.g., arithmetical, relational, and logical operators.​
-- **Value mutations** involves changing constants or literals in the code, e.g., changing a value to a very big or small value.​
+The kind of modifications done to the source are not random but based on pre-defined rules, called _mutators_ or _operators_. There are many types of mutations, and different mutation testing frameworks will support different mutators (I'm using [Stryker](https://stryker-mutator.io) for these examples and here is [the full list of mutators supported by them](https://stryker-mutator.io/docs/mutation-testing-elements/supported-mutators/)). A few common types are:
+
+- **Statement mutations** change statements, e.g., duplicating or deleting a statement or a block of statements.​
+- **Decision mutations** alter operators, e.g., arithmetical, relational, and logical operators.​
+- **Value mutations** transform constants or literals in the code, e.g., changing a value to a very big or small value.​
+- **Exception Mutations** modify exception handling in the code, e.g., removing a try-catch block.​
+- **Function Call Mutations** mutate the parameters of a function call, or removing the function call entirely.
 
 Enough theory, now we have a rough understanding of how mutation testing works, let's apply this to our calculator.
 
-### The mutation score gives an indication of test quality
+### A high mutation score indicates high test quality
 
 If we run the mutation tests on our calculator and its test suite, we get an output like this:
 
@@ -118,14 +122,28 @@ test("isPositive should return false if the number is zero", () => {
 });
 ```
 
-If re-run our unit tests, including this new case, we catch the bug. After fixing the bug and re-running the mutation tests as well we get a code coverage and mutation score of 100%. A word of caution though, 100% mutation score is rarely feasible in a large codebase, for reasons we explore next.
+If re-run our unit tests, including this new case, we catch the bug. After fixing the bug and re-running the mutation tests as well we get a code coverage and mutation score of 100%. In summary, mutation testing allows us to:
 
-### Don't aim for 100% mutation score
+- Measure the effectiveness of our tests at a granular level.​
+- Provide insights about gaps in our test suite and how to improve it.​
+- Indirectly contribute to better code quality by making tests more comprehensive.​
+
+However, as always, there are also some drawbacks. We'll explore those next.
+
+### Don't aim for a 100% mutation score
 
 - Why not aim for 100%? Tricky mutators
-- Other downsides of mutation testing
 
-So, what do Ninja Turtles, X-Men and effective tests have in common? *Mutants*, and while they probably won't save the world, they might save you from dropping that next bug into production.
+Cons
+
+- Misleading Some mutations might be equivalent to the original program, aka equivalent mutants, leading to false positives.​
+- Some mutations are doomed to always be killed, aka incompetent mutants, and are thus not contributing any valuable information.​
+- Mutation testing can be time-consuming and computationally expensive due to the large number of mutants.​
+- There is additional complexity of having to juggle yet another framework.
+
+So, what do Ninja Turtles, X-Men and effective tests have in common? *Mutants*, and while they probably won't save the world, they might save you from shipping that next bug into production.
+
+## Glossary
 
 Mutation testing glossary
 
