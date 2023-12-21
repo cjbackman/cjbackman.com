@@ -1,8 +1,8 @@
 +++
 title = 'Is 100% code coverage better than 80%?'
 date = 2023-12-16T18:26:22+01:00
-tags = ['Technology','Testing']
-draft = true
+tags = ['Testing']
+draft = false
 +++
 
 > If you want to try out the stuff described in this post, check out this [this repo](https://github.com/cjbackman/mutation-testing-demo).
@@ -11,13 +11,15 @@ Did you know that Ninja Turtles, X-Men and effective tests have something in com
 
 ## Tests are good if they catch errors
 
-The purpose of testing software is to assure its quality. The idea is simple: catch errors before the user does. While the idea is simple the practice is not. Writing tests is not straightforward, and writing good tests is even harder. This means that not only is the quality of software variable, so is the _quality of tests_. Moreover, errors are expensive, and the later you discover them in the software development cycle the more expensive they get. Consequently, we have a financial incentive to assure the quality of our tests. How can we do that?
+The purpose of testing software is to assure its quality. The idea is simple: catch errors before the user does. While the idea is simple the practice is not. Writing tests is not straightforward, and writing good tests is even harder. Much has been written about the topic, e.g., [Testing Without Mocks](https://www.jamesshore.com/v2/projects/nullables/testing-without-mocks) and [Why Good Developers Write Bad Unit Tests](https://mtlynch.io/good-developers-bad-tests/).
 
-When talking about gauging test quality, it's common to talk about _code coverage_. A metric defined as the share of lines of the total codebase that were executed during the tests. To understand if that's a good metric, let's ponder the following questions:
+Nevertheless, this means that not only is the quality of software variable but so is the _quality of tests_. Moreover, errors are expensive, and the later you discover them in the software development cycle the more expensive they get. Consequently, we have a financial incentive to assure the quality of our tests. How can we do that?
 
-- Does 100% coverage imply that 100% of the functionality is tested?
+When talking about gauging test quality, it's common to stumble upon _code coverage_. A metric defined as the share of lines of the total codebase that were executed during a test suite run. To understand if that's a good metric, let's ponder the following questions:
+
+- If I have 100% coverage, have I tested 100% of the functionality?
 - Is 100% code coverage better than 80%?
-- Or, simply put, are my tests any good?
+- Or, are my tests any good?
 
 The answer to all those questions is: _it depends_. Annoying, I know. The thing is, code coverage is a blunt metric because executing a line doesn't necessarily mean all behaviors encapsulated in that line were tested.
 
@@ -39,7 +41,7 @@ export class Calculator {
 }
 ```
 
-This is a silly calculator able to do basic addition, multiplication and to check if a number is positive. Despite its sillyness, I take pride in producing high-quality code, so I've created the following test suite to go with it.
+This is a silly calculator able to do basic addition, multiplication and to check if a number is positive. Despite its sillyness, I take pride in producing high-quality code, so I've created the following unit test suite to go with it.
 
 ```js
 import { Calculator } from "./calculator";
@@ -112,9 +114,9 @@ If we run the mutation tests on our calculator and its test suite, we get an out
 
 _Figure 2. The output from Stryker when mutation testing the calculator._
 
-Don't mind all information but you'll see that we get something that says _% score_ (highlighted by a red box), that is the _mutation score_. This is the share of successfully killed mutants. 100% means all mutants were killed (awesome!) and 0% percent means all mutants surived (bad tests!). Additionally, you can see information about the surviving mutant (also highlighted by a red box), namely applying the [EqualityOperator](https://stryker-mutator.io/docs/mutation-testing-elements/supported-mutators/#equality-operator) so that `return number >= 0;` was changed to `return number > 0;`.
+Don't mind all information but you'll see that we get something that says _% score_ (highlighted by a red box), that is the _mutation score_. This represents the share of successfully killed mutants. 100% means all mutants were killed (good tests!) and 0% percent means all mutants surived (bad tests!). Additionally, you can see information about the surviving mutant (also highlighted by a red box), namely applying the [EqualityOperator](https://stryker-mutator.io/docs/mutation-testing-elements/supported-mutators/#equality-operator) so that `return number >= 0;` was changed to `return number > 0;`.
 
-How can we improve our tests based on this information? We add a test case for `.isPositive(0)` like:
+How can we improve our tests based on this information? We add a test for the case `.isPositive(0)` like:
 
 ```js
 test("isPositive should return false if the number is zero", () => {
@@ -122,32 +124,49 @@ test("isPositive should return false if the number is zero", () => {
 });
 ```
 
-If re-run our unit tests, including this new case, we catch the bug. After fixing the bug and re-running the mutation tests as well we get a code coverage and mutation score of 100%. In summary, mutation testing allows us to:
+If re-run our unit tests, including this new case, we catch the bug. After fixing the bug and re-running the mutation tests we get a code coverage and mutation score of 100%. With this simple example, we see that mutation testing allows us to:
 
 - Measure the effectiveness of our tests at a granular level.​
 - Provide insights about gaps in our test suite and how to improve it.​
 - Indirectly contribute to better code quality by making tests more comprehensive.​
 
-However, as always, there are also some drawbacks. We'll explore those next.
+However, as always, there is a different side of the coin and we'll explore that next.
 
 ### Don't aim for a 100% mutation score
 
-- Why not aim for 100%? Tricky mutators
+First off, don't aim for 100% mutation score. It's rarely feasible in a large codebase, because chances are you'll encounter some _[equivalent mutants](https://stryker-mutator.io/docs/mutation-testing-elements/equivalent-mutants/)_. Those mutations are syntactically different from the original program, but functionally identical, thus leading to false positives. In a large codebase, these mutations can be difficult to locate and remove. Accepting a score lower than 100% might be a more pragmatic solution.
 
-Cons
+Another misleading outcome can come from _incompetent mutants_. Those are mutations that results in code that's so faulty it will always be killed. This happens when the mutant, e.g., cause the program to crash, go into an infinite loop or always throw an exception. The mutatans will be killed but not because the tests are good, but because mutant was doomed from the start.
 
-- Misleading Some mutations might be equivalent to the original program, aka equivalent mutants, leading to false positives.​
-- Some mutations are doomed to always be killed, aka incompetent mutants, and are thus not contributing any valuable information.​
-- Mutation testing can be time-consuming and computationally expensive due to the large number of mutants.​
-- There is additional complexity of having to juggle yet another framework.
+Finally, mutation testing tend to be time-consuming and computationally expensive due to the large number of mutants. Also, there is a added complexity by having to juggle yet another framework, which might not be justied for a smaller project.
 
-So, what do Ninja Turtles, X-Men and effective tests have in common? *Mutants*, and while they probably won't save the world, they might save you from shipping that next bug into production.
+## Treat yourself to the occasional mutation test
 
-## Glossary
+That's it, let's sum up the tradeoffs of mutation testing.
 
-Mutation testing glossary
+| Mutation tests yay                        | Mutation tests nay        |
+| ----------------------------------------- | ------------------------- |
+| Measures test effectiveness               | Computationally expensive |
+| Provides insights about test improvements | Can be misleading         |
+| Contributes to higher code quality        | Adds complexity           |
 
-- Mutatants
-- Mutation score
-- Mutators
-- Equivalent
+And now you know what Ninja Turtles, X-Men and effective tests have in common? *Mutants*. They probably won't save the world, but they might save you from shipping that next bug into production.
+
+### Glossary
+
+PS. I like glossaries, so I asked ChatCPT to generate one based on this article.
+
+| Term                    | Description                                                                                                               | Example                                                                                                  |
+| ----------------------- | ------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
+| Code Coverage           | The percentage of code executed during testing. It measures how much of the codebase is tested by the test suite.         | Achieving 100% code coverage implies every line of code was executed during tests.                       |
+| Mutation Testing        | A method where errors are intentionally introduced into the source code to test if existing tests can detect them.        | Injecting a fault in a calculator's addition function to see if tests detect the error.                  |
+| Mutants                 | Modified versions of the original code created in mutation testing, each containing a specific, deliberate error.         | An altered line of code in a method, such as changing a `>=` operator to `>` in a conditional statement. |
+| Mutators/Operators      | Specific rules or methods used in mutation testing to introduce errors.                                                   | Changing an arithmetic operator or modifying the return value of a function.                             |
+| Statement Mutations     | A type of mutation where statements are altered, like duplicating, deleting, or changing the sequence of statements.      | Removing a crucial line of code that checks user input validity.                                         |
+| Decision Mutations      | Mutations that involve changing decision-making constructs in the code, such as conditional statements.                   | Reversing a condition in an `if` statement from `if (x > 0)` to `if (x < 0)`.                            |
+| Value Mutations         | Mutations where constants or literals are changed to different values.                                                    | Changing a default setting value from `10` to `-10`.                                                     |
+| Exception Mutations     | Involves modifying exception handling aspects of the code, like altering or removing try-catch blocks.                    | Eliminating a `try-catch` block that handles file reading errors.                                        |
+| Function Call Mutations | Mutations that change the behavior of function calls, either by altering parameters or omitting the call.                 | Modifying the parameters of a function call or removing a function call entirely from a code block.      |
+| Mutation Score          | A metric in mutation testing that indicates the percentage of mutants successfully detected and 'killed' by the tests.    | A mutation score of 80% indicates that 80% of the introduced mutants were detected by the tests.         |
+| Equivalent Mutants      | Mutants that, despite being syntactically different from the original code, do not alter the program's external behavior. | Changing a loop condition in a way that doesn't affect the loop's number of iterations or its outcome.   |
+| Incompetent Mutants     | Mutants that are so flawed they are always detected by tests, not necessarily indicating good test quality.               | A mutant causing a syntax error or a logical contradiction, leading to immediate detection.              |
