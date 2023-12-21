@@ -1,7 +1,7 @@
 +++
 title = 'Migrating a promotions engine'
 date = 2023-12-09T19:19:07+01:00
-tags = ['Technology','Software Architecture', 'Migration', 'E-Commerce']
+tags = ['Software Architecture', 'Migration', 'E-Commerce']
 draft = false
 +++
 

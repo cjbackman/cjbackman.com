@@ -1,7 +1,7 @@
 +++
 title = 'Getting started'
 date = 2023-11-26T16:56:17+01:00
-tags = ['Misc']
+tags = ['Personal Growth']
 draft = false
 +++
 
