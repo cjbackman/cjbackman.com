@@ -81,7 +81,7 @@ We need to find a different way.
 
 What we're talking about here is to find a reliable method to test our tests. A possible approach to achieve that is to leverage something called _mutation testing_. It's a type of testing where errors are deliberately introduced in the source code to see if your test suite will detect them. These modified variants of the source code with injected errors are called mutants, and we want to kill them.
 
-## Mutation testing offers a way
+### Mutation testing offers a way
 
 Mutation testing is all about killing mutants. On a high level, the process is:
 
@@ -152,7 +152,7 @@ That's it, let's sum up the tradeoffs of mutation testing.
 
 And now you know what Ninja Turtles, X-Men and effective tests have in common? *Mutants*. They probably won't save the world, but they might save you from shipping that next bug into production.
 
-### Glossary
+## Glossary
 
 PS. I like glossaries, so I asked ChatCPT to generate one based on this article.
 
