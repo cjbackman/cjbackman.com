@@ -7,7 +7,7 @@ title = "cjbackman.com"
 languageCode = "en"
 languageName = "English"
 
-[author]
+[params.author]
   name = "Carl-Johan Backman"
   email = "cj@cjbackman.com"
   link = "https://cjbackman.com/"
