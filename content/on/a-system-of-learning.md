@@ -2,24 +2,24 @@
 title = 'My system of learning'
 date = 2023-12-23T19:36:08+01:00
 tags = ['Personal Growth']
-draft = true
+draft = false
 +++
 
-The pursuit of learning has been an [intrinsic value](https://programs.clearerthinking.org/intrinsic_values_test.html) to me for as long as I can remember. The driving force behind many, perhaps most, of my decisions in life has been curiosity and hunger to understand. I invest a significant amount of time into this quest of attaining knowledge and wisdom, and I find myself frequently viewing life through a lense of learning. Interactions, introspections, travels, the ups and owns, are all opportunities to learn. While I sometimes learn for a specific purpose, more commonly I do it for the joy of discovering.
+The pursuit of learning has been an [intrinsic value](https://programs.clearerthinking.org/intrinsic_values_test.html) to me for as long as I can remember. The driving force behind many, perhaps most, of the decisions in my life has been curiosity and a desire to understand. I invest a significant amount of time into this quest of attaining knowledge and wisdom, and I find myself frequently viewing life through a lense of learning. Interactions, introspections, travels, the ups and owns, are all opportunities to learn. While I sometimes learn for a specific purpose, more commonly I do it for the joy of discovering.
 
-In this article I want to share my system of learning. A simple approach to find information, capture knowledge and extract value, along multiple resources to check out and the tools I use.
+In this article I want to share my system of learning. A simple approach to finding information, capturing knowledge and extracting value. Throughout the text I share the resources and the tools that enable my system.
 
-## Find information
+## Inflow: Finding information
 
-The first step to learning is to find knowledge. Lucklily, that is easy today.
+The first step to learning is to find information. Lucklily, there is an abundance of it today.
 
-I am immensely grateful to all who invest their time and effort into sharing their knowledge with the world. Providing opportunities for others to learn and grow. The amount of information easily available thanks to the Internet and its contributors is staggering, and a treasure and privelege. Infinite wisdom, at the tip of your fingers.
+I am immensely grateful to all who invest their time and effort into sharing their knowledge with the world. Creating opportunities for others to learn and grow. The amount of information easily available thanks to the Internet and its contributors is staggering, and a treasure and privelege. Humanities collective wisdom, at the tip of our fingers.
 
-My four main sources of finding knowledges are newsletters, podcasts, books, courses and the community. Some of my favorite and podcasts, at the time of writing, are listed below.
+My steady inflow of information stems primarily from articles, podcasts and books.
 
-### Newsletters & blogs
+### Articles
 
-Newletters & blogs are awesome simply because text is such a great medium for information. Easy to store, organize, search and lookup. Here are some I like:
+Newletters and blogs are awesome, because text is such a great medium for information. Easy to organize, store, search and retrieve. Here are brilliant minds to learn from:
 
 - [Irrational Exuberance by Will Larson](https://lethain.com/newsletter/)
 - [The Pragmatic Engineer by Gergely Orosz](https://newsletter.pragmaticengineer.com/)
@@ -32,7 +32,7 @@ Newletters & blogs are awesome simply because text is such a great medium for in
 
 ### Podcasts
 
-I love podcasts because they allow me to gain new insights while cooking, cleaning, exercises, etc. The following podcasts have kept me company through endless of mundane chorse:
+I love podcasts as they allow me to gain new insights while cooking, cleaning, excercising, etc. The following podcasts have repeatedly turned chores into valuable moments of learning:
 
 - [Lenny's Podcast by Lenny Rachitsky](https://open.spotify.com/show/2dR1MUZEHCOnz1LVfNac0j?si=cafc040c96ef43c6)
 - [Engineering Enablement by Abi Noda](https://open.spotify.com/show/3NxjyIsuxeDMQtisDqBy7D?si=75abe17deeb74bdc)
@@ -48,51 +48,76 @@ Additionally, I listen to a bunch of Swedish speaking podcasts, mainly about pol
 
 ### Books
 
-I enjoy reading and I consume both fiction and non-fiction. There are learnings in both. In this fast-paced and attention seeking time of ours, I find that books to be an important vehicle to train our attention and to trigger deeper thinking. There was a time when temporarily fell off the book reading wagon, and over time I realized how a resistance against reading longer texts started to build up. Once I got back into my habit of reading again, this resistence quickly subsided.
+I enjoy reading books and I consume both fiction and non-fiction. There are certainly learnings in both. In my opinion, books play an increasingly important role in our busy world. They stand in stark contrast to operating model of social media. Books have become a tool for me to train my attention and deeper thinking.
 
-I have also tried tools like Blinkist, and while books can often be unnecessarily wordy, I much prefer them over any summary. Too much context is lost when a book is reduced into its core concepts and the complete lack of storytelling makes it difficult for any knowledge to stick.
+There was a time when I temporarily fell off the book reading wagon, and over time I realized how a resistance against longer texts started to build up. Once I got back into my habit of reading, the resistence subsided.
 
-### Courses
+Reading a book is a significant investment timewise, and non-fiction books are often unncessarily wordy. In an effort to reduce the effort, I have tried tools like [Blinkist](https://www.blinkist.com/) but without success. I prefer the lengthy version. Too much context is lost when a book is reduced into its core concepts and the complete lack of storytelling makes it difficult to make the knowledge stick.
+
+### Other sources
+
+I consume the sources above on a daily and weekly basis in a structured and deliberate way. Two other sources where I take a less structured approach, but are still worth highlighting, are courses and communities.
+
+#### Courses
 
 I loved my time in school and doing courses is still a way of learning I enjoy. It is not something I do regularly these days, but every now and then I treat myself to something on [Coursera](https://www.coursera.org/) or [Clearer Thinking](https://www.clearerthinking.org/).
 
-### Communities
+#### Communities
 
-This is the key source of my learning. Human interaction is most effective and pleasurable path to accelarate one's learning. Nothing beats discussing with colleagues, friends or in an online community (I like [Rands Leadership Slack](https://randsinrepose.com/welcome-to-rands-leadership-slack/)).
+Last but certainly not least. The magic that happens in human exchange. I am immensely grateful to all friends, colleagues and strangers (there are bunch of knowledgeable ones over at [Rands Leadership Slack](https://randsinrepose.com/welcome-to-rands-leadership-slack/)) through which I have been gifted countless insights. Turn to thy neighbor and ask, challenge, debate, discuss, and enjoy.
 
-## Capture knowledge
+## Stock up: Capturing knowledge
 
-The sources described below provide a steady stream of information. To read everything in-depth and subsequently recall the insights when they are needed at a later stage would require immense effort. This is what I do instead.
+The sources described above provide a steady stream of information. To read everything in-depth and subsequently recall the insights when they are needed at a later stage would require immense effort and is not feasible. The approach I take instead is to consolidate and curate the information into a base of knowledge, from which I can later extract value.
 
-I leverage primarily two tools to capture knowledge, [Thought Saver](https://www.thoughtsaver.com/) and [Notion](https://www.notion.so/).
+My knowledge base has to storage layers: i) **flashcards** - special-purpose and structured knowledge and; ii) **a personal wiki** - general-purpose and fairly unstructured.
 
-Thought Saver is...
+For the flashcards I use [Thought Saver](https://www.thoughtsaver.com/), a tool where you can create decks of cards to quiz yourself with. The goal is to help you remember what you learn through [spaced repetition](https://en.wikipedia.org/wiki/Spaced_repetition). As example, [try this deck I made](https://app.thoughtsaver.com/embed/3MxaX3NDod?start=1&end=37) on the nuggets from [Kent Beck's](https://www.kentbeck.com/) excellent book [Tidy First?](https://www.oreilly.com/library/view/tidy-first/9781098151232/).
 
-Notion is...
+My personal wiki lives in [Notion](https://www.notion.so/), where I store links to articles I like and notes of insights, ideas, reflections, and more.
 
-### Newsletters & blogs
+![wiki.png](/a-system-of-learning/wiki.png)
 
-1. I skim each article to make a first assesment.
-2. If it seems helpful, yes and the article is short (< 5 minutes), I read it straight away. Otherwise, I add it to a 'Later' tab in Chrome.
-3. I block time every week to go through the 'Later' tab.
-4. When I find an article valuable, I typically create some quiz cards in Thought Saver using their Google Chrome plugin. Additionally, I save the link in Notion for future reference, sometimes with a few notes as well.
+_Figure 1. The root level of my personal wiki in [Notion](https://www.notion.so/)._
+
+So what do the pipelines that feed the inflow into my knowledge base look like? They all follow the same high-level flow, check -> consume -> capture, with slight variations for each source.
+
+### Articles
+
+**Check.** I skim the article to make a first assesment. If it does not seem helpful, I discard it. If the article seems helpful and is long (> 5 minutes), I add it to a 'Read later' tab group in Chrome.
+
+**Consume.** If the article is helpful and short (< 5 minutes), I read it straight away. For the saved articles in the 'Read later' tab group, I make sure to block time each week to read them.
+
+**Capture.** After reading, if applicable, I create flashcards using [Thought Savers' Chrome plugin](https://chromewebstore.google.com/detail/thought-saver/fbgpbfndoojlffkhpfijokglcfekhnpf?pli=1), and I save the link in Notion for future reference, sometimes with a few notes as well.
 
 ### Podcasts
 
-For podcasts I usually write notes, ideas and reflections in Notion while listening. Occasionally I create quiz cards based on the podcast content using the app. This happens more seldom though, as there is more hassle to add a new card in the app compared to the Crome plugin and the Kindle highlight importer.
+**Check.** I scroll through the new episodes each morning and download those I want to listen to and discard the rest.
+
+**Consume.** I listen whenever possible, e.g., while walking to work, exercising, cooking, and cleaning the apartment.
+
+**Capture.** I usually write notes in my wiki while listening. Occasionally I create flashcards too, using the Thought Saver mobile app. This happens seldom though, since the process of creating flashcards from scratch in the app involves more effort compared to the Crome plugin or the [Kindle highlights importer](https://blog.thoughtsaver.com/relive-your-favourite-books-with-kindle-highlights-as-flashcards/) (more on that below).
 
 ### Books
 
-I read most books on my Kindle, so I tend to leverage Thought Saver's Kindle highlight importer. After I finished the book, I import all my highlights, polish them a bit and voilá, I have a deck of quiz cards from the stuff I found valuable in the book.
+**Check.** I collect a lot of book recommendations from the sources mentioned above. My list of books I want to read lives in Notion. For non-fiction books I tend to pick them based on what could help me in my current professional role, to minimize the time to value for my learnings.
 
-Occasionally, I write down notes in Notion while reading but I prefer Though Saver since it is low effort and with minimal distrubance of the flow of reading.
+**Consume.** Reading is part of my falling asleep routine, and I read on average 30 minutes every evening. Usually more on the weekends.
 
-## Extract value
+**Capture.** I read most books on Kindle, and Thought Saver has a feature to import Kindle highlights as flashcards. They typically require a little bit of polishing but the overall effort is low. I write down notes in my wiki while reading too but I like highlights importer since it offers minimal distrubance of the flow of reading.
 
-With the method described above, I have consolidated knowledge that I find valuable in the form of quiz cards in Thought Saver and my own wiki of links and notes inside Notion. To sum it up, how do I use this data collection to learn?
+The pipeline feeding my knowledge base is visualized below.
 
-The wiki in Notion allows me do dive deeper into a topic when the incentives are right, e.g., there is a need to tackle the topic for work or I need to prepare for an interview.
+![pipeline.svg](/a-system-of-learning/pipeline.svg)
 
-- I do a daily quiz on Though Saver.
-- When I want to learn more about a topic, my wiki gives me a solid starting point.
-- If I want to understand a concept well enough to explain it, I write a blog post about it.
+_Figure 2. The pipeline feeding my knowledge base._
+
+## Outflow: Extracting value
+
+The approach I have described in this article yields two continuously expanding, curated datasets of knowledge, the flashcards and the wiki. I use these in a couple of different ways.
+
+For my flashcards, I have established a routine of doing a daily quiz of 15 cards. It only takes a couple of minutes out of my day and I find it does wonders for my ability to retain my learnings.
+
+To leverage my wiki, I usually look for topics at work that I want to tackle and that I have collected details about. As the wiki continuously grows with information I have reviewed and find valuable, it offers a great starting point whenever I need to address an issue. Additionally, as I collect information and notes on a particular matter over time, it eventually turns into a blog post, like [this one on mutation testing](./mutation-testing.md)
+
+That is it. My system of learning. A low-effort approach to gain tons of insights and joy.
