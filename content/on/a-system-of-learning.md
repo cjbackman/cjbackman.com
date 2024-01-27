@@ -7,9 +7,9 @@ draft = true
 
 The pursuit of learning has been an [intrinsic value](https://programs.clearerthinking.org/intrinsic_values_test.html) to me for as long as I can remember. The driving force behind many, perhaps most, of my decisions in life has been curiosity and hunger to understand. I invest a significant amount of time into this quest of attaining knowledge and wisdom, and I find myself frequently viewing life through a lense of learning. Interactions, introspections, travels, the ups and owns, are all opportunities to learn. While I sometimes learn for a specific purpose, more commonly I do it for the joy of discovering.
 
-In this article I want to share my system of learning. A simple approach to find knowledge, store insights and extract value, along multiple resources to check out and the tools I use.
+In this article I want to share my system of learning. A simple approach to find information, capture knowledge and extract value, along multiple resources to check out and the tools I use.
 
-## Find knowledge
+## Find information
 
 The first step to learning is to find knowledge. Lucklily, that is easy today.
 
@@ -17,7 +17,9 @@ I am immensely grateful to all who invest their time and effort into sharing the
 
 My four main sources of finding knowledges are newsletters, podcasts, books, courses and the community. Some of my favorite and podcasts, at the time of writing, are listed below.
 
-### Newsletters
+### Newsletters & blogs
+
+Newletters & blogs are awesome simply because text is such a great medium for information. Easy to store, organize, search and lookup. Here are some I like:
 
 - [Irrational Exuberance by Will Larson](https://lethain.com/newsletter/)
 - [The Pragmatic Engineer by Gergely Orosz](https://newsletter.pragmaticengineer.com/)
@@ -26,8 +28,11 @@ My four main sources of finding knowledges are newsletters, podcasts, books, cou
 - [Level Up by Pat Kua](https://levelup.patkua.com/)
 - [TLDR](https://tldr.tech/)
 - [Engineering Enablement by Abi Noda](https://newsletter.getdx.com/)
+- [Alex Ewerlöf Notes](https://blog.alexewerlof.com/)
 
 ### Podcasts
+
+I love podcasts because they allow me to gain new insights while cooking, cleaning, exercises, etc. The following podcasts have kept me company through endless of mundane chorse:
 
 - [Lenny's Podcast by Lenny Rachitsky](https://open.spotify.com/show/2dR1MUZEHCOnz1LVfNac0j?si=cafc040c96ef43c6)
 - [Engineering Enablement by Abi Noda](https://open.spotify.com/show/3NxjyIsuxeDMQtisDqBy7D?si=75abe17deeb74bdc)
@@ -55,12 +60,39 @@ I loved my time in school and doing courses is still a way of learning I enjoy. 
 
 This is the key source of my learning. Human interaction is most effective and pleasurable path to accelarate one's learning. Nothing beats discussing with colleagues, friends or in an online community (I like [Rands Leadership Slack](https://randsinrepose.com/welcome-to-rands-leadership-slack/)).
 
-## Store insights
+## Capture knowledge
 
-- Thought Saver
-- Notion
+The sources described below provide a steady stream of information. To read everything in-depth and subsequently recall the insights when they are needed at a later stage would require immense effort. This is what I do instead.
+
+I leverage primarily two tools to capture knowledge, [Thought Saver](https://www.thoughtsaver.com/) and [Notion](https://www.notion.so/).
+
+Thought Saver is...
+
+Notion is...
+
+### Newsletters & blogs
+
+1. I skim each article to make a first assesment.
+2. If it seems helpful, yes and the article is short (< 5 minutes), I read it straight away. Otherwise, I add it to a 'Later' tab in Chrome.
+3. I block time every week to go through the 'Later' tab.
+4. When I find an article valuable, I typically create some quiz cards in Thought Saver using their Google Chrome plugin. Additionally, I save the link in Notion for future reference, sometimes with a few notes as well.
+
+### Podcasts
+
+For podcasts I usually write notes, ideas and reflections in Notion while listening. Occasionally I create quiz cards based on the podcast content using the app. This happens more seldom though, as there is more hassle to add a new card in the app compared to the Crome plugin and the Kindle highlight importer.
+
+### Books
+
+I read most books on my Kindle, so I tend to leverage Thought Saver's Kindle highlight importer. After I finished the book, I import all my highlights, polish them a bit and voilá, I have a deck of quiz cards from the stuff I found valuable in the book.
+
+Occasionally, I write down notes in Notion while reading but I prefer Though Saver since it is low effort and with minimal distrubance of the flow of reading.
 
 ## Extract value
 
-- Thought Saver Quiz
-- Writing (blog privately, memos at work)
+With the method described above, I have consolidated knowledge that I find valuable in the form of quiz cards in Thought Saver and my own wiki of links and notes inside Notion. To sum it up, how do I use this data collection to learn?
+
+The wiki in Notion allows me do dive deeper into a topic when the incentives are right, e.g., there is a need to tackle the topic for work or I need to prepare for an interview.
+
+- I do a daily quiz on Though Saver.
+- When I want to learn more about a topic, my wiki gives me a solid starting point.
+- If I want to understand a concept well enough to explain it, I write a blog post about it.
