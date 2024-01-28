@@ -1,6 +1,6 @@
 +++
 title = 'My system of learning'
-date = 2023-12-23T19:36:08+01:00
+date = 2024-01-27T19:36:08+01:00
 tags = ['Personal Growth']
 draft = false
 +++
