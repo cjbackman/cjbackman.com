@@ -120,4 +120,4 @@ For the flashcards, I have established a routine of doing a daily quiz of 15 car
 
 To leverage the wiki, I usually look for topics at work I want to tackle that overlap with what I have collected data about. As the wiki continuously grows with information I have reviewed and find valuable, it offers a great starting point whenever I need to address an issue. Additionally, as I collect information and notes on a particular matter over time, it eventually turns into a blog post, like [this one on mutation testing](./mutation-testing.md).
 
-That is it, folks. My system of learning. A low-effort approach to gain tons of insights and joy.
+That is it, folks. My system of learning. A path to insights, growth and joy.
