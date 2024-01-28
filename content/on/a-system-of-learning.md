@@ -5,7 +5,7 @@ tags = ['Personal Growth']
 draft = false
 +++
 
-My pursuit of learning has been an [intrinsic value](https://programs.clearerthinking.org/intrinsic_values_test.html) as long as I can remember, and while I sometimes learn for a specific purpose, more commonly I do it for the joy of discovering.
+My pursuit of learning has been an [intrinsic value](https://programs.clearerthinking.org/intrinsic_values_test.html) to me for as long as I can remember. _Love of learning_ also shows up as my top [character strength](https://viacharacter.org/).
 
 In this article I want to share my system of learning. A simple approach to finding information, capturing knowledge and extracting value. Throughout the text I share the resources and the tools that enable my system.
 
