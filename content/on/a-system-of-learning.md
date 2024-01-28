@@ -72,7 +72,7 @@ The sources described above provide a steady stream of information. To read ever
 
 My knowledge base has two storage layers: i) **flashcards** - special-purpose and structured knowledge and; ii) **a personal wiki** - general-purpose and fairly unstructured.
 
-For the flashcards I use [Thought Saver](https://www.thoughtsaver.com/), a tool where you can create decks of cards to quiz yourself with. The goal is to help you remember what you learn through [spaced repetition](https://en.wikipedia.org/wiki/Spaced_repetition). As example, [try this deck I made](https://app.thoughtsaver.com/embed/3MxaX3NDod?start=1&end=37) on the nuggets from [Kent Beck's](https://www.kentbeck.com/) excellent book [Tidy First?](https://www.oreilly.com/library/view/tidy-first/9781098151232/).
+For the flashcards I use [Thought Saver](https://www.thoughtsaver.com/), a tool where you can create decks of cards to quiz yourself with. The goal is to help you remember what you learn through [spaced repetition](https://en.wikipedia.org/wiki/Spaced_repetition). As an example, [try this deck I made](https://app.thoughtsaver.com/embed/3MxaX3NDod?start=1&end=37) on the nuggets from [Kent Beck's](https://www.kentbeck.com/) excellent book [Tidy First?](https://www.oreilly.com/library/view/tidy-first/9781098151232/).
 
 My personal wiki lives in [Notion](https://www.notion.so/), where I store links to articles I like and notes of insights, ideas, reflections, and more.
 
