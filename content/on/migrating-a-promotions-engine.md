@@ -13,7 +13,7 @@ In this article, we share how we swapped one of the most critical components of 
 
 At Emma, we decided to rebuild our entire technology landscape from scratch back in 2021. We launched an organization-wide re-platforming initiative to migrate from our Magento monolith to a composable commerce architecture based on the [MACH](https://machalliance.org/) principles. A decision that has been described in detail in [a series on the topic](https://team.emma-sleep.com/tech-blog/part-2-how-to-reach-business-agility-in-a-fast-growing-scaleup-blt123a123b123c).
 
-Throughout the re-platforming, we had to prioritize ruthlessly to meet our ambitious timelines and we faced multiple tough decisions regarding what to build now and what could wait. A prime example being our promotion engine.
+Throughout the re-platforming, we had to prioritize ruthlessly to meet our ambitious timelines and we faced multiple tough decisions regarding what to build now and what could wait. A prime example is our promotion engine.
 
 ## The need for a new promotion engine
 
@@ -24,7 +24,7 @@ Our forecasts indicated we could leverage commercetools’ promotion engine for 
 Inevitably, the day came when we hit the limits and needed a new promotion engine. The most important pain points we had to address were:
 
 - **Limited search functionality.** Our marketers struggled to effectively manage the campaigns due to limited search functionality that severely impacted the discoverability and governance of the campaigns.
-- **Weak market isolation.** Promotions were global, meaning they could not be scoped to specific markets. This was poorly aligned with Emma’s decentralized marketing organization, and led to high business risk as markets could easily interfere with each other.
+- **Weak market isolation.** Promotions were global, meaning they could not be scoped to specific markets. This was poorly aligned with Emma’s decentralized marketing organization and led to high business risk as markets could easily interfere with each other.
 - **Inefficient evaluations.** Due to global promotions, all promotions rules were evaluated for each cart. For an organization where the vast majority of promotions are market-specific, this implies a lot of unnecessary evaluations.
 - **No support for dynamic bundles.** Dynamics bundles are heavily used by our marketing teams, and there was no native support for them, leading to complicated and error-prone workarounds.
 - **Hitting scalability limits.** We were rapidly approaching hard limits on the number of campaigns we could run.
@@ -69,13 +69,13 @@ The first piece of the puzzle was the Promotions API. An API that would act as a
 
 Some might rightfully say that we are treading into [YAGNI](https://en.wikipedia.org/wiki/You_aren%27t_gonna_need_it) territory with the above arguments. However, the most important aspect of the Promotions API was immediate risk management. Being able to run our legacy promotion engine alongside Talon.One meant we could apply [the strangler pattern](https://microservices.io/patterns/refactoring/strangler-application.html) to rolling out markets, i.e., doing one market at a time.
 
-#### Modelling the interface
+#### Modeling the interface
 
 The schema for the new promotion entity was modeled as having two discount types, discount and discount code. Those types could be associated with two entities, the cart or specific line items. The high-level schema of the new promotions was defined as:
 
 - `provider` - string. The name of the promotion engine, either "Commercetools" or "TalonOne".
-- `discountCodes` - an array of _DiscountCode_ objects. These represent discount codes on cart level.
-- `discounts` - an array of _Discount_ objects. These represent discounts on cart level.
+- `discountCodes` - an array of _DiscountCode_ objects. These represent discount codes on the cart level.
+- `discounts` - an array of _Discount_ objects. These represent discounts on the cart level.
 - `lineItemPromotions` - a map of _LineItemPromotion_. These represent promotions applied to specific line items.
 - `nonApplicableDiscountCodes` - an array of _DiscountCodes_. The purpose of these are described later.
 
@@ -96,7 +96,7 @@ One architectural decision we faced during the design of the Promotion API was w
 | They share code since both interface with our e-commerce backbone, commercetools. | Promotions are business-critical to Emma and will be managed by a dedicated team in the future.      |
 | They are part of the same workflow, thus communicate extensively.                 | To be able to deploy independently, without being coupled to the release cycles of the Checkout API. |
 
-We ended up decided for a separate service as we identified the need to deploy independently to be the most critical factor in this project, as we optimized for minimizing time-to-market.
+We ended up deciding on a separate service as we identified the need to deploy independently to be the most critical factor in this project, as we optimized for minimizing time-to-market.
 
 ### Checkout API v2
 
@@ -108,15 +108,15 @@ We leveraged the new promotion object described above to associate carts and lin
 
 ![cartv2.png](/migrating-a-promotions-engine/cartv2.png)
 
-_Figure 4. An simplified representation of the cart in Checkout API v2._
+_Figure 4. A simplified representation of the cart in Checkout API v2._
 
 As seen in the schema, there is a key called _nonApplicableDiscountCodes_. It is a list of valid codes (meaning they should not be rejected) that yield a zero-value effect. This could mean, e.g., applying a discount code that requires a minimum cart value before the minimum cart value has been reached. Allowing this behavior was necessary to cater to the requirement that a user should be able to successfully add coupons to an empty cart, e.g., when clicking on a UTM link.
 
 #### Improving the customer feedback
 
-Additionally, we extended the Checkout API with a _warnings_ object. This addressed our previous limitation that we never provided feedback to the customer if there was a price or discount change. The warning object provides information to the client about any price or discount related change that was not caused by any customer action.
+Additionally, we extended the Checkout API with a _warnings_ object. This addressed our previous limitation that we never provided feedback to the customer if there was a price or discount change. The warning object provides information to the client about any price or discount-related change that was not caused by any customer action.
 
-The warnings can stem from price updates on products and shipping, discounts, and discount codes, and they can be associated with both the cart and specific line items. An example of the warnings object can be seen below.
+The warnings can stem from price updates on products and shipping, discounts, and discount codes, and they can be associated with both the cart and specific line items. An example of the warning object can be seen below.
 
 ![warning.png](/migrating-a-promotions-engine/warning.png)
 
@@ -128,7 +128,7 @@ Now, the final piece of the puzzle was to make the async API, the _OrderCreated_
 
 Like the synchronous API, we also depended on native commercetools fields in our asynchronous interface, i.e., the _OrderCreated_ event schema. We deprecated those fields and extended the schema with the promotion object described above. The updated schema enabled the downstream teams to migrate while the integration team was integrating the new promotion engine.
 
-With the building blocks defined, i.e., _the how_, we also had to decide on sequencing, _the when_.
+With the building blocks defined, i.e., _the how_ we also had to decide on sequencing, _the when_.
 
 ## First expand, then migrate, and finally contract
 
@@ -136,7 +136,7 @@ We optimized for short time-to-market. However, we also had to carefully manage 
 
 Therefore, we chose to carry out the migration using [the parallel change](https://martinfowler.com/bliki/ParallelChange.html) pattern, i.e., in three phases: _expand_, _migrate_, and _contract_. In the first phase, the expansion, we designed and implemented the v2 interfaces for our consumers. Running v1 and v2 in parallel laid the foundation for the migration phase, as all consumers could migrate while the integration team worked on building out the Promotions API and integrating Talon.One.
 
-When the consumers were running on the new versions and Talon.One was integrated, the rollout of markets could begin. We started with small markets, and doing them one by one, before incrementally adding complexity and doing markets in bulk. Finally, we deleted old endpoints, removed access to the old promotion engine, cleaned up some configuration, and decommissioned the old promotion engine.
+When the consumers were running on the new versions and Talon.One was integrated, and the rollout of markets could begin. We started with small markets, and doing them one by one, before incrementally adding complexity and doing markets in bulk. Finally, we deleted old endpoints, removed access to the old promotion engine, cleaned up some configurations, and decommissioned the old promotion engine.
 
 A high-level roadmap can be seen in the picture below.
 

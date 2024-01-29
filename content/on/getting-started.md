@@ -7,9 +7,9 @@ draft = false
 
 ## Prelude
 
-At the time of writing, the content of this blog is not yet fully defined. It will likely be skewed toward technology, leadership, and the intersection of those, because they are frequently on my mind. I'll strive for a _less is more_ approach, with short and crisp posts.
+At the time of writing, the content of this blog is not yet fully defined. It will likely be skewed toward technology, leadership, and the intersection of those because they are frequently on my mind. I'll strive for a _less is more_ approach, with short and crisp posts.
 
-While the content of the blog remains to be seen, I've a set of reasons why I want to try it out:
+While the content of the blog remains to be seen, I have a set of reasons why I want to try it out:
 
 - **Getting into the flow.** I enjoy writing, thus having a blog is a venue for me to achieve flow.
 - **Clearer thinking.** Writing is my preferred way to clarify my thoughts and reasoning. The process of formalizing ideas into text always leads to new learnings and a discovery of its own.
