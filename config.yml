@@ -68,11 +68,12 @@ params:
   # Website copy write, default: '© Copyright 2021 ❤️ {params.author}'
   copyright: ""
 
+  # More settings
+  archive: Notes
+  about: About
+
   # Extra links in navigation
   links:
-    - name: About
-      path: /is-a-technologist/
-
     ## e.g.
     # - name: Project
     #   path: /project
