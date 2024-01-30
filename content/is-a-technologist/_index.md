@@ -1,5 +1,5 @@
 +++
-title = ''
+title = 'About'
 date = 2023-09-09T21:11:50+02:00
 draft = false
 +++
