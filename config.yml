@@ -31,12 +31,9 @@ markup:
 
 # Social links in footer, support github,twitter,stackoverflow,facebook
 social:
-  # e.g.
-  # github: your-github-link
   twitter: https://x.com/cjbackman
+  email: mailto:cj@cjbackman.com
   linkedin: https://www.linkedin.com/in/cjbackman
-  # stackoverflow: your-stackoverflow-link
-  # facebook: your-facebook-link
 
 # Site parameters
 params:
@@ -45,7 +42,7 @@ params:
   # Author biography
   bio: Empathic leader and technologist at heart.
   # Site Description, used in HTML meat
-  description: My Blog
+  description: Notes on engineering and leadership.
 
   ###########################################
   # Optional Configuration
