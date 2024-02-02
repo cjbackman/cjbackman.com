@@ -1,6 +1,6 @@
 baseURL = "https://cjbackman.com/"
 
-theme = "LoveIt"
+theme = "mini"
 
 title = "cjbackman.com"
 
