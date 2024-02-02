@@ -43,6 +43,7 @@ params:
   bio: Empathic leader and technologist at heart.
   # Site Description, used in HTML meat
   description: Notes on engineering and leadership.
+  avatarLink: https://www.gravatar.com/avatar/af0b4f0e67655ac370ac552275cefa13?s=240&d=mp
 
   ###########################################
   # Optional Configuration
