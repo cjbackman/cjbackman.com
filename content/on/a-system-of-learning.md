@@ -29,6 +29,7 @@ Newsletters and blogs are awesome because text is such a great medium for inform
 - [TLDR](https://tldr.tech/)
 - [Engineering Enablement by Abi Noda](https://newsletter.getdx.com/)
 - [Alex Ewerlöf Notes](https://blog.alexewerlof.com/)
+- [Silicon Valley Product Group's Newsletter](https://www.svpg.com/)
 
 ### Podcasts
 
