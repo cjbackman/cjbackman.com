@@ -77,7 +77,7 @@ For the flashcards, I use [Thought Saver](https://www.thoughtsaver.com/), a tool
 
 My wiki lives in [Notion](https://www.notion.so/), where I store links to articles I like and notes of insights, ideas, reflections, and more.
 
-![wiki.png](/a-system-of-learning/wiki.png)
+[![wiki.png](/a-system-of-learning/wiki.png)](/a-system-of-learning/wiki.png)
 
 _Figure 1. The root level of my wiki in [Notion](https://www.notion.so/)._
 
@@ -141,6 +141,6 @@ The approach I have described in this article yields two continuously expanding,
 
 For the flashcards, I have established a routine of doing a daily quiz of 15 cards. It only takes a couple of minutes out of my day and I find it does wonders for retaining learnings.
 
-To leverage the wiki, I usually look for topics at work I want to tackle that overlap with what I have collected data about. As the wiki continuously grows with the information I have reviewed and find valuable, it offers a great starting point whenever I need to address an issue. Additionally, as I collect information and notes on a particular matter over time, it eventually turns into a blog post, like [this one on mutation testing](./mutation-testing.md).
+To leverage the wiki, I usually look for topics at work I want to tackle that overlap with what I have collected data about. As the wiki continuously grows with the information I have reviewed and find valuable, it offers a great starting point whenever I need to address an issue. Additionally, as I collect information and notes on a particular matter over time, it eventually turns into a blog post, like [this one on mutation testing](/on/mutation-testing).
 
 That is it, folks. My system of learning. A path to insights, growth and joy.

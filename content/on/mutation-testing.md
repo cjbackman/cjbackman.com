@@ -122,7 +122,7 @@ Enough theory, now we have a rough understanding of how mutation testing works, 
 
 If we run the mutation tests on our calculator and its test suite, we get an output like this:
 
-![stryker-output.png](/mutation-testing/stryker-output.png)
+[![stryker-output.png](/mutation-testing/stryker-output.png)](/mutation-testing/stryker-output.png)
 
 _Figure 2. The output from Stryker when mutation testing the calculator._
 
