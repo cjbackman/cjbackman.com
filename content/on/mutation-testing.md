@@ -92,7 +92,19 @@ Mutation testing is all about killing mutants. On a high level, the process is:
 
 Or as a visual representation:
 
-![process.jpg](/mutation-testing/process.jpg)
+```mermaid
+---
+title: The process of mutation testing
+---
+flowchart LR
+
+  sourceCode[Source Code] -->|Modified by| mutator(Mutator)
+  mutator -->|Creates| mutants[[Mutants]]
+  mutants -->|Validated by| tests(Test Suite)
+  tests --> check{Is alive?}
+  check -->|No| dead["🥳 Nailed it"]
+  check -->|Yes| alive["😭 Fix the test"]
+```
 
 _Figure 1. A high-level process of how mutation testing works._
 
