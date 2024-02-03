@@ -68,7 +68,7 @@ params:
 
   # More settings
   archive: Notes
-  about: About
+  about: Notetaker
 
   # Extra links in navigation
   links:
