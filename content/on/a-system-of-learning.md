@@ -109,9 +109,31 @@ So what do the pipelines that feed my knowledge base look like? They all follow 
 
 To sum it up, the pipeline feeding my knowledge base is visualized below.
 
-![pipeline.svg](/a-system-of-learning/pipeline.svg)
+```mermaid
+---
+title: Knowledge pipeline
+---
+flowchart LR
+    Articles --> check{Check}
+    Podcasts --> check{Check}
+    Books --> check{Check}
+    Misc["Other Sources"] --> check{Check}
+    check{Check} -->|Valuable| consume{Consume}
+    check{Check} -->|Not valuable| d1["Discard it"]
 
-_Figure 2. The pipeline that feeds my knowledge base._
+    consume{Consume} -->|Valuable| capture{Capture}
+    consume{Consume} -->|Not valuable| d2["Discard it"]
+
+    capture{Capture} -->|Plugin / Kindle / App| db_ts[(Thought Saver)]
+    capture{Capture} -->|Links / Notes| db_no[(Notion)]
+
+    subgraph Knowledge Base
+        db_ts[(Thought Saver)]
+        db_no[(Notion)]
+    end
+```
+
+_Figure 2. The full pipeline that feeds information to my curated knowledge base._
 
 ## Outflow: Extracting value
 
