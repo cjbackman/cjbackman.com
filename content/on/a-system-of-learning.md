@@ -2,6 +2,7 @@
 title = 'My system of learning'
 date = 2024-01-27T19:36:08+01:00
 tags = ['Personal Growth']
+summary = 'Continuous learning is instrumental to my motivation and happiness. Over the years, I have formalized my pursuit of learning into a simple system. This article describes a simple approach to finding information, capturing knowledge and extracting value, together with the resources and tools to enable it.'
 draft = false
 +++
 

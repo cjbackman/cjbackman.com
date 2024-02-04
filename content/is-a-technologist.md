@@ -1,6 +1,7 @@
 +++
 title = 'About the notetaker'
 date = 2023-09-09T21:11:50+02:00
+summary = 'If you are curious to know more about my background, this is the place to start.'
 draft = false
 +++
 

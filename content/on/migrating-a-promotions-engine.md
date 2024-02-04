@@ -2,6 +2,7 @@
 title = 'Migrating a promotions engine'
 date = 2023-12-09T19:19:07+01:00
 tags = ['Software Architecture', 'Migration', 'E-Commerce']
+summary = 'This article describes in depth how we managed to replace one of the most critical components of our checkout experience, with zero downtime. It was a large-scale migration involving approximately 30 teams and 500 active users.'
 draft = false
 +++
 

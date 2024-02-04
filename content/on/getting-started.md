@@ -3,6 +3,7 @@ title = 'Getting started'
 date = 2023-11-26T16:56:17+01:00
 tags = ['Personal Growth']
 showToc = false
+summary = 'Chapter one. I hope to look back one day on an archive filled with my thoughts at various points in life, and this post is where it started. While the exact content of this blog is undecided to a large extent, my motivation is clear.'
 draft = false
 +++
 

@@ -2,6 +2,7 @@
 title = 'Is 100% code coverage better than 80%?'
 date = 2023-12-16T18:26:22+01:00
 tags = ['Testing']
+summary = 'The art of writing tests is not straightforward, and writing good tests is even harder. Check out this post to learn how you can verify if your tests are doing what they are supposed to. And if you want to know what Ninja Turtles, X-Men and effective tests have in common.'
 draft = false
 +++
 
