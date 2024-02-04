@@ -5,9 +5,9 @@ summary = 'If you are curious to know more about my background, this is the plac
 draft = false
 +++
 
-I am an empathic leader in technology with 10+ years of professional experience in engineering and product, delivering technical assistance and guidance to individuals, teams, and organizations. I am passionate about leveraging technology for social impact.
+I am an empathic leader in technology with 10+ years of professional experience in software engineering and product management, leading and delivering guidance to individuals, teams, and organizations. I am passionate about leveraging technology for social impact.
 
-As a [theoretical physicist](https://www.kth.se/en) and [economist](https://www.hhs.se/) gone engineering leader, I live somewhere at the intersection of engineering, analytics and business.
+As a [theoretical physicist](https://www.kth.se/en) and [economist](https://www.hhs.se/) gone software engineering leader, I live somewhere at the intersection of technology, analytics and business.
 
 Some of my previous work includes discovering [Digital Product Goods](https://digitalpublicgoods.net/) at the [United Nations Development Programme](https://www.undp.org/), leading digital transformations at [Netlight](https://www.netlight.com/), and fighting devastating misconceptions about the world at [Gapminder Foundation](https://www.gapminder.org/). Currently, I am part of the technology leadership at [Emma Sleep](https://team.emma-sleep.com/) in my role as principal software engineer.
 
