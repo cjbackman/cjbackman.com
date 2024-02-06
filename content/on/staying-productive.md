@@ -8,7 +8,7 @@ draft = false
 
 To improve productivity is to be able to create more value given the same input. It is how we achieve growth. I commonly ask variations of the question posed in the title of this article when I interview people for engineering positions. Software engineering is fast-paced knowledge work, and investing in personal productivity is an important lever.
 
-Most answers I receive revolve around to-do lists and the [Pomodoro Technique](https://en.wikipedia.org/wiki/Pomodoro_Technique). As a self-improvement enthusiast and productivity hacker, I have also tried numerous frameworks for getting things done myself, and the structure they provide can surely be helpful. However, it took a long time for me to realize those techniques yield marginal impact. What worked for me was more fundamental.
+Most answers I receive revolve around to-do lists and the [Pomodoro Technique](https://en.wikipedia.org/wiki/Pomodoro_Technique). As a self-improvement enthusiast and productivity hacker, I have also tried numerous frameworks for getting things done, and the structure they provide can be helpful. However, it took a long time for me to realize those techniques yield marginal impact. What worked for me was more fundamental.
 
 This is how I stay productive:
 
