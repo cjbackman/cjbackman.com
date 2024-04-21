@@ -14,13 +14,13 @@ I am a fan of [Richard Rumelt's](https://www.goodreads.com/en/book/show/11721966
 
 This triggers insights and enables me to do some pattern matching and formulate key themes for the next year. To add a bit of structure to the pattern matching I tend to reflect along the dimensions of play, growth, health, work, relationships and wealth. Inspired by [Jrny's annual review](https://www.jrny.coach/annualreview).
 
-The next step is to set some effective goals to strive for and track progress against. There are plenty of [goal setting resources](https://programs.clearerthinking.org/achieve_your_goals.html) to explore, but I think [SMART](https://en.wikipedia.org/wiki/SMART_criteria) is a simple and powerful framework.
+The next step is to set some effective goals to strive for and track progress against. There are plenty of [goal-setting resources](https://programs.clearerthinking.org/achieve_your_goals.html) to explore, but I think [SMART](https://en.wikipedia.org/wiki/SMART_criteria) is a simple and powerful framework.
 
 Once I have figured out the goals I want to work toward, I break them down into milestones, and activities and decide on a sequencing.
 
 Finally, to operationalize the plan, I add my goals, milestones, and activities to a Kanban board in Notion. For [process goals](https://inside.ewu.edu/calelearning/psychological-skills/goal-setting/), I add them to my habit tracker. I come back to my Kanban board a few times per month to reflect, score my progress, and adjust if needed.
 
-This approach helps me stay deliberate about my growth, while at the same time being a way for me to practice goal-setting and crafting strategies. A skill that is useful in my work too. Fore those who want more structure, I can recommend doing a [quarterly life review](https://programs.clearerthinking.org/your_quarterly_life_review.html).
+This approach helps me stay deliberate about my growth, while at the same time being a way for me to practice goal-setting and crafting strategies. A skill that is useful in my work too. For those who want more structure, I can recommend doing a [quarterly life review](https://programs.clearerthinking.org/your_quarterly_life_review.html).
 
 ## Goals 2024
 
