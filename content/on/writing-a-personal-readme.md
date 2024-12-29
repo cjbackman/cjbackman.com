@@ -20,15 +20,19 @@ _that might make it easier to get to know and understand me._
 
 - My journey with computers started as a kid playing games on my friend’s Commodore 64. My interest grew after I inherited a Macintosh 128K from my uncle’s car dealership business and the relationship came to full fruition when I built my first computer around the age of 13. My passion for the art of coding was fully lit thanks to an enthusiastic and dedicated computer science teacher in high school.
 
-- After a detour in university (studying theoretical physics and economics) I returned to computer science for my master’s and have worked with technology ever since.
+- After a detour in university (studying [theoretical physics](https://www.kth.se/en) and [economics](https://www.hhs.se/en)) I returned to computer science for my master’s and have worked with technology ever since.
 
-- The area of Sweden where I grew up is dominated by a working-class culture with few qualified jobs (one of my first jobs was as a lumberjack) and a strong sense of community. I believe this instilled a sense of solidarity in me and contributed to an interest in global development and human rights. This interest led me to work at Amnesty, Gapminder, and a short stint for the UNDP in Sudan.
+- The area of Sweden where I grew up is dominated by a working-class culture with few qualified jobs (one of my first jobs was as a lumberjack) and a strong sense of community. I believe this instilled a sense of solidarity in me and contributed to an interest in global development, human rights, and international relations. This interest led me to work at [Amnesty](https://www.amnesty.org/en/), [Gapminder](https://www.gapminder.org/), and a stint for the [UNDP](https://www.undp.org/) in Khartoum and New York.
 
 - I’m introverted and prefer to recharge with some quiet time. Please don’t mistake my quiet for lack of interest. I typically like to observe and reflect.
 
 - One of my favorite places on earth is a tiny cabin of mine located where I grew up. It’s not accessible by car and has no electricity, internet connection or running water. It sits right next to a lake and has a lovely wood-fired sauna.
 
-- I enjoy doing sports. It’s an important lever for me to stay productive and improve my mental health. Occasionally, I also like doing endurance challenges.
+- I enjoy doing sports. It’s an important lever for me to stay productive and improve my mental health. Occasionally, I like doing endurance challenges like [Vasaloppet](https://en.wikipedia.org/wiki/Vasaloppet).
+
+- Music is important to me and I play a bit of trumpet. I grew up as a metalhead, and it’s still what I listen to the most, but I frequently indulge in jazz and classical music too. Recent years have sparked an interest in opera.
+
+- The most expensive hobby I have is food & wine.
 
 - I consider myself a lifelong learner and spend a lot of time reading and listening to smart people, to gain new insights and upskill myself.
 
@@ -60,27 +64,25 @@ _and that I’m happy to help with if I can._
 
 - **Relationships.** I value kindness and humility, and I care deeply about people. I think this helps me build trust and strong relationships.
 
-- **Strategizing.** I like observing and debugging situations and systems. I get into a flow state trying to piece various bits of information together and do some pattern matching, to plan out a coherent response to a particular challenge.
+- **Strategizing.** I like observing and debugging situations and systems. I get into flow trying to piece various bits of information together, do some pattern matching, and craft a coherent response to a particular challenge.
 
 - **Communication.** I enjoy crafting messages, written as well as spoken. So if you want feedback on something you wrote or do a dry run of a presentation, hit me up.
 
-- **Execution.** I like getting shit done, and I happily indulge in breaking gnarly problems into executable chunks. I consider myself to have a bias toward action and a constant sense of urgency.
+- **Execution.** I like getting shit done, and I happily indulge in breaking gnarly problems into executable chunks. I consider myself to have a bias toward action and a strong sense of urgency.
 
-- **Technical decisions.** I love discussing the intricate tradeoffs of a technical decision.
+- **Technical decisions.** I'm in tech for a reason and I enjoy discussing the intricate tradeoffs of a technical decision.
 
 ## Stuff that’s hard for me
 
 _and that I’d like to improve, so I’m grateful for any feedback that can help me do that._
 
-- I have some social anxiety that sometimes makes big room meetings stressful for me. In such situations, I usually feel that I struggle to express my thoughts clearly. To mitigate this, I have a bias toward writing things down to bring my points across.
+- I’m introverted with mild social anxiety that sometimes makes big-room meetings stressful for me. I’m usually not at my best in such situations. To mitigate this, I tend to write things down to bring my points across.
 
 - I prefer to reflect for a while over thinking on my feet.
 
-- I’m not great at asking for help or delegating.
+- I’m not great at asking for help.
 
-- While I’ve led people in the past, I acknowledge that many of the engineering managers I’m now leading have more experience in that role than I have. I look forward to diving deeper into the role myself as well as learning from all of you.
-
-- Being assertive and candid is something that originally didn’t come naturally to me. I’ve actively worked on this for many years and have made progress, however, there is still much to learn and improve to fully embrace and live the concept of radical candor.
+- Being assertive and candid is something that originally didn’t come naturally to me. I’ve actively worked on this for many years and have made progress. Nevertheless, it requires constant and continuous practice to fully embrace and live the concept of radical candor.
 
 ## How I communicate
 
@@ -96,7 +98,7 @@ _and that I’d like to improve, so I’m grateful for any feedback that can hel
 
 - I’m generally available on Teams whenever I’m awake and I don’t mind if someone reaches out to me after working hours. I like to respond as quickly as I can.
 
-- It happens that I work late and sometimes I work a bit on the weekend. It’s a choice I’m making. I do not expect anyone else to do that.
+- It happens that I work late and sometimes a bit on the weekend. It’s a choice I’m making. I do not expect anyone else to do that.
 
 - If I write a message outside office hours I schedule it to be within office hours. Sometimes I forget or accidentally send it anyway.
 
