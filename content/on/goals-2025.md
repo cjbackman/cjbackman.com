@@ -68,7 +68,7 @@ While I'll keep saving I won't keep it as an explicit goal for 2025 since this a
 
 ## Plan: Goals 2025
 
-2024 was an intense year on the professionally, with a lot of personal growth. For 2025, I'd like to have fewer goals overall and keep the focus on growth (not work related), health, and play.
+2024 was an intense year professionally, and with a lot of personal growth. For 2025, I'd like to have fewer goals overall and keep the focus on growth (not work related), health, and play.
 
 - **[GROWTH] Publish 6 blog posts by the end of 2025.**
 
