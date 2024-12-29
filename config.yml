@@ -31,7 +31,6 @@ markup:
 
 # Social links in footer, support github,twitter,stackoverflow,facebook
 social:
-  twitter: https://x.com/cjbackman
   email: mailto:cj@cjbackman.com
   linkedin: https://www.linkedin.com/in/cjbackman
 
