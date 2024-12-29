@@ -30,11 +30,6 @@ markup:
     renderer:
       unsafe: true
 
-# Social links in footer, support github,twitter,stackoverflow,facebook
-social:
-  email: mailto:cj@cjbackman.com
-  linkedin: https://www.linkedin.com/in/cjbackman
-
 # Site parameters
 params:
   # Site Author
@@ -44,6 +39,10 @@ params:
   # Site Description, used in HTML meat
   description: Notes on engineering and leadership.
   avatarLink: https://www.gravatar.com/avatar/af0b4f0e67655ac370ac552275cefa13?s=240&d=mp
+
+  social:
+    email: mailto:cj@cjbackman.com
+    linkedin: https://www.linkedin.com/in/cjbackman
 
   ###########################################
   # Optional Configuration
