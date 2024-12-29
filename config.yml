@@ -9,6 +9,8 @@ hasCJKLanguage: true
 permalinks:
   posts: /on/:title/
 
+paginate: 3
+
 pagination:
   pagerSize: 3
 
