@@ -1,5 +1,5 @@
 +++
-title = 'Review 2024 & Goals 2025'
+title = '2024 review and goals for 2025'
 date = 2024-12-29T10:34:58+01:00
 tags = ['Personal Growth', 'Annual Review']
 summary = 'Reviewing how I progressed on my 2024 goals and setting the focus for 2025.'
