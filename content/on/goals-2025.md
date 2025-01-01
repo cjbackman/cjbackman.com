@@ -1,8 +1,8 @@
 +++
-title = 'Goals 2025'
+title = 'Review 2024 & Goals 2025'
 date = 2024-12-29T10:34:58+01:00
-tags = ['Personal Growth']
-summary = 'Reviewing 2024 and setting goals for 2025.'
+tags = ['Personal Growth', 'Annual Review']
+summary = 'Reviewing how I progressed on my 2024 goals and setting the focus for 2025.'
 draft = false
 +++
 
@@ -68,12 +68,40 @@ While I'll keep saving I won't keep it as an explicit goal for 2025 since this a
 
 ## Plan: Goals 2025
 
-2024 was an intense year professionally, and with a lot of personal growth. For 2025, I'd like to have fewer goals overall and keep the focus on growth (not work related), health, and play.
+2024 was an intense year professionally, with a lot of growth. However, that growth demanded time and energy, and to some extent the growth came at the expense of play, relationships and health. Therefore, for 2025, I'd like to focus on those areas and non-work-related growth.
 
-- **[GROWTH] Publish 6 blog posts by the end of 2025.**
+- [ <span style="font-size: 10px;background-color: lightcoral;">HEALTH</span> ] **Boost performance by running a half marathon in under 1h45m by the end of May, 2025.**
 
-- **[GROWTH] Pass German C1 by the end of 2025.**
+In addition to my self-care routines with weekly goals around exercise, yoga, and meditation, I've decided to make 2025 the year when I run with more focus. Previous half-marathons my goal was always to 'just' finish. Now I'm aiming higher.
 
-- **[HEALTH] Run a half marathon in under 1h45m by end of May, 2025.**
+Side note: I recently got on the [WHOOP](https://join.whoop.com/98D316FE) train and I'm loving it. It's too early to have a solid baseline, but I might set new health goals based on those metrics later.
 
-- **[PLAY] Travel to two countries I've never visited before by the end of 2025.**
+- [ <span style="font-size: 10px;background-color: darkseagreen;">GROWTH</span> ] **Learn in public by publishing 6 blog posts by the end of 2025.**
+
+Carryover from last year. I enjoy writing and it helps me think, so I will take a new stab at this.
+
+- [ <span style="font-size: 10px;background-color: darkseagreen;">GROWTH</span> ] **Accelerate integration**
+
+  - **Pass German C1 by the end of 2025.**
+
+  - **Listen to 52 [History of the Germans](https://open.spotify.com/show/7cvGmixy8K3LD4AkWNbjMH?si=552676f719e541f2) episodes by the end of 2025.**
+
+I've been in Germany for a long time now but my integration has stagnated. I work in an international context and don't speak German with my partner, so I need to take deliberate action to speed this up. The critical step is to learn German once and for all.
+
+- [ <span style="font-size: 10px;background-color: lightskyblue;">RELATIONSHIPS</span> | <span style="font-size: 10px;background-color: khaki;">PLAY</span> ] **Reconnect with people and play**
+
+  - **Travel with friends and/or family to at least 1 new place in Germany by the end of Q2/2025.**
+
+  - **Complete a Sweden Tour workcation visiting old friends by the end of Q3/2025.**
+
+  - **Travel with friends and/or family to at least 2 new countries by the end of 2025.**
+
+I want to invest more in my relationships and what better way than to do that through travel?
+
+## Execute: Action plan
+
+With actions the above goals would simply be a wishlist. Working backwards from the goals above I can outline a few milestones I need to reach on the journey and more importantly, the first steps to take. I manage the tasks in Notion (see screenshot below) and I've scheduled a monthly review session to assess my progress and course correct if necessary.
+
+Let's go 2025!
+
+[![goals-2025.png](/goals-2025/goals-2025.png)](/goals-2025/goals-2025.png)
