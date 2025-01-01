@@ -1,7 +1,7 @@
 +++
 title = 'Annual review and goal setting'
 date = 2024-01-06T17:02:07+02:00
-tags = ['Personal Growth']
+tags = ['Personal Growth', 'Annual Review']
 summary = 'I have been experimenting with various approaches to personal growth and goal setting, trying to make it lean and effective. This article describes how I am currently doing it, and includes my goals for 2024.'
 draft = false
 +++
