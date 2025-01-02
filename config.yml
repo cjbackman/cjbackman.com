@@ -12,7 +12,7 @@ permalinks:
 pagination:
   pagerSize: 3
 
-paginate: 3
+# paginate: 3
 # googleAnalytics: your-google-analytics-id
 # disqusShortname: your-disqus-shortname
 
