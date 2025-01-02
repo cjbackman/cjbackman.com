@@ -72,7 +72,7 @@ While I'll keep saving I won't keep it as an explicit goal for 2025 since this a
 
 - **[ <span style="font-size: 10px;background-color: lightcoral;">HEALTH</span> ] _Boost performance:_ Run a half marathon in under 1h45m by the end of May 2025.**
 
-In addition to my self-care routines with weekly goals around exercise, yoga, and meditation, I've decided to make 2025 the year when I run with more focus. Previous half-marathons my goal was always to 'just' finish. Now I'm aiming higher.
+2025 is the year when I run with more focus. Previous half-marathons my goal was always to finish but now I want to aim higher.
 
 Side note: I recently got on the [WHOOP](https://join.whoop.com/98D316FE) train and I'm loving it. It's too early to have a solid baseline, but I might set new health goals based on those metrics later.
 
