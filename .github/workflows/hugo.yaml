@@ -60,11 +60,15 @@ jobs:
             --gc \
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/"
+      - name: "Tar files"
+        run: |
+          chmod -R a+rX ./public
+          tar -cvf public.tar ./public
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
           name: github-pages
-          path: ./public
+          path: public.tar
 
   # Deployment job
   deploy:
