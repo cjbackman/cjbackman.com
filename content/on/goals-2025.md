@@ -6,9 +6,9 @@ summary = 'Reviewing how I progressed on my 2024 goals and setting the focus for
 draft = false
 +++
 
-> Plans are worthless, but planning is everything.
+> One can choose to go back toward safety or forward toward growth. Growth must be chosen again and again; fear must be overcome again and again.
 >
-> -- Dwight Eisenhower
+> -- Abraham Maslow
 
 Planning ahead is not trivial, and it's easy to get the goals wrong, but the exercise of reflecting and setting goals is valuable in itself. There are many ways to do this, and I've previously written about [the process](/on/goals-2024/#process) I follow. Doing this in public helps to keep me accountable.
 
