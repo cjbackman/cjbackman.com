@@ -6,6 +6,10 @@ summary = 'I have been experimenting with various approaches to personal growth 
 draft = false
 +++
 
+> Plans are worthless, but planning is everything.
+>
+> -- Dwight Eisenhower
+
 At the end of each year, I write a personal strategy. This article explains how I do it, and also includes the goals I set for 2024.
 
 ## Process
