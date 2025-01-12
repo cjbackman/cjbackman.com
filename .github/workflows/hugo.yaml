@@ -63,12 +63,12 @@ jobs:
       - name: "Tar files"
         run: |
           chmod -R a+rX ./public
-          tar -cvf public.tar ./public
+          tar -cvf artifact.tar ./public
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
           name: github-pages
-          path: ./public.tar
+          path: ./artifact.tar
 
   # Deployment job
   deploy:
