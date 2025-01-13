@@ -1,8 +1,9 @@
 +++
 title = 'Tech Debt'
 date = 2025-01-12T13:43:48+01:00
+tags = ['Tech Debt', 'Software Design', 'Quality']
+summary = "I've come to deeply dislike the term tech debt."
 draft = true
-summary = 'I've come to deeply dislike the term tech debt.'
 +++
 
 Document my thoughts on tech debt and contextualize all tech debt resources I've collected over the years.
@@ -62,4 +63,3 @@ Typically people emphasize and try to optimize and shorten the time before a fea
 Cost of software - italian dude?
 
 - https://www.quora.com/What-are-some-good-ways-of-keeping-track-of-technical-debt
--
