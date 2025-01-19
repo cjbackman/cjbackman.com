@@ -1,32 +1,35 @@
 +++
 title = 'Tech Debt'
 date = 2025-01-12T13:43:48+01:00
-tags = ['Tech Debt', 'Software Design', 'Quality']
+tags = ['Tech Debt', 'Quality', 'Communication']
 summary = "I've come to deeply dislike the term tech debt."
 draft = true
 +++
+
+> The biggest risk is not taking any risk. In a world that is changing really quickly, the only strategy that is guaranteed to fail is not taking risks.
+>
+> -- Mark Zuckerberg
 
 There has surely been enough written about tech debt over the years, but I wanted to write this post to understand my own thinking on the topic better, as well as contextualize all tech debt articles I've collected over the years.
 
 Generally, I've come to dislike the term. Not because I don't think it's important to important to be on top of your tech debt. Tech debt is risk, and you should deal with it according to your risk appetite. Ignore it completely and it will [become a bottleneck](https://martinfowler.com/articles/bottlenecks-of-scaleups/01-tech-debt.html) sooner or later.
 
-The reason I've come to dislike it is how I've seen it being used by engineering organizations in the places where I've worked. I've seen countless situations where tech teams, in meetings with stakeholders, blame most of their issues on tech debt, and all they need is some time to fix it. I dislike this
+The reason I've come to dislike it is how I've seen it being used by engineering organizations in the places where I've worked. I've seen countless situations where tech teams, in meetings with stakeholders, blame most of their issues on tech debt, and all they need is time to fix it. That kind of viewpoint does not sit right with me, for several reasons.
 
-- The engineering community is proud of the great debt metaphor, because debt is a financial term and business speaks finance. My experience is that business does not understand the term because it's too vague.
+The first reason is communication. There is a sentiment in the engineering community that the tech debt metaphor is great for communication. I think it's because debt is a financial term and business speaks finance. Thus, we can translate this technical challenge into something everyone can understand. However, my experience is that business does not understand the term because it's too vague. The metaphor is understandable on a high-level, but not in any way that can help guide decision-making.
 
-- Incurring some tech debt is inevitable. It is not possible to create a perfect design upfront, because real learning only happens after we ship.
+Secondly, in my experience, the assumptions underlying the ask are somewhat delusional. We need to accept that incurring some tech debt is inevitable and that condition will never go away. It's not possible to create a perfect design upfront, because the real learning starts after we ship. Moreover, the idea that tech debt is the one finite thing that we can simply fix and be done with if we had some time is wrong. A business will never stop, the engineering organization needs to continuously delivery value, so face reality and stop hoping for a grand halt where you can fix all your tech debt. It's a pipe dream.
 
-- You need to continuously deliver value, so stop hoping for a grand halt where you stop and fix all your tech debt. It's a pipe dream.
+Thirdly, this also highlights a mindset that lacks ownership. Tech debt is created by the engineering organization, and its the only group that can fix it. It's not business role to fix tech debt, and even if they wanted to, they don't have the expertise. No one but engineering can fix tech debt.
 
-- Mindset. Tech debt is created by the engineering organization, and its the only group that can fix it. When engineers ask someone else to fix their debt, they are asking the wrong person. Business does not care and they will not fix it. They couldn't even if they wanted to.
-
-So how can you deal with tech debt?
+All that being said, tech debt is risk and you must manage your risk. How can you do it?
 
 # Name it
 
 Meaningless term
 
 - https://stackoverflow.blog/2023/12/27/stop-saying-technical-debt/
+- https://www.honeycomb.io/blog/anything-but-tech-debt
 - https://www.tokyodev.com/articles/all-code-is-technical-debt
 - https://cutlefish.substack.com/p/tbm-267-debt-and-bridge-building
 
@@ -72,4 +75,5 @@ Typically people emphasize and try to optimize and shorten the time before a fea
 
 Cost of software - italian dude?
 
+- https://www.eferro.net/2021/02/basal-cost-of-software.html
 - https://www.quora.com/What-are-some-good-ways-of-keeping-track-of-technical-debt
