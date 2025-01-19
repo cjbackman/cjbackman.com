@@ -6,11 +6,21 @@ summary = "I've come to deeply dislike the term tech debt."
 draft = true
 +++
 
-Document my thoughts on tech debt and contextualize all tech debt resources I've collected over the years.
+There has surely been enough written about tech debt over the years, but I wanted to write this post to understand my own thinking on the topic better, as well as contextualize all tech debt articles I've collected over the years.
 
-# Risks
+Generally, I've come to dislike the term. Not because I don't think it's important to important to be on top of your tech debt. Tech debt is risk, and you should deal with it according to your risk appetite. Ignore it completely and it will [become a bottleneck](https://martinfowler.com/articles/bottlenecks-of-scaleups/01-tech-debt.html) sooner or later.
 
-- https://martinfowler.com/articles/bottlenecks-of-scaleups/01-tech-debt.html
+The reason I've come to dislike it is how I've seen it being used by engineering organizations in the places where I've worked. I've seen countless situations where tech teams, in meetings with stakeholders, blame most of their issues on tech debt, and all they need is some time to fix it. I dislike this
+
+- The engineering community is proud of the great debt metaphor, because debt is a financial term and business speaks finance. My experience is that business does not understand the term because it's too vague.
+
+- Incurring some tech debt is inevitable. It is not possible to create a perfect design upfront, because real learning only happens after we ship.
+
+- You need to continuously deliver value, so stop hoping for a grand halt where you stop and fix all your tech debt. It's a pipe dream.
+
+- Mindset. Tech debt is created by the engineering organization, and its the only group that can fix it. When engineers ask someone else to fix their debt, they are asking the wrong person. Business does not care and they will not fix it. They couldn't even if they wanted to.
+
+So how can you deal with tech debt?
 
 # Name it
 
