@@ -24,38 +24,36 @@ Thirdly, this highlights a mindset that lacks ownership. Tech debt is created by
 
 All that being said, tech debt is risk and we must manage our risk. How can we do it?
 
-# Name it
+# Communication: Name it
 
 I've used the term frequently in past, and sometimes I still do, but what was helpful for me was to reflect on how all the tech debt discussions I heard and participated in must be perceived by others. For example, from [the perspective of a product manager](https://betterprogramming.pub/why-creating-tech-debt-is-a-necessary-evil-7fb215b88c45) or a business stakeholders. If we as engineers barely understand each other because [we use the term differently](https://cutlefish.substack.com/p/tbm-267-debt-and-bridge-building), how can we expect anyone non-technical to understand?
 
-That's when it dawned on me that while the term is common, it's also so broad that it has lost all its meaning. It's become a general-purpose black box for all engineering work where it's hard to articulate the value. Therefore, I think it's better to [stop saying tech debt](https://stackoverflow.blog/2023/12/27/stop-saying-technical-debt/), and try to be as concrete as possible when [describing the engineering work](https://www.honeycomb.io/blog/anything-but-tech-debt) that needs to be done.
-
+That's when it dawned on me that while the term is common, it's also so broad that it has lost all its meaning. It's become a general-purpose black box for all engineering work where it's hard to articulate the value. Therefore, instead of [extending the metaphor](https://www.maxcountryman.com/articles/a-framework-for-prioritizing-tech-debt), I think it's better to [stop saying tech debt](https://stackoverflow.blog/2023/12/27/stop-saying-technical-debt/), and try to be as concrete as possible when [describing the engineering work](https://www.honeycomb.io/blog/anything-but-tech-debt) that needs to be done. Strive for describing the work using language that align with the business impact, like reducing risk, ensuring business continuity, improving incremental revenue and shortening time-to-value.
 That will create an explicit language less prone to misunderstandings and abstract discussions, enabling a team to align it with the product roadmap.
 
-# Align it
+# Value: Align it
 
-Quantify and align it with the product roadmap and objectives
+Tech debt should not be treated differently from any other work done by the product team. It should end up on the roadmap the same way as all other items, by focusing on the value delivered by paying down the debt.
 
-- https://jacobian.org/2023/dec/20/tech-debt/
-- https://www.maxcountryman.com/articles/a-framework-for-prioritizing-tech-debt
-- https://newsletter.getdx.com/p/measuring-and-managing-tech-debt
-- https://www.infoq.com/articles/getting-tech-debt-on-roadmap/
-- https://queue.acm.org/detail.cfm?ref=rss&id=3674114
-- https://www.quora.com/What-are-some-good-ways-of-keeping-track-of-technical-debt
+In my experience, a common argument is that tech debt is too hard to measure but I don't think that's accurate. I agree it's not always possible to measure the impact of the tech debt with product metrics, however, if complemented with [Service Level Objectives](https://sre.google/sre-book/table-of-contents/), [DORA](https://www.amazon.com/Accelerate-Software-Performing-Technology-Organizations/dp/1942788339), [CodeScene](https://codescene.com/), and other emerging [Engineering Intelligence Platforms](https://www.gartner.com/doc/reprints?id=1-2H8F437D&ct=240409&st=sb&li_fat_id=9447a770-118b-4c3d-a8dd-f37764de7555), there will be sufficient data to properly quantify the value and align it with business objectives. [Tech debt reduction can be costly](https://lethain.com/migrations/), so it's in our best interest to ensure we have a crisp understanding of the business value. Please note, if you're not clear on what you're business objectives are, that's the first problem to solve.
 
-I'm not in favor of defining a [static allocation to tech debt](https://blog.alexewerlof.com/p/tech-debt-day) for an entire organization, because I think it's too blunt and risks creating the wrong incentives. However, I'm a big fan of teams fully owning the quality of their code and having the autonomy to decide what payment plan works best for them.
+One common approach is to spend time discussing [taxonomies of tech debt](https://ieeexplore.ieee.org/document/10109339) to use as tags in the issue tracking system and subsequently leverage [the number tech debt issues](https://jacobian.org/2023/dec/20/tech-debt/) as means to monitor. I've tried this and found it a waste of time. I understand the rationale, you need to measure any problem you wish to improve. But it's the wrong way of measuring, as the correlation between number of issues with a tech debt tag and business impact is low in my experience. This practice only adds to bloating the backlog. Don't treat tech debt as something special. Measure it with the tools and practices mentioned above instead.
 
-# Prevent it
+Another common approach is to define a [static allocation to tech debt](https://blog.alexewerlof.com/p/tech-debt-day). I would be reluctant to introduce that as a policy for an entire organization, because it's blunt and risks creating the wrong incentives. However, I'm a big fan of teams fully owning the quality of their code and having the autonomy to decide what payment plan works best for them. I've also heard suggestions of allocating entire teams to tackling tech debt, there are [multiple reasons why this is a bad idea](https://www.mironov.com/team-configs/), primarily because it will kill the morale of whoever is on the tech debt team and remove ownership of quality from the other teams.
+
+Don't treat tech debt differently. Through effective communication and a focus on value we can [get the tech debt onto the roadmap](https://www.infoq.com/articles/getting-tech-debt-on-roadmap/). An even easier approach is to prevent incurring tech debt in the first place.
+
+# Habits: Prevent it
 
 Build the right habits. Upfront design is impossible. Time to 'fix' everything will never happen.
 
-Ownership mindset. That is why external agencies are problematic.
-
-Typically people emphasize and try to optimize and shorten the time before a feature is released . Don't get me wrong, releasing early and often is incredibly valuable, but because it saves the company from its competition. It's valuable because it accelerates learning.
+Ownership mindset. Think like an investor. That is why external agencies are problematic.
 
 Cost of software - italian dude?
 
 - https://www.eferro.net/2021/02/basal-cost-of-software.html
+
+Typically people emphasize and try to optimize and shorten the time before a feature is released . Don't get me wrong, releasing early and often is incredibly valuable, but because it saves the company from its competition. It's valuable because it accelerates learning.
 
 Track allocation and other metrics as KPIs, but focus on establishing the right habits and mindset instead.
 
@@ -63,22 +61,9 @@ Track allocation and other metrics as KPIs, but focus on establishing the right 
 - https://gist.github.com/wojteklu/73c6914cc446146b8b533c0988cf8d29
 - https://minimumcd.org/
 - https://refactoring.com/catalog/
-- http://martinsson-johan.blogspot.com/2022/11/breaking-out-of-legacy-with-3p.html
 - https://www.codesimplicity.com/book/
 - https://www.tokyodev.com/articles/all-code-is-technical-debt
 - Tidy First?
-
-# Anti patterns
-
-- Tech debt team https://www.mironov.com/team-configs/
-- Complex categorization https://ieeexplore.ieee.org/abstract/document/6974882
-- Spend time defining https://ieeexplore.ieee.org/document/10109339
-
-Speed vs quality. There is a need to talk about time frames. You can be fast by cutting corners and I believe there are times when that is desirable, although those are rare. Over time you must aim for keeping quality stable and it will enable speed, like DORA research predicts.
-
-- https://blog.pragmaticengineer.com/tech-debt/
-
-"Pragmatic engineers don't see tech debt as a bad thing: they see it as a tradeoff between speed and quality. They see it as the characteristic of a system."
 
 # Conclusions
 
