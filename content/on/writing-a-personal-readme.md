@@ -16,7 +16,7 @@ _that might make it easier to get to know and understand me._
 
 - I grew up in a tiny village in a rural area in the north of Sweden. During childhood, I spent most of my time outdoors and taking care of a wide range of animals together with my grandmother. That upbringing brought me a love of nature and wildlife and taught me empathy.
 
-- Sweden has a non-confrontational and emotionally unexpressive culture which has shaped me and how I make decisions. I strive for consensus when possible tend to prefer an extra round of discussions whenever there are disagreements.
+- Sweden has a non-confrontational and emotionally unexpressive culture which has shaped me and how I make decisions. I strive for consensus when possible and tend to prefer an extra round of discussions during disagreements.
 
 - My journey with computers started as a kid playing games on my friend’s Commodore 64. My interest grew after I inherited a Macintosh 128K from my uncle’s car dealership business and the relationship came to full fruition when I built my first computer around the age of 13. My passion for the art of coding was fully lit thanks to an enthusiastic and dedicated computer science teacher in high school.
 
@@ -62,9 +62,9 @@ _from myself and others._
 
 _and that I’m happy to help with if I can._
 
-- **Continuous improvement.** As mentioned above, I love learning new things and I work hard to continuously improve myself. One small increment at a time.
+- **Continuous improvement.** As mentioned above, I love learning and I work hard to continuously improve myself. One increment at a time.
 
-- **Ride out the storm.** In feedback, _composure_ frequently comes up as a spike. I'm the kind of person who can find peace in chaos and crisis.
+- **Riding out the storm.** In feedback, _composure_ frequently comes up as a spike. I'm the kind of person who can find peace in chaos and crisis.
 
 - **Relationships.** I value kindness and humility, and meaningful relationships in the workplace. I think this helps me build trust and strong relationships.
 
