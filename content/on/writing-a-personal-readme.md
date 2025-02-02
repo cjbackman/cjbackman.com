@@ -16,7 +16,7 @@ _that might make it easier to get to know and understand me._
 
 - I grew up in a tiny village in a rural area in the north of Sweden. During childhood, I spent most of my time outdoors and taking care of a wide range of animals together with my grandmother. That upbringing brought me a love of nature and wildlife and taught me empathy.
 
-- Sweden has a strong culture of consensus which has certainly influenced how I make decisions. I tend to prefer an extra round of discussions whenever there are disagreements.
+- Sweden has a non-confrontational and emotionally unexpressive culture which has shaped me and how I make decisions. I strive for consensus when possible tend to prefer an extra round of discussions whenever there are disagreements.
 
 - My journey with computers started as a kid playing games on my friend’s Commodore 64. My interest grew after I inherited a Macintosh 128K from my uncle’s car dealership business and the relationship came to full fruition when I built my first computer around the age of 13. My passion for the art of coding was fully lit thanks to an enthusiastic and dedicated computer science teacher in high school.
 
@@ -34,7 +34,7 @@ _that might make it easier to get to know and understand me._
 
 - The most expensive hobby I have is food & wine.
 
-- I consider myself a lifelong learner and spend a lot of time reading and listening to smart people, to gain new insights and upskill myself.
+- I consider myself a lifelong learner and _joy of learning_ is my [top character strength](https://www.viacharacter.org/). Therefore, I spend a lot of time reading and learning from smart people, to gain new insights and upskill myself.
 
 ## What I value
 
@@ -50,7 +50,7 @@ _from myself and others._
 
 - **Kindness.** I always try to assume good intentions and I know everyone is fighting their own battle, so why would we ever want to be anything but kind to each other?
 
-- **Relationships.** I’m a strong believer in the power of meaningful relationships to create an effective team. Doing hard stuff and achieving great things with people you like is an amazing thing.
+- **Relationships.** I’m a strong believer in the power of meaningful relationships to create an effective team. Doing hard stuff and achieving great things with people you like is amazing.
 
 - **Play.** Work is hard enough as it is, so having fun together and finding joy in what we do is important to make it sustainable.
 
@@ -62,7 +62,11 @@ _from myself and others._
 
 _and that I’m happy to help with if I can._
 
-- **Relationships.** I value kindness and humility, and I care deeply about people. I think this helps me build trust and strong relationships.
+- **Continuous improvement.** As mentioned above, I love learning new things and I work hard to continuously improve myself. One small increment at a time.
+
+- **Ride out the storm.** In feedback, _composure_ frequently comes up as a spike. I'm the kind of person who can find peace in chaos and crisis.
+
+- **Relationships.** I value kindness and humility, and meaningful relationships in the workplace. I think this helps me build trust and strong relationships.
 
 - **Strategizing.** I like observing and debugging situations and systems. I get into flow trying to piece various bits of information together, do some pattern matching, and craft a coherent response to a particular challenge.
 
@@ -76,27 +80,27 @@ _and that I’m happy to help with if I can._
 
 _and that I’d like to improve, so I’m grateful for any feedback that can help me do that._
 
-- I’m introverted with mild social anxiety that sometimes makes big-room meetings stressful for me. I’m usually not at my best in such situations. To mitigate this, I tend to write things down to bring my points across.
+- I’m introverted with mild social anxiety that sometimes makes big-room meetings stressful for me. I’m usually not at my best in such situations. To mitigate this, I'm working on my public speaking skills and I also write things down to bring my points across.
 
 - I prefer to reflect for a while over thinking on my feet.
 
-- I’m not great at asking for help.
+- I’m sometimes too slow to ask for help.
 
-- Being assertive and candid is something that originally didn’t come naturally to me. I’ve actively worked on this for many years and have made progress. Nevertheless, it requires constant and continuous practice to fully embrace and live the concept of radical candor.
+- Being assertive and candid is something that originally didn’t come naturally to me. I’ve actively worked on this for many years and I've made progress. Nevertheless, it requires constant and continuous practice to fully embrace and live the concept of radical candor.
 
 ## How I communicate
 
 - Synchronous meetings are great for connecting and building relationships, and for alignment and decision-making (assuming participants have a high degree of context). For almost everything else, I have a bias toward asynchronous communication, especially in remote settings.
 
-- If I want to convey a concept or give a status update, I prefer to summarise my thoughts in a document or a Teams/Slack post.
+- If I want to convey a concept or give a status update, I prefer to summarise my thoughts in a document or a chat post.
 
-- I prefer Teams/Slack over email.
+- I prefer chat over email.
 
 ## When I work
 
 - I start work around 9 and finish around 18 CET.
 
-- I’m generally available on Teams whenever I’m awake and I don’t mind if someone reaches out to me after working hours. I like to respond as quickly as I can.
+- I’m generally available on the chat whenever I’m awake and I don’t mind if someone reaches out to me after working hours. I like to respond as quickly as I can.
 
 - It happens that I work late and sometimes a bit on the weekend. It’s a choice I’m making. I do not expect anyone else to do that.
 
