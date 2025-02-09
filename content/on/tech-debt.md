@@ -41,30 +41,18 @@ One common approach is to spend time discussing [taxonomies of tech debt](https:
 
 Another common approach is to define a [static allocation to tech debt](https://blog.alexewerlof.com/p/tech-debt-day). I would be reluctant to introduce that as a policy for an entire organization, because it's blunt and risks creating the wrong incentives. However, I'm a big fan of teams fully owning the quality of their code and having the autonomy to decide what payment plan works best for them. I've also heard suggestions of allocating entire teams to tackling tech debt, there are [multiple reasons why this is a bad idea](https://www.mironov.com/team-configs/), primarily because it will kill the morale of whoever is on the tech debt team and remove ownership of quality from the other teams.
 
-Don't treat tech debt differently. Through effective communication and a focus on value we can [get the tech debt onto the roadmap](https://www.infoq.com/articles/getting-tech-debt-on-roadmap/). An even easier approach is to prevent incurring tech debt in the first place.
+Don't treat tech debt differently. Through effective communication and a focus on value we can [get the tech debt onto the roadmap](https://www.infoq.com/articles/getting-tech-debt-on-roadmap/). The best tech debt is the tech debt that doesn't exist though, so let's discuss how to avoid incurring tech debt in the first place.
 
 # Habits: Prevent it
 
-Build the right habits. Upfront design is impossible. Time to 'fix' everything will never happen.
+The only way to avoid tech debt completely is to [avoid writing any code](https://www.tokyodev.com/articles/all-code-is-technical-debt). Nevertheless, I do believe there are ways working that limit the amount of tech debt.
 
-Ownership mindset. Think like an investor. That is why external agencies are problematic.
+It starts with mindset. I believe in [empowered engineers](https://www.svpg.com/the-most-important-thing/) that [take full ownership](https://blog.alexewerlof.com/p/you-build-it-you-own-it) of the software they write. Part of that is acknowledging that tech debt is not caused by business or someone outside the team, and therefore cannot be fixed by anyone except the team. This is why outsourcing too many technical decisions to externals will typically generate a lot of tech debt. They don't have enough skin in the game.
 
-Cost of software - italian dude?
+As mentioned above, tech debt is inevitable because we never have complete information when we start writing software. Similarly, we will never be granted a window to rework and free ourselves from all existing tech debt. Even if we would be granted such a window, the moment we start writing new code we will start incurring tech debt again.
 
-- https://www.eferro.net/2021/02/basal-cost-of-software.html
-
-Typically people emphasize and try to optimize and shorten the time before a feature is released . Don't get me wrong, releasing early and often is incredibly valuable, but because it saves the company from its competition. It's valuable because it accelerates learning.
-
-Track allocation and other metrics as KPIs, but focus on establishing the right habits and mindset instead.
-
-- https://chelseatroy.com/2021/10/29/a-rubric-for-evaluating-team-members-contributions-to-a-maintainable-code-base/
-- https://gist.github.com/wojteklu/73c6914cc446146b8b533c0988cf8d29
-- https://minimumcd.org/
-- https://refactoring.com/catalog/
-- https://www.codesimplicity.com/book/
-- https://www.tokyodev.com/articles/all-code-is-technical-debt
-- Tidy First?
+The only effective way to minimize the amount of tech debt is through healthy habits, like [continuous delivery](https://minimumcd.org/), test-driven development, and by applying [the boy scout rule](https://97-things-every-x-should-know.gitbooks.io/97-things-every-programmer-should-know/content/en/thing_08/), [continuously refactor](https://refactoring.com) and [tidy the code](https://www.amazon.com/Tidy-First-Personal-Exercise-Empirical/dp/1098151240). Create [incentives to care about quality](https://chelseatroy.com/2021/10/29/a-rubric-for-evaluating-team-members-contributions-to-a-maintainable-code-base/).
 
 # Conclusions
 
-Tech debt is inevitable as long as you write code, and tech debt is risk that you must manage. Drop the illusion that tech debt is a well understood term. Instead name the engineering work for what it is, find methods to align it with the product roadmap that works for your team and organization, and start working on developing the mindset and habits that promotes higher quality from the start.
+Tech debt is inevitable as long as you write code, and tech debt is risk that you must manage. Drop the illusion that tech debt is a well understood term. Instead name the engineering work for what it is, find methods to align it with the product roadmap that works for your team and organization, and start working on developing the mindset and habits that promote higher quality from the start.
