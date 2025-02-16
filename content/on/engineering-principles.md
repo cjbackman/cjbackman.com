@@ -1,0 +1,55 @@
++++
+title = 'Engineering Principles'
+date = 2025-02-16T13:15:35+01:00
+draft = true
+tags = ['Culture', 'Engineering Principles']
+summary = 'My thoughts on the principles that underpin great engineering culture.'
++++
+
+> Excellence is never an accident. It is always the result of high intention, sincere effort, and intelligent execution; it represents the wise choice of many alternatives - choice, not chance, determines your destiny.
+>
+> -- Aristotle
+
+A common question for any engineering leader is what great engineering culture looks like. It's a great question, albeit not easy, but I wanted to write down my answer to that question. I expect this to change continuously as I learn and get new perspectives.
+
+I acknowledge that process is important, but it's an implementation detail. Great talent guided by principles is what truly drives excellence.
+
+# Principles
+
+**We are empowered engineers.**
+
+Marty Cagan talks about empowered engineers as [the most important thing](https://www.svpg.com/the-most-important-thing/) for a successful product team and I wholeheartedly agree. The best engineers are those that deeply care about the user and the strategic context within which they operate. Armed with care and context, engineers leverage their craftsmanship to solve problems worth solving and generate impact.
+
+For a deep dive into what behaviors to look for in an engineer, I recommend [Addy Osmani's book Leading Effective Engineering Teams](https://leet.addy.ie/).
+
+**We build it, we own it.**
+
+Coined by [Alex Ewerlöf](https://blog.alexewerlof.com/p/you-build-it-you-own-it), as an evolution of Werner Vogel's (CTO of Amazon) quote _you build it, you run it_. The most high-performing teams owns their work end-to-end. This includes building high-quality software and ensuring it meets [the expectations set](https://blog.alexewerlof.com/p/sla). This is implies that if those expectations are not met, i.e., there is an incident, they make it their top priority to fix it.
+
+Another perspective of this is that the best engineering organizations shift left on the operational responsibilities, and I'm a big fan of shifting left. A word of caution however: it poses a risk of exploding cognitive load for engineers. Depending on the context, shifting left must be accompanied by effective platform engineering, intentional investment in upskilling, and carefully staffing of the team with the necessary skills.
+
+**Quality is constant, scope is variable.**
+
+Simple design? TDD/BDD, Other XP practices? Quality is ease of change and quality is cost management. High-agency, urgency.
+
+**Software engineering is a socio-technical endeavor.**
+
+Pair/mob programming, radical candor, other XP practices?
+
+**Improvement is the goal.**
+
+Proposal, ADRs, retros, habits, post-mortems, code review. SRE mindset. Waste is the enemy.
+
+**Deliver value continuously.**
+
+Continuous delivery, instrumentation, sustainable pace. That is what builds predictability. Requires you to be on top of value. High-agency, urgency.
+
+**Happy engineers, happy customers.**
+
+Sustainable pace, focus time, flow, motivation, engagement.
+
+**Data is part of the product.**
+
+**Be curious and kind.**
+
+Radical candor
