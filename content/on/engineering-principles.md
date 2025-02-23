@@ -28,17 +28,21 @@ Coined by [Alex Ewerlöf](https://blog.alexewerlof.com/p/you-build-it-you-own-it
 
 Another perspective of this is that the best engineering organizations shift left on the operational responsibilities, and I'm a big fan of shifting left. A word of caution however: it poses a risk of exploding cognitive load for engineers. Depending on the context, shifting left must be accompanied by effective platform engineering, intentional investment in upskilling, and carefully staffing of the team with the necessary skills.
 
-**Quality is constant, scope is variable.**
+**Quality and time are constants, scope is variable.**
 
-Simple design? TDD/BDD, Other XP practices? Quality is ease of change and quality is cost management. High-agency, urgency.
+This is a powerful mindset that's obvious among many engineers, but I've also seen when it's not and what an unlock it can be once people get behind it. There is a common notion in engineering that deadlines are stupid, estimation is impossible, and therefore everyone should accept things will take the time it takes. I exaggerate a bit, but I'm sure some can relate.
+
+It's unfortunate that we, as an industry, have managed to create such a strong coupling between estimates and time. Estimation is not all evil, but endless discussions around improving estimations are. Time, however, is a powerful constraint ([Parkinson's law](https://en.wikipedia.org/wiki/Parkinson%27s_law) is real), and we can leverage it by changing our planning from being based on how long we think some thing will take, to how much time we're willing to invest (also, see [appetite from Shape Up](https://basecamp.com/shapeup/1.2-chapter-03)).
+
+There are of course nuances to this but when this mindset is fully embraced, it provides a simple decision-making framework that empowers teams and enables them to move with high urgency.
 
 **Software engineering is a socio-technical endeavor.**
 
-Pair/mob programming, radical candor, other XP practices?
+Software engineering is all about the people ([Conway's law](https://en.wikipedia.org/wiki/Conway%27s_law) anyone?). Subscribing to this principle means you must think about team topology, collaboration, promote pair and mob programming, practice radical candor, and make sure you have a bit of fun.
 
 **Improvement is the goal.**
 
-Proposal, ADRs, retros, habits, post-mortems, code review. SRE mindset. Waste is the enemy.
+Proposal, ADRs, retros, habits, post-mortems, code review. SRE mindset. Waste is the enemy. Quote from DORA.
 
 **Deliver value continuously.**
 
