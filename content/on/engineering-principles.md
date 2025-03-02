@@ -12,7 +12,7 @@ summary = 'My thoughts on the principles that underpin great engineering culture
 
 A common question for any engineering leader is what great engineering culture looks like. It's a great question, albeit not easy, but I wanted to write down my answer to that question. I expect this to change continuously as I learn and get new perspectives.
 
-I acknowledge that process is important, but it's an implementation detail. Great talent guided by principles is what truly drives excellence.
+Process is important, but it's also an implementation detail. It's great talent guided by principles that drives excellence.
 
 # Principles
 
@@ -24,9 +24,9 @@ For a deep dive into what behaviors to look for in an engineer, I recommend [Add
 
 **We build it, we own it.**
 
-Coined by [Alex Ewerlöf](https://blog.alexewerlof.com/p/you-build-it-you-own-it), as an evolution of Werner Vogel's (CTO of Amazon) quote _you build it, you run it_. The most high-performing teams owns their work end-to-end. This includes building high-quality software and ensuring it meets [the expectations set](https://blog.alexewerlof.com/p/sla). This is implies that if those expectations are not met, i.e., there is an incident, they make it their top priority to fix it.
+Coined by [Alex Ewerlöf](https://blog.alexewerlof.com/p/you-build-it-you-own-it), as an evolution of Werner Vogel's (CTO of Amazon) quote _you build it, you run it_. We own the work work end-to-end, including testing, the delivery pipeline, and product ownership. If our software doesn't meet [the expectations](https://blog.alexewerlof.com/p/sla), i.e., there is an incident, it's our top priority to fix it.
 
-Another perspective of this is that the best engineering organizations shift left on the operational responsibilities, and I'm a big fan of shifting left. A word of caution however: it poses a risk of exploding cognitive load for engineers. Depending on the context, shifting left must be accompanied by effective platform engineering, intentional investment in upskilling, and carefully staffing of the team with the necessary skills.
+This is sometimes called shifting left, and must be done mindfully to not explode the cognitive load of the engineers. Depending on the context, shifting left must be accompanied by effective platform engineering, intentional investment in upskilling, and careful staffing.
 
 **Quality and time are constants, scope is variable.**
 
@@ -38,22 +38,20 @@ There are of course nuances to this but when this mindset is fully embraced, it 
 
 **Software engineering is a socio-technical endeavor.**
 
-Software engineering is all about the people ([Conway's law](https://en.wikipedia.org/wiki/Conway%27s_law) anyone?). Subscribing to this principle means you must think about team topology, collaboration, promote pair and mob programming, practice radical candor, and make sure you have a bit of fun.
+Software engineering is built by groups of people (for now). How those people work together is of utmost importance. Subscribing to this principle means you must think about team topology (remember [Conway's law](https://en.wikipedia.org/wiki/Conway%27s_law)) and knowledge silos, promote [Architectural Decision Record](https://adr.github.io/) (ADRs), pair and mob programming, do hackathons, ensure a [sustainable pace]([Developer experience](http://www.extremeprogramming.org/rules/overtime.html), make sure engineers regularly talk to users, and practice [radical candor](https://www.goodreads.com/book/show/29939161-radical-candor). And, don't forget to have a bit fun.
 
 **Improvement is the goal.**
 
-Proposal, ADRs, retros, habits, post-mortems, code review. SRE mindset. Waste is the enemy. Quote from DORA.
+> The best teams are those that achieve elite improvement, not necessarily elite performance.
+>
+> -- [2024 DORA Report](https://dora.dev/research/2024/dora-report/)
 
-**Deliver value continuously.**
+Software engineering, technology, and business are always evolving. There is no final destination. What truly matters is how quickly we learn, as a collective. [Continuous delivery](https://minimumcd.org/) is the way to ship. Retrospectives and post-mortems are non-negotiables.
 
-Continuous delivery, instrumentation, sustainable pace. That is what builds predictability. Requires you to be on top of value. High-agency, urgency.
+**Waste is the enemy.**
 
-**Happy engineers, happy customers.**
+We must be obsessed about reducing [waste](https://en.wikipedia.org/wiki/Lean_software_development), otherwise it will kill us. Adopt an [SRE mindset](https://sre.google/books/) and invest in [developer experience](https://queue.acm.org/detail.cfm?id=3595878).
 
-Sustainable pace, focus time, flow, motivation, engagement.
+**Data is a first class citizen.**
 
-**Data is part of the product.**
-
-**Be curious and kind.**
-
-Radical candor
+Instrumentation, invest in data models and contracts, dogfood your own data to build your own analytics and improve the product.
