@@ -46,7 +46,7 @@ Software engineering is built by groups of people (for now). How those people wo
 >
 > -- [2024 DORA Report](https://dora.dev/research/2024/dora-report/)
 
-Software engineering, technology, and business are always evolving. There is no final destination. What truly matters is how quickly we learn, as a collective. [Continuous delivery](https://minimumcd.org/) is the way to ship. Retrospectives and post-mortems are non-negotiables.
+Software engineering, technology, and business are always evolving. There is no final destination. What truly matters is how quickly we learn, as a collective. [Continuous delivery](https://minimumcd.org/) is the way to ship. Retrospectives and post-mortems are musts.
 
 **Waste is the enemy.**
 
@@ -54,4 +54,12 @@ We must be obsessed about reducing [waste](https://en.wikipedia.org/wiki/Lean_so
 
 **Data is a first class citizen.**
 
-Instrumentation, invest in data models and contracts, dogfood your own data to build your own analytics and improve the product.
+Data is part of the definition of done. Invest in instrumentation, data models and contract. Dogfood teams with data to build analytics and improve the product. Make operations an input to design using observability.
+
+**Choose good design over bad design.**
+
+> The alternative to good design is always bad design. There is no such thing as no design.
+>
+> -- Adam Judge
+
+Design is a non-negotiable and it comes from good habits. Good design is primarily about making do what its supposed to do while ensuring it's easy to change. Change is inevitable and a key cost driver in software engineering. Practice continuous refactoring, [tidying](https://www.oreilly.com/library/view/tidy-first/9781098151232/), applying [the boy scout rule](https://deviq.com/principles/boy-scout-rule), [test-driven development](https://en.wikipedia.org/wiki/Test-driven_development) (TDD), and [domain-driven design](https://en.wikipedia.org/wiki/Domain-driven_design) (DDD).
