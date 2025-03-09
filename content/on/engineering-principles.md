@@ -1,7 +1,7 @@
 +++
 title = 'Engineering Principles'
 date = 2025-02-16T13:15:35+01:00
-draft = true
+draft = false
 tags = ['Culture', 'Engineering Principles']
 summary = 'My thoughts on the principles that underpin great engineering culture.'
 +++
