@@ -1,5 +1,5 @@
 +++
-title = 'Engineering Principles'
+title = 'Engineering principles'
 date = 2025-02-16T13:15:35+01:00
 draft = false
 tags = ['Culture', 'Engineering Principles']
