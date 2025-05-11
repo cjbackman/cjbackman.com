@@ -18,9 +18,9 @@ Process is important, but it's an implementation detail. It's great talent guide
 
 **We are empowered engineers.**
 
-Marty Cagan talks about empowered engineers as [the most important thing](https://www.svpg.com/the-most-important-thing/) for a successful product team, and I wholeheartedly agree. The best engineers are those who deeply care about the user and the strategic context within which they operate. Armed with care and context, engineers leverage their craftsmanship to solve problems worth solving and generate impact.
+Marty Cagan talks about empowered engineers as [the most important thing](https://www.svpg.com/the-most-important-thing/) for a successful product team, and I wholeheartedly agree. The best engineers are those who deeply care about the user and the strategic context within which they operate. Combining product sense, data, and empathy; engineers leverage their craftsmanship to solve problems worth solving and deliver real value.
 
-For a deep dive into what behaviors to look for in an engineer, I recommend [Addy Osmani's book _Leading Effective Engineering Teams_](https://leet.addy.ie/).
+For relevant references, explore [product engineers](https://www.hyperact.co.uk/blog/what-is-a-product-engineer), [product engineer manifesto](https://productengineer.org/), and [Addy Osmani's book _Leading Effective Engineering Teams_](https://leet.addy.ie/).
 
 **We build it, we own it.**
 
@@ -40,21 +40,21 @@ There are, of course, nuances to this, but when this mindset is fully embraced, 
 
 Software engineering is built by groups of people (for now). How those people work together is fundamental to the quality of the output. Subscribing to this principle means embracing [team topologies](https://teamtopologies.com/) (remember [Conway's law](https://en.wikipedia.org/wiki/Conway%27s_law)), promote practices like [Architectural Decision Records](https://adr.github.io/) (ADRs), pair and mob programming, do hackathons, ensure a [sustainable pace](http://www.extremeprogramming.org/rules/overtime.html), make sure engineers regularly talk to users, and being [radically candid](https://www.goodreads.com/book/show/29939161-radical-candor). Also, don't forget to have a bit of fun.
 
-**Improvement is the goal.**
+**Rapid improvement is the goal.**
 
 > The best teams are those that achieve elite improvement, not necessarily elite performance.
 >
 > -- [2024 DORA Report](https://dora.dev/research/2024/dora-report/)
 
-Software engineering, technology, and business are always evolving. There is no final destination. What truly matters is how quickly we learn as a collective. [Continuous delivery](https://minimumcd.org/) is the way to ship. Retrospectives and post-mortems are musts.
+Software engineering, technology, and business are always evolving. There is no final destination. Excellence is determined by how quickly we learn. That is why [continuous delivery](https://minimumcd.org/) is the way to ship. Exploring trade-offs and making fast, pragmatic decisions are key. Retrospectives and post-mortems are musts.
 
 **Waste is the enemy.**
 
 We must be obsessed with reducing [waste](https://en.wikipedia.org/wiki/Lean_software_development), otherwise, it will kill us. Adopt an [SRE mindset](https://sre.google/books/) and invest in [developer experience](https://queue.acm.org/detail.cfm?id=3595878).
 
-**Data is a first-class citizen.**
+**Data and interfaces are first-class citizen.**
 
-Data is part of the definition of done. Invest in instrumentation, data models, and contracts. Dogfood teams with data to build analytics and improve the product. Make operations an input to design with observability.
+Data is part of the definition of done. Invest in instrumentation, data models, and contracts. Dogfood teams with data to build analytics and improve the product. Make operations an input to design with observability. Data models and interfaces (e.g., APIs, event contracts, UIs) are the most efficient way of taming complexity and driving quality.
 
 **Choose good design over bad design.**
 
