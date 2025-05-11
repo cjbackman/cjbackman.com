@@ -8,7 +8,7 @@ draft = true
 
 ## Review: Goals 2025
 
-- **[ <span style="font-size: 10px;background-color: lightcoral;">HEALTH</span> ] _Boost performance:_ Run a half marathon in under 1h45m by the end of May 2025.** Completion: <span style="color: green;">0% (on track).</span>
+- **[ <span style="font-size: 10px;background-color: lightcoral;">HEALTH</span> ] _Boost performance:_ Run a half marathon in under 1h45m by the end of May 2025.** Completion: <span style="color: green;">100% (goal achieved - 1h36m54s - on May 4, 2025).</span>
 
 - **[ <span style="font-size: 10px;background-color: darkseagreen;">GROWTH</span> ] _Learn in public:_ Publish 6 blog posts by the end of 2025.** Completion: <span style="color: green;">50% (on track).</span>
 
@@ -16,7 +16,7 @@ draft = true
 
   - **Pass German C1 by the end of 2025.** Completion: <span style="color: green;">0% (at risk).</span>
 
-  - **Listen to 52 [History of the Germans](https://open.spotify.com/show/7cvGmixy8K3LD4AkWNbjMH?si=552676f719e541f2) episodes by the end of 2025.** Completion: <span style="color: green;">X% (goal achieved on Feb 16, 2025).</span>
+  - **Listen to 52 [History of the Germans](https://open.spotify.com/show/7cvGmixy8K3LD4AkWNbjMH?si=552676f719e541f2) episodes by the end of 2025.** Completion: <span style="color: green;">100% (goal achieved on Feb 16, 2025).</span>
 
 - **[ <span style="font-size: 10px;background-color: lightskyblue;">RELATIONSHIPS</span> | <span style="font-size: 10px;background-color: violet;">PLAY</span> ] _Reconnect with people and play:_**
 
