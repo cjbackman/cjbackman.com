@@ -68,4 +68,4 @@ Practice continuous refactoring, [tidying](https://www.oreilly.com/library/view/
 
 **Set the pace with cycles, not sprints.**
 
-Acting with a sense of urgency and keeping momentum is essential. Doing it sustainably is achieved with setting the right cycle. Having a steady n-week cycle gives a baseline from which an organization can continuously learn how to scope, shape, and ship. This will create a system where predictability improves consistently and trust kept high.
+Acting with a sense of urgency and keeping momentum is essential. Doing it sustainably is achieved with setting the right cycle. Having a steady n-week cycle gives a baseline from which an organization can continuously learn how to scope, shape, and ship. This will create a system where predictability improves consistently and trust with customers and stakeholders is kept high.
