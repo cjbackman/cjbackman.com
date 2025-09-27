@@ -16,13 +16,13 @@ A common question for any engineering leader is what great engineering culture l
 
 Process is important, but it's an implementation detail. It's great talent guided by principles that drive excellence.
 
-**We are empowered engineers.**
+**Empowered engineers.**
 
 Marty Cagan talks about empowered engineers as [the most important thing](https://www.svpg.com/the-most-important-thing/) for a successful product team, and I wholeheartedly agree. The best engineers are those who deeply care about the user and the strategic context within which they operate. Combining product sense, data, and empathy; engineers leverage their craftsmanship to solve problems worth solving and deliver real value.
 
 For relevant references, explore [product engineers](https://www.hyperact.co.uk/blog/what-is-a-product-engineer), [product engineer manifesto](https://productengineer.org/), and [Addy Osmani's book _Leading Effective Engineering Teams_](https://leet.addy.ie/).
 
-**We build it, we own it.**
+**You build it, you own it.**
 
 Coined by [Alex Ewerlöf](https://blog.alexewerlof.com/p/you-build-it-you-own-it), as an evolution of Werner Vogels' (CTO of Amazon) quote _you build it, you run it_. We own the work end-to-end, including testing, the delivery pipeline, and product ownership. If our software doesn't meet [the expectations](https://blog.alexewerlof.com/p/sla), i.e., there is an incident, it's our top priority to fix it.
 
@@ -46,7 +46,7 @@ Software engineering is built by groups of people (for now). How those people wo
 >
 > -- [2024 DORA Report](https://dora.dev/research/2024/dora-report/)
 
-Software engineering, technology, and business are always evolving. There is no final destination. Excellence is determined by how quickly we learn. That is why [continuous delivery](https://minimumcd.org/) is the way to ship. Exploring trade-offs and making fast, pragmatic decisions are key. Retrospectives and post-mortems are musts.
+Software engineering, technology, and business are always evolving. There is no final destination. Excellence is determined by how quickly we learn. That is why [continuous delivery](https://minimumcd.org/) is the way to ship. Exploring trade-offs and making fast, pragmatic decisions are key. Retrospectives and post-mortems are musts. It's all about getting 1% better every day.
 
 **Waste is the enemy.**
 
@@ -65,3 +65,7 @@ Data is part of the definition of done. Invest in instrumentation, data models, 
 Effective design is a non-negotiable, and it's achieved with good habits. Good design is primarily about making software do what it's supposed to do while ensuring it's easy to change. This is important because change is inevitable and a key cost driver in software engineering.
 
 Practice continuous refactoring, [tidying](https://www.oreilly.com/library/view/tidy-first/9781098151232/), applying [the Boy Scout Rule](https://deviq.com/principles/boy-scout-rule), [test-driven development](https://en.wikipedia.org/wiki/Test-driven_development) (TDD), and [domain-driven design](https://en.wikipedia.org/wiki/Domain-driven_design) (DDD).
+
+**Set the pace with cycles, not sprints.**
+
+Acting with a sense of urgency and keeping momentum is essential. Doing it sustainably is achieved with setting the right cycle. Having a steady n-week cycle gives a baseline from which an organization can continuously learn how to scope, shape, and ship. This will create a system where predictability improves consistently and trust kept high.
