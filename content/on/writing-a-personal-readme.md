@@ -16,7 +16,7 @@ _that might make it easier to get to know and understand me._
 
 - I grew up in a tiny village in a rural area in the north of Sweden. During childhood, I spent most of my time outdoors and taking care of a wide range of animals together with my grandmother. That upbringing brought me a love of nature and wildlife and taught me empathy.
 
-- Sweden has a non-confrontational and emotionally unexpressive culture which has shaped me and how I make decisions. I strive for consensus when possible and tend to prefer an extra round of discussions during disagreements.
+- Sweden has a non-confrontational and emotionally unexpressive culture which has shaped me and how I make decisions. I tend to have mix of i and S styles, using the terminology from the [DiSC model](https://www.discprofile.com/disc-styles).
 
 - My journey with computers started as a kid playing games on my friend’s Commodore 64. My interest grew after I inherited a Macintosh 128K from my uncle’s car dealership business and the relationship came to full fruition when I built my first computer around the age of 13. My passion for the art of coding was fully lit thanks to an enthusiastic and dedicated computer science teacher in high school.
 
@@ -40,15 +40,15 @@ _that might make it easier to get to know and understand me._
 
 _from myself and others._
 
-- **Giving my best.** I hold myself to high expectations, and I take great pride in always doing my best work and getting shit done.
+- **Giving my best.** I hold a high bar for myself, and I take great pride in always doing my best work and getting shit done.
 
 - **Transparency.** I think an organization is much better off when there is transparency around the work being done, decisions, processes, data, whatever. I apply this to my work and appreciate it from others. Moreover, transparency is a necessity for autonomy.
 
-- **Agency.** Autonomy is important for motivation and to do great work. To make autonomy work agency is key. I like to take matters into my own hands and drive execution (sometimes too much). Combining agency with radical transparency is how to mitigate conflicts and misalignments.
+- **Agency.** Autonomy is important for motivation and to do great work. To make autonomy work agency is key. I like to take matters into my own hands and drive execution (sometimes too much). Combining agency with radical transparency mitigates the risk conflicts and misalignments.
 
 - **Accountability.** When I say I’ll do something, I’ll do it.
 
-- **Kindness.** I always try to assume good intentions and I know everyone is fighting their own battle, so why would we ever want to be anything but kind to each other?
+- **Kindness.** I always try to assume good intentions and everyone is fighting their own battle. Kindness sometimes mean having tough discussions or making tough decisions.
 
 - **Relationships.** I’m a strong believer in the power of meaningful relationships to create an effective team. Doing hard stuff and achieving great things with people you like is amazing.
 
@@ -62,7 +62,7 @@ _from myself and others._
 
 _and that I’m happy to help with if I can._
 
-- **Continuous improvement.** As mentioned above, I love learning and I work hard to continuously improve myself. One increment at a time.
+- **Continuous improvement.** As mentioned above, I love learning and I work hard to continuously improve myself. 1% better every day.
 
 - **Riding out the storm.** In feedback, _composure_ frequently comes up as a spike. I'm the kind of person who can find peace in chaos and crisis.
 
@@ -72,15 +72,15 @@ _and that I’m happy to help with if I can._
 
 - **Communication.** I enjoy crafting messages, written as well as spoken. So if you want feedback on something you wrote or do a dry run of a presentation, hit me up.
 
-- **Execution.** I like getting shit done, and I happily indulge in breaking gnarly problems into executable chunks. I consider myself to have a bias toward action and a strong sense of urgency.
+- **Execution.** I like getting shit done, and I happily indulge in breaking gnarly problems into executable chunks. I consider myself to have a bias to action and a strong sense of urgency.
 
-- **Technical decisions.** I'm in tech for a reason and I enjoy discussing the intricate tradeoffs of a technical decision.
+- **Structure.** I'm a structured person and I thrive on structure. That's one of the reasons I've always loved writing documentation as an engineer. It excites me to debug a gnarly situation, process, or product to figure out its inherent structure and create clarity around it.
 
 ## Stuff that’s hard for me
 
 _and that I’d like to improve, so I’m grateful for any feedback that can help me do that._
 
-- I’m introverted with mild social anxiety that sometimes makes big-room meetings stressful for me. I’m usually not at my best in such situations. To mitigate this, I'm working on my public speaking skills and I also write things down to bring my points across.
+- I’m introverted with mild social anxiety that sometimes makes big-room meetings stressful for me. I’m usually not at my best in such situations. To mitigate this, I'm continuously working on my public speaking skills and I tend to also write things down to bring my points across.
 
 - I prefer to reflect for a while over thinking on my feet.
 
@@ -100,12 +100,6 @@ _and that I’d like to improve, so I’m grateful for any feedback that can hel
 
 - I start work around 9 and finish around 18 CET.
 
-- I’m generally available on the chat whenever I’m awake and I don’t mind if someone reaches out to me after working hours. I like to respond as quickly as I can.
-
-- It happens that I work late and sometimes a bit on the weekend. It’s a choice I’m making. I do not expect anyone else to do that.
-
-- If I write a message outside office hours I schedule it to be within office hours. Sometimes I forget or accidentally send it anyway.
-
 ## How I view my job
 
 _and what I hold myself accountable for._
@@ -116,8 +110,8 @@ _and what I hold myself accountable for._
 
 - Attracting, developing, and retaining engineering talent.
 
-- Fostering an engineering culture of care and excellence.
+- Cultivating an engineering culture of kindness and excellence.
 
-- Nurturing great collaboration within engineering and beyond.
+- Fostering great collaboration within engineering and beyond.
 
 - Ultimately, I want engineers to come for the technology and stay for the culture.
