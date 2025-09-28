@@ -24,4 +24,4 @@ draft = true
 
   - **Complete a workcation tour in Sweden visiting old friends by the end of Q3/2025.** Completion: <span style="color: darkorange;">0% (off track).</span>
 
-  - **Travel with friends and/or family to at least 2 new countries by the end of 2025.** Completion: <span style="color: darkorange;">50% (at risk).</span>
+  - **Travel with friends and/or family to at least 2 new countries by the end of 2025.** Completion: <span style="color: darkorange;">75% (at risk).</span>
