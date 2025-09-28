@@ -104,14 +104,16 @@ _and that I’d like to improve, so I’m grateful for any feedback that can hel
 
 _and what I hold myself accountable for._
 
-- Aligning the engineering organization with company objectives.
+- Driving measurable business outcomes through technology investments and engineering excellence.
 
-- Empowering the engineering organization with direction and context.
+- Aligning engineering with company goals by owning technology strategy and roadmap execution.
 
-- Attracting, developing, and retaining engineering talent.
+- Building and scaling a high-performance organization and culture grounded in psychological safety, collaboration, and continuous improvement.
 
-- Cultivating an engineering culture of kindness and excellence.
+- Fostering a product-engineering mindset focused on value, while elevating quality, reliability, security, and performance.
 
-- Fostering great collaboration within engineering and beyond.
+- Championing developer experience as a key lever to unlock productivity through short feedback loops and reduced friction.
 
-- Ultimately, I want engineers to come for the technology and stay for the culture.
+- Attracting, developing, and retaining top talent, while continually raising the bar.
+
+- Acting as a trusted partner to other functions and fostering strong collaboration within engineering and across the company.
