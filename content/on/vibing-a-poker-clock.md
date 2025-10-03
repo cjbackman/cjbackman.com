@@ -10,7 +10,7 @@ Every Christmas day we're a group of friends that get together and play poker, a
 
 A poker clock is a simple web app, so I figured it's a good use case to experiment with vibe coding. I spent about one Sunday on the task, and used [Lovable](https://lovable.dev/) for most parts, and [ChatGPT](https://chatgpt.com/) for a few details. You can see [a demo of the app here](https://poker-clock.cjbackman.com).
 
-I used [this awesome workflow](https://harper.blog/2025/02/16/my-llm-codegen-workflow-atm/) from Harper Reed and [ChatGPT](https://chatgpt.com/)to hash out a [Poker Clock Specification](/on/vibing-a-poker-clock/#poker-clock-specification). You can find the spec at the end of this page.
+I used [this awesome workflow](https://harper.blog/2025/02/16/my-llm-codegen-workflow-atm/) from Harper Reed and [ChatGPT](https://chatgpt.com/) to hash out a [Poker Clock Specification](/on/vibing-a-poker-clock/#poker-clock-specification). You can find the spec at the end of this page.
 
 ## Impressions
 
