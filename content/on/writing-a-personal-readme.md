@@ -44,7 +44,7 @@ _from myself and others._
 
 - **Transparency.** I think an organization is much better off when there is transparency around the work being done, decisions, processes, data, whatever. I apply this to my work and appreciate it from others. Moreover, transparency is a necessity for autonomy.
 
-- **Agency.** Autonomy is important for motivation and to do great work. To make autonomy work agency is key. I like to take matters into my own hands and drive execution (sometimes too much). Combining agency with radical transparency mitigates the risk conflicts and misalignments.
+- **Agency.** Action beats reaction. Autonomy is important for motivation and to do great work. To make autonomy work agency is key. I like to take matters into my own hands and drive execution, perhaps sometimes too much. Combining agency with radical transparency mitigates the risk conflicts and misalignments.
 
 - **Accountability.** When I say I’ll do something, I’ll do it.
 
@@ -58,13 +58,13 @@ _from myself and others._
 
 - **Feedback.** I consider both the act of receiving and giving feedback a gift. Feel free to provide direct feedback to me in whatever format you prefer (sync or async), whenever you want. You don’t need to ask for permission and be direct, but not mean. It doesn’t have to be big or perfect. On the contrary, timely, actionable and, continuous feedback is the best approach. I take great pleasure in providing feedback as well, so if you want my input on anything, just let me know.
 
-## Things I enjoy
+## Things I enjoy or do well
 
 _and that I’m happy to help with if I can._
 
 - **Continuous improvement.** As mentioned above, I love learning and I work hard to continuously improve myself. 1% better every day.
 
-- **Riding out the storm.** In feedback, _composure_ frequently comes up as a spike. I'm the kind of person who can find peace in chaos and crisis.
+- **Composure.** In feedback, _composure_ frequently comes up as a spike. I'm the kind of person who can find peace in chaos and crisis.
 
 - **Relationships.** I value kindness and humility, and meaningful relationships in the workplace. I think this helps me build trust and strong relationships.
 
