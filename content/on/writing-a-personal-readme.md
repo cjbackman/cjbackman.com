@@ -98,7 +98,7 @@ _and that I’d like to improve, so I’m grateful for any feedback that can hel
 
 ## When I work
 
-- I start work around 9 and finish around 18 CET.
+- I aim to keep my working hours between 9-18.
 
 ## How I view my job
 
