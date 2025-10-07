@@ -10,7 +10,7 @@ I frequently have discussions with frustrated engineers or engineering managers 
 
 Both points are valid. Visibility bias in performance reviews is real and [should be tackled](https://www.deloitte.com/us/en/insights/topics/talent/mitigating-bias-in-performance-management.html). And it's a healthy instinct to prefer doing the work over talking about the work.
 
-But I also think there is one point that gets lost. Visibility is communication, and it's not extra work. It's an essential part of the work. Especially for senior roles.
+But I also think there is one point that gets lost. Visibility is communication, and it's not extra work. It's an essential part of the work. Especially for senior roles. Similar to [politics](https://terriblesoftware.org/2025/10/01/stop-avoiding-politics/).
 
 Simplified, the expectation of a senior member in a software engineering org is the ability to identify impactful opportunities or problems that software can address, create a plan, execute, and deliver results. There is no way to be successful in doing that without effectively managing communication every step of the way.
 
