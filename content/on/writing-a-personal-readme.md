@@ -3,7 +3,7 @@ title = 'A personal README'
 date = 2024-03-24T17:18:45+01:00
 draft = false
 tags = ['Leadership']
-summary = 'It was not easy to click the share button, but I am glad I did. I wrote a personal README, to promote transparency and openness as I transitioned from individual contributor to manager.'
+summary = 'It was not easy to click the share button, but I am glad I did. I wrote a personal README; to promote transparency and openness as I transitioned from an individual contributor to a managerial position.'
 +++
 
 I recently transitioned from the role of Principal Engineer to Head of Engineering. Since I am a fan of radical transparency, I wrote a personal README to accelerate the process for my new team to get to know me and how I work. My main objectives were to i) help others understand me better; ii) clarify my expectations of myself, others and my new role; and iii) contribute to an environment of psychological safety by being vulnerable.
@@ -36,17 +36,17 @@ _that might make it easier to get to know and understand me._
 
 - I consider myself a lifelong learner and _joy of learning_ is my [top character strength](https://www.viacharacter.org/). Therefore, I spend a lot of time reading and learning from smart people, to gain new insights and upskill myself.
 
+- In the [CORE personality test](https://www.core-sciences.com/) I score high in _conscientiousness_ and _agreeableness_, and low in _need for stability_.
+
 ## What I value
 
 _from myself and others._
 
-- **Giving my best.** I hold a high bar for myself, and I take great pride in always doing my best work and getting shit done.
-
-- **Transparency.** I think an organization is much better off when there is transparency around the work being done, decisions, processes, data, whatever. I apply this to my work and appreciate it from others. Moreover, transparency is a necessity for autonomy.
+- **Ownership.** I hold a high bar for myself, and I take great pride in always doing my best work and getting shit done. When I say I’ll do something, I’ll do it.
 
 - **Agency.** Action beats reaction. Autonomy is important for motivation and to do great work. To make autonomy work agency is key. I like to take matters into my own hands and drive execution, perhaps sometimes too much. Combining agency with radical transparency mitigates the risk conflicts and misalignments.
 
-- **Accountability.** When I say I’ll do something, I’ll do it.
+- **Transparency.** I think an organization is much better off when there is transparency around the work being done, decisions, processes, data, whatever. I apply this to my work and appreciate it from others. Moreover, transparency is a necessity for autonomy.
 
 - **Kindness.** I always try to assume good intentions and everyone is fighting their own battle. Kindness sometimes mean having tough discussions or making tough decisions.
 
@@ -62,19 +62,17 @@ _from myself and others._
 
 _and that I’m happy to help with if I can._
 
-- **Continuous improvement.** As mentioned above, I love learning and I work hard to continuously improve myself. 1% better every day.
+- **Continuous improvement.** As mentioned above, I love learning and I work hard to continuously improve myself. I'm a strong believer in the compounding effect of getting 1% better every day.
 
 - **Composure.** In feedback, _composure_ frequently comes up as a spike. I'm the kind of person who can find peace in chaos and crisis.
-
-- **Relationships.** I value kindness and humility, and meaningful relationships in the workplace. I think this helps me build trust and strong relationships.
 
 - **Strategizing.** I like observing and debugging situations and systems. I get into flow trying to piece various bits of information together, do some pattern matching, and craft a coherent response to a particular challenge.
 
 - **Communication.** I enjoy crafting messages, written as well as spoken. So if you want feedback on something you wrote or do a dry run of a presentation, hit me up.
 
-- **Execution.** I like getting shit done, and I happily indulge in breaking gnarly problems into executable chunks. I consider myself to have a bias to action and a strong sense of urgency.
+- **Execution.** I like getting stuff done, and I happily indulge in breaking ambiguous problems into executable chunks. I consider myself to have a bias to action and a strong sense of urgency.
 
-- **Structure.** I'm a structured person and I thrive on structure. That's one of the reasons I've always loved writing documentation as an engineer. It excites me to debug a gnarly situation, process, or product to figure out its inherent structure and create clarity around it.
+- **Structure.** I'm an organized person and I thrive on structure. That's one of the reasons I always loved writing documentation as an engineer. It excites me to debug a gnarly situation, process, or product to figure out its inherent structure and create clarity around it.
 
 ## Stuff that’s hard for me
 
