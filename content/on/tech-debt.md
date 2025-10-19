@@ -1,7 +1,7 @@
 +++
 title = 'Tech Debt'
 date = 2025-01-12T13:43:48+01:00
-tags = ['Tech Debt', 'Quality', 'Communication']
+tags = ['Tech Debt', 'Quality', 'Communication', 'Technical Excellence']
 summary = "I've come to deeply dislike the term tech debt."
 draft = false
 +++
