@@ -6,9 +6,9 @@ tags = ['Leadership']
 summary = 'It was not easy to click the share button, but I am glad I did. I wrote a personal README; to promote transparency and openness as I transitioned from an individual contributor to a managerial position.'
 +++
 
-I recently transitioned from the role of Principal Engineer to Head of Engineering. Since I am a fan of radical transparency, I wrote a personal README to accelerate the process for my new team to get to know me and how I work. My main objectives were to i) help others understand me better; ii) clarify my expectations of myself, others and my new role; and iii) contribute to an environment of psychological safety by being vulnerable.
+I recently transitioned from the role of Principal Engineer to Head of Engineering. Since I am a fan of radical transparency, I wrote a personal README to accelerate the process for my new team to get to know me and how I work. My main objectives were to i) help others understand me better; ii) clarify my expectations of myself, others and my new role; and iii) build trust through vulnerability.
 
-This was a first for me, and it was with mixed feelings I shared it with the engineering managers and the staff+ engineers. Am I being too open? Am I full of myself writing something like this? Luckily, the feedback I got from everyone was positive and appreciative. So, world, here it is.
+This was a first for me, and it was with mixed feelings I shared it with the engineering managers and the staff+ engineers. Am I being too open? Am I full of myself writing something like this? Luckily, I got positive feedback, and I'm glad I did it.
 
 ## Context and random facts
 
