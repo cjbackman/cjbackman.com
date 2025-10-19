@@ -10,7 +10,7 @@ draft = true
 
 - **[ <span style="font-size: 10px;background-color: lightcoral;">HEALTH</span> ] _Boost performance:_ Run a half marathon in under 1h45m by the end of May 2025.** Completion: <span style="color: green;">100% (goal achieved - 1h36m54s - on May 4, 2025).</span>
 
-- **[ <span style="font-size: 10px;background-color: darkseagreen;">GROWTH</span> ] _Learn in public:_ Publish 6 blog posts by the end of 2025.** Completion: <span style="color: green;">50% (on track).</span>
+- **[ <span style="font-size: 10px;background-color: darkseagreen;">GROWTH</span> ] _Learn in public:_ Publish 6 blog posts by the end of 2025.** Completion: <span style="color: green;">100% (goal achieved on Oct 19, 2025).</span>
 
 - **[ <span style="font-size: 10px;background-color: darkseagreen;">GROWTH</span> ] _Accelerate integration:_**
 
