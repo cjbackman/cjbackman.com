@@ -1,14 +1,14 @@
 +++
 title = 'About the notetaker'
 date = 2023-09-09T21:11:50+02:00
-summary = 'If you are curious to know more about my background, this is the place to start.'
+summary = 'A brief introduction.'
 draft = false
 +++
 
-I am an empathic leader in technology with 10+ years of professional experience in software engineering and product management, with a proven track record of building and scaling high-performing software engineering organizations to deliver measurable business outcomes.
+I am an empathic leader in technology with 10+ years of professional experience in software engineering, product management, and data, with a proven track record of building and scaling high-performing software engineering organizations to deliver measurable business outcomes.
 
 As a [theoretical physicist](https://www.kth.se/en) and [economist](https://www.hhs.se/en) gone engineering leader, I enjoy spending my time somewhere at the intersection of technology, analytics and business.
 
-Some of my previous work includes discovering [Digital Product Goods](https://digitalpublicgoods.net/) at the [United Nations Development Programme](https://www.undp.org/), leading digital transformations at [Netlight](https://www.netlight.com/), and fighting devastating misconceptions about the world at [Gapminder Foundation](https://www.gapminder.org/). Currently, I am part of the technology leadership at [Emma Sleep](https://team.emma-sleep.com/), where I lead the software engineering organization in my role as Director of Engineering.
+Some of my previous work includes discovering [Digital Product Goods](https://digitalpublicgoods.net/) at the [United Nations Development Programme](https://www.undp.org/), leading digital transformations at [Netlight](https://www.netlight.com/), fighting devastating misconceptions about the world at [Gapminder Foundation](https://www.gapminder.org/), and improving sleep as Director of Engineering at [Emma Sleep](https://team.emma-sleep.com/).
 
 For a detailed view of my professional experience, please have a look at my [LinkedIn profile](https://www.linkedin.com/in/cjbackman/).
