@@ -22,23 +22,23 @@ Marty Cagan talks about empowered engineers as [the most important thing](https:
 
 For relevant references, explore [product engineers](https://www.hyperact.co.uk/blog/what-is-a-product-engineer), [product engineer manifesto](https://productengineer.org/), and [Addy Osmani's book _Leading Effective Engineering Teams_](https://leet.addy.ie/).
 
+**Software engineering is a socio-technical system.**
+
+Software engineering is technical but it's built by people. How those people work together is fundamental to the quality of the output and the wellbeing of the team members. Subscribing to this principle means embracing [team topologies](https://teamtopologies.com/) (remember [Conway's law](https://en.wikipedia.org/wiki/Conway%27s_law)), promote practices like [Architectural Decision Records](https://adr.github.io/) (ADRs), pair and mob programming, do hackathons, ensure a [sustainable pace](http://www.extremeprogramming.org/rules/overtime.html), make sure engineers regularly talk to users, and being [radically candid](https://www.goodreads.com/book/show/29939161-radical-candor). Have some fun.
+
 **You build it, you own it.**
 
-Coined by [Alex Ewerlöf](https://blog.alexewerlof.com/p/you-build-it-you-own-it), as an evolution of Werner Vogels' (CTO of Amazon) quote _you build it, you run it_. We own the work end-to-end, including testing, the delivery pipeline, and product ownership. If our software doesn't meet [the expectations](https://blog.alexewerlof.com/p/sla), i.e., there is an incident, it's our top priority to fix it.
+Coined by [Alex Ewerlöf](https://blog.alexewerlof.com/p/you-build-it-you-own-it), as an evolution of Werner Vogels' (CTO of Amazon) quote _you build it, you run it_. The best teams own their work end-to-end, from ideation, to delivery, and impact. If the software doesn't meet [the expectations](https://blog.alexewerlof.com/p/sla), i.e., there is an incident, it's the team's top priority to fix it.
 
-This is sometimes called shifting left and must be done mindfully to avoid exploding the cognitive load of engineers. Depending on the context, shifting left must be accompanied by effective platform engineering, intentional investment in upskilling, and careful staffing.
+This is sometimes called shifting left and must be done mindfully to manage cognitive load. Depending on the context, shifting left must be accompanied by effective platform engineering, intentional investment in upskilling, and careful staffing.
 
 **Quality and time are constants, scope is variable.**
 
-This is a powerful mindset that's obvious among many engineers, but I've also seen cases where it isn't, and what an unlock it can be once people get behind it. There is a common notion in engineering that deadlines are stupid, estimation is impossible, and therefore everyone should accept that things will take the time they take. I exaggerate a bit, but I'm sure some can relate.
+This is a powerful mindset that's embraced by many teams, but for those where it's not, this can be a massive unlock. There is a common notion in engineering that deadlines are stupid, estimation is impossible, and therefore everyone should accept that things will take the time they take. I exaggerate a bit, but I'm sure some can relate.
 
-It's unfortunate that we, as an industry, have managed to create such a strong coupling between estimates and time. Estimation is not all evil, but endless discussions around improving estimations are. Time, however, is a powerful constraint ([Parkinson's law](https://en.wikipedia.org/wiki/Parkinson%27s_law) is real), and we can leverage it by changing our planning from being based on how long we think something will take to how much time we're willing to invest (also, see [appetite from _Shape Up_](https://basecamp.com/shapeup/1.2-chapter-03)).
+It's unfortunate that we, as an industry, have managed to create such a strong coupling between estimates and time. Estimation is not all evil, but endless discussions around improving estimations tend to be. Time, however, is a powerful constraint ([Parkinson's law](https://en.wikipedia.org/wiki/Parkinson%27s_law) is real), and we can leverage it by changing our planning from being based on how long we think something will take to how much time we're willing to invest (also, see [appetite from _Shape Up_](https://basecamp.com/shapeup/1.2-chapter-03)).
 
-There are, of course, nuances to this, but when this mindset is fully embraced, it provides a simple decision-making framework that empowers teams and enables them to move with high urgency.
-
-**Software engineering is a socio-technical endeavor.**
-
-Software engineering is built by groups of people (for now). How those people work together is fundamental to the quality of the output. Subscribing to this principle means embracing [team topologies](https://teamtopologies.com/) (remember [Conway's law](https://en.wikipedia.org/wiki/Conway%27s_law)), promote practices like [Architectural Decision Records](https://adr.github.io/) (ADRs), pair and mob programming, do hackathons, ensure a [sustainable pace](http://www.extremeprogramming.org/rules/overtime.html), make sure engineers regularly talk to users, and being [radically candid](https://www.goodreads.com/book/show/29939161-radical-candor). Also, don't forget to have a bit of fun.
+There are, of course, nuances to this, but when this mindset is fully embraced, it provides a simple decision-making framework that empowers teams and enables them to move with high urgency, without becoming defensive about timelines (which usually results in adding big buffers).
 
 **Rapid improvement is the goal.**
 
@@ -46,15 +46,15 @@ Software engineering is built by groups of people (for now). How those people wo
 >
 > -- [2024 DORA Report](https://dora.dev/research/2024/dora-report/)
 
-Software engineering, technology, and business are always evolving. There is no final destination. Excellence is determined by how quickly we learn. That is why [continuous delivery](https://minimumcd.org/) is the way to ship. Exploring trade-offs and making fast, pragmatic decisions are key. Retrospectives and post-mortems are musts. It's all about getting 1% better every day.
+Software engineering, technology, and business are always evolving. There is no final destination. Excellence is determined by how quickly we learn. That's why [continuous delivery](https://minimumcd.org/) is the way to ship. Exploring trade-offs and making fast, pragmatic decisions are key. Retrospectives and post-mortems are musts. It's all about getting 1% better every day.
 
-**Waste is the enemy.**
+**Engineer the system for flow.**
 
-We must be obsessed with reducing [waste](https://en.wikipedia.org/wiki/Lean_software_development), otherwise, it will kill us. Adopt an [SRE mindset](https://sre.google/books/) and invest in [developer experience](https://queue.acm.org/detail.cfm?id=3595878).
+Building and shipping software is collaborative, messy, and constantly evolving system. Therefore, it's important to be obsessed with reducing [waste](https://en.wikipedia.org/wiki/Lean_software_development), otherwise, it slowly kills any system of execution. [Flow engineering](https://flowengineering.org/), adopting an [SRE mindset](https://sre.google/books/) and investing in [developer experience](https://queue.acm.org/detail.cfm?id=3595878) are important to reduce friction and increase flow.
 
 **Data and interfaces are first-class citizen.**
 
-Data is part of the definition of done. Invest in instrumentation, data models, and contracts. Dogfood teams with data to build analytics and improve the product. Make operations an input to design with observability. Data models and interfaces (e.g., APIs, event contracts, UIs) are the most efficient way of taming complexity and driving quality.
+Data must be part of the definition of done. Invest in instrumentation, data models, and contracts. Dogfood teams with data to build analytics and improve the product. Make operations an input to design with observability. Data models and interfaces (e.g., APIs, event contracts, UIs) are [leverages points](https://lethain.com/managing-technical-quality/) for taming complexity and driving quality.
 
 **Choose good design over bad design.**
 
@@ -62,9 +62,9 @@ Data is part of the definition of done. Invest in instrumentation, data models, 
 >
 > -- Adam Judge
 
-Effective design is a non-negotiable, and it's achieved with good habits. Good design is primarily about making software do what it's supposed to do while ensuring it's easy to change. This is important because change is inevitable and a key cost driver in software engineering.
+Complexity is the enemey in software engineering, and effective design is the way to fight it. The best approach I've seen to good design comes from having the right habits. Good design is primarily about making software do what it's supposed to do while ensuring it's easy to change. This is important because change is inevitable and a key cost driver in software engineering.
 
-Practice continuous refactoring, [tidying](https://www.oreilly.com/library/view/tidy-first/9781098151232/), applying [the Boy Scout Rule](https://deviq.com/principles/boy-scout-rule), [test-driven development](https://en.wikipedia.org/wiki/Test-driven_development) (TDD), and [domain-driven design](https://en.wikipedia.org/wiki/Domain-driven_design) (DDD).
+Habits that help with this is continuous [refactoring](https://refactoring.guru/refactoring), look for [red flags](https://www.goodreads.com/book/show/39996759-a-philosophy-of-software-design), [tidying](https://www.oreilly.com/library/view/tidy-first/9781098151232/), applying [the Boy Scout Rule](https://deviq.com/principles/boy-scout-rule), [test-driven development](https://en.wikipedia.org/wiki/Test-driven_development) (TDD), and [domain-driven design](https://en.wikipedia.org/wiki/Domain-driven_design) (DDD).
 
 **Set the pace with cycles, not sprints.**
 
