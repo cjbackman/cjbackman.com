@@ -14,7 +14,9 @@ A common question for any engineering leader is what great engineering culture l
 
 # Principles
 
-Process is important, but it's an implementation detail. It's great talent guided by principles that drive excellence.
+Process is important, but it's an implementation detail. It's great talent guided by principles that drive excellence and impact.
+
+## Give a damn
 
 **Empowered engineers.**
 
@@ -22,15 +24,19 @@ Marty Cagan talks about empowered engineers as [the most important thing](https:
 
 For relevant references, explore [product engineers](https://www.hyperact.co.uk/blog/what-is-a-product-engineer), [product engineer manifesto](https://productengineer.org/), and [Addy Osmani's book _Leading Effective Engineering Teams_](https://leet.addy.ie/).
 
-**Software engineering is a socio-technical system.**
-
-Software engineering is technical but it's built by people. How those people work together is fundamental to the quality of the output and the wellbeing of the team members. Subscribing to this principle means embracing [team topologies](https://teamtopologies.com/) (remember [Conway's law](https://en.wikipedia.org/wiki/Conway%27s_law)), promote practices like [Architectural Decision Records](https://adr.github.io/) (ADRs), pair and mob programming, do hackathons, ensure a [sustainable pace](http://www.extremeprogramming.org/rules/overtime.html), make sure engineers regularly talk to users, and being [radically candid](https://www.goodreads.com/book/show/29939161-radical-candor). Have some fun.
-
 **You build it, you own it.**
 
 Coined by [Alex Ewerlöf](https://blog.alexewerlof.com/p/you-build-it-you-own-it), as an evolution of Werner Vogels' (CTO of Amazon) quote _you build it, you run it_. The best teams own their work end-to-end, from ideation, to delivery, and impact. If the software doesn't meet [the expectations](https://blog.alexewerlof.com/p/sla), i.e., there is an incident, it's the team's top priority to fix it.
 
 This is sometimes called shifting left and must be done mindfully to manage cognitive load. Depending on the context, shifting left must be accompanied by effective platform engineering, intentional investment in upskilling, and careful staffing.
+
+## Have some f*cking fun
+
+**Software engineering is a socio-technical endeavour.**
+
+Software engineering is technical but it's built by people. How those people work together is fundamental to the quality of the output and the wellbeing of the team members. Subscribing to this principle means embracing [team topologies](https://teamtopologies.com/) (remember [Conway's law](https://en.wikipedia.org/wiki/Conway%27s_law)), promote practices like [Architectural Decision Records](https://adr.github.io/) (ADRs), schedule blockers for pair and mob programming, do hackathons, make sure engineers regularly talk to users, and be [radically candid](https://www.goodreads.com/book/show/29939161-radical-candor).
+
+## Get shit done
 
 **Quality and time are constants, scope is variable.**
 
@@ -50,11 +56,13 @@ Software engineering, technology, and business are always evolving. There is no 
 
 **Engineer the system for flow.**
 
-Building and shipping software is collaborative, messy, and constantly evolving system. Therefore, it's important to be obsessed with reducing [waste](https://en.wikipedia.org/wiki/Lean_software_development), otherwise, it slowly kills any system of execution. [Flow engineering](https://flowengineering.org/), adopting an [SRE mindset](https://sre.google/books/) and investing in [developer experience](https://queue.acm.org/detail.cfm?id=3595878) are important to reduce friction and increase flow.
+Building and shipping software is collaborative, messy, and constantly evolving [system](https://www.goodreads.com/book/show/3828902-thinking-in-systems). Therefore, it's important to be obsessed with reducing [waste](https://en.wikipedia.org/wiki/Lean_software_development), otherwise, it slowly kills any system of execution. Set WIP limits, leverage [flow engineering](https://flowengineering.org/), foster a culture of [DevOps](https://en.wikipedia.org/wiki/DevOps), adopt an [SRE mindset](https://sre.google/books/) and invest in [developer experience](https://queue.acm.org/detail.cfm?id=3595878) to reduce friction and increase flow.
 
-**Data and interfaces are first-class citizen.**
+**Set the pace with cycles, not sprints.**
 
-Data must be part of the definition of done. Invest in instrumentation, data models, and contracts. Dogfood teams with data to build analytics and improve the product. Make operations an input to design with observability. Data models and interfaces (e.g., APIs, event contracts, UIs) are [leverages points](https://lethain.com/managing-technical-quality/) for taming complexity and driving quality.
+Acting with a sense of urgency and keeping momentum is essential. Doing it [sustainably](http://www.extremeprogramming.org/rules/overtime.html) is achieved with setting the right cycle. Having a steady n-week cycle gives a baseline from which an organization can continuously learn how to scope, shape, and ship. This will create a system where predictability improves consistently and trust with customers and stakeholders is kept high.
+
+## Kill complexity before it kills you
 
 **Choose good design over bad design.**
 
@@ -66,6 +74,6 @@ Complexity is the enemey in software engineering, and effective design is the wa
 
 Habits that help with this is continuous [refactoring](https://refactoring.guru/refactoring), look for [red flags](https://www.goodreads.com/book/show/39996759-a-philosophy-of-software-design), [tidying](https://www.oreilly.com/library/view/tidy-first/9781098151232/), applying [the Boy Scout Rule](https://deviq.com/principles/boy-scout-rule), [test-driven development](https://en.wikipedia.org/wiki/Test-driven_development) (TDD), and [domain-driven design](https://en.wikipedia.org/wiki/Domain-driven_design) (DDD).
 
-**Set the pace with cycles, not sprints.**
+**Data and interfaces are first-class citizens.**
 
-Acting with a sense of urgency and keeping momentum is essential. Doing it sustainably is achieved with setting the right cycle. Having a steady n-week cycle gives a baseline from which an organization can continuously learn how to scope, shape, and ship. This will create a system where predictability improves consistently and trust with customers and stakeholders is kept high.
+Data must be part of the definition of done. Invest in instrumentation, data models, and contracts. Dogfood teams with data to build analytics and improve the product. Make operations an input to design with observability. Data models and interfaces (e.g., APIs, event contracts, UIs) are [leverages points](https://lethain.com/managing-technical-quality/) for taming complexity and driving quality.
