@@ -30,12 +30,6 @@ Coined by [Alex Ewerlöf](https://blog.alexewerlof.com/p/you-build-it-you-own-it
 
 This is sometimes called shifting left and must be done mindfully to manage cognitive load. Depending on the context, shifting left must be accompanied by effective platform engineering, intentional investment in upskilling, and careful staffing.
 
-## Have some f*cking fun
-
-**Software engineering is a socio-technical endeavour.**
-
-Software engineering is technical but it's built by people. How those people work together is fundamental to the quality of the output and the wellbeing of the team members. Subscribing to this principle means embracing [team topologies](https://teamtopologies.com/) (remember [Conway's law](https://en.wikipedia.org/wiki/Conway%27s_law)), promote practices like [Architectural Decision Records](https://adr.github.io/) (ADRs), schedule blockers for pair and mob programming, do hackathons, make sure engineers regularly talk to users, and be [radically candid](https://www.goodreads.com/book/show/29939161-radical-candor).
-
 ## Get shit done
 
 **Quality and time are constants, scope is variable.**
@@ -72,8 +66,14 @@ Acting with a sense of urgency and keeping momentum is essential. Doing it [sust
 
 Complexity is the enemey in software engineering, and effective design is the way to fight it. The best approach I've seen to good design comes from having the right habits. Good design is primarily about making software do what it's supposed to do while ensuring it's easy to change. This is important because change is inevitable and a key cost driver in software engineering.
 
-Habits that help with this is continuous [refactoring](https://refactoring.guru/refactoring), look for [red flags](https://www.goodreads.com/book/show/39996759-a-philosophy-of-software-design), [tidying](https://www.oreilly.com/library/view/tidy-first/9781098151232/), applying [the Boy Scout Rule](https://deviq.com/principles/boy-scout-rule), [test-driven development](https://en.wikipedia.org/wiki/Test-driven_development) (TDD), and [domain-driven design](https://en.wikipedia.org/wiki/Domain-driven_design) (DDD).
+Habits that help with this is continuous [refactoring](https://refactoring.guru/refactoring), looking for [red flags](https://www.goodreads.com/book/show/39996759-a-philosophy-of-software-design), [tidying](https://www.oreilly.com/library/view/tidy-first/9781098151232/), applying [the Boy Scout Rule](https://deviq.com/principles/boy-scout-rule), doing [test-driven development](https://en.wikipedia.org/wiki/Test-driven_development) (TDD), and [domain-driven design](https://en.wikipedia.org/wiki/Domain-driven_design) (DDD).
 
 **Data and interfaces are first-class citizens.**
 
 Data must be part of the definition of done. Invest in instrumentation, data models, and contracts. Dogfood teams with data to build analytics and improve the product. Make operations an input to design with observability. Data models and interfaces (e.g., APIs, event contracts, UIs) are [leverages points](https://lethain.com/managing-technical-quality/) for taming complexity and driving quality.
+
+## Have some f*cking fun
+
+**Software engineering is a socio-technical endeavour.**
+
+Software engineering is technical but it's built by people. How those people work together is fundamental to the quality of the output and the wellbeing of the team members. Subscribing to this principle means embracing [team topologies](https://teamtopologies.com/) (remember [Conway's law](https://en.wikipedia.org/wiki/Conway%27s_law)), promote practices like [Architectural Decision Records](https://adr.github.io/) (ADRs), schedule blockers for pair and mob programming, do hackathons, make sure engineers regularly talk to users, and be [radically candid](https://www.goodreads.com/book/show/29939161-radical-candor).
