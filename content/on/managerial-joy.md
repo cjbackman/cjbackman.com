@@ -1,6 +1,6 @@
 +++
 title = 'The joy of a manager'
-date = 2025-11-01T11:01:44+02:00
+date = 2025-11-02T11:01:44+02:00
 draft = false
 tags = ['Leadership']
 summary = 'The source of energy as an invidual contributor and a manager.'
