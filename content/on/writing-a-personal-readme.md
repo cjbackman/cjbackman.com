@@ -2,7 +2,7 @@
 title = 'A personal README'
 date = 2024-03-24T17:18:45+01:00
 draft = false
-tags = ['Leadership']
+tags = ['Leadership', 'Trust']
 summary = 'It was not easy to click the share button, but I am glad I did. I wrote a personal README; to promote transparency and openness as I transitioned from an individual contributor to a managerial position.'
 +++
 
