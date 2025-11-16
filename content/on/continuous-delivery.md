@@ -6,9 +6,11 @@ tags = ['Technical Excellence', 'Productivity']
 summary = 'Learnings from implementing continuous delivery.'
 +++
 
-## Problem
+I'm of the strong opinion that _the_ way to build and ship software is continuous delivery. I'm not saying it's objectively the best, I'm just saying it's the best I've seen so far. 
 
-- Issues: slow delivery, especially in highly collaborative code bases with many engineers, so much waste (resolving merge conflicts between long lived branches, many steps in the release process with no purpose / value only transport from one state/branch to another, only contributing to higher risk and low confidence and quality as the complicated process forced batches to always be large since changes kept piling up - there was no way to get a small change out the door quickly → forcing more QA to manage risk → developers/people spending time on non-valuable work → complicated hotfix/mitigation → less time coding → …)
+I've supported a few organizations successfully taking on that journey and I've been meaning to collect my learnings in a post for a while.
+
+I'll use the system for shipping below to reason about issues commonly faced by teams and how continuous delivery can improve the situation.  
 
 ```mermaid
 ---
@@ -25,6 +27,18 @@ flowchart LR
 ```
 
 _Figure 1. Software delivery as a system (source: [Lethain](https://lethain.com/systems-thinking/))._
+
+## Problem
+
+The issues that I've typically seen in organizations that do not practice continuous delivery are:
+
+- It takes ages to get stuff to production.
+- Poor quality resulting in frequent incidents, bugs, and customer disatisfaction.
+- Big and thus risky release batches (since changes accumulate faster than the process can deliver).
+- A lot of time wasted resolving merge conflicts.
+- The release process has multiple unecesary steps adds friction without increasing release confidence.
+- The process for hotfixes is convoluted and fragile.
+- All issues above are excacerbated the more collabortors you have working on the same codebase.
 
 ## Outcomes
 
@@ -43,3 +57,7 @@ _Figure 1. Software delivery as a system (source: [Lethain](https://lethain.com/
 - Pull data from your VCS
 - Ephemeral environments important step for QA and keeping feedback loop short
 - Dare to be bold - deploy every commit → forces the right behaviors (eg cautious -> adding more tests) and every release is by default tiny → safer
+
+Notes
+
+- Issues: slow delivery, especially in highly collaborative code bases with many engineers, so much waste (resolving merge conflicts between long lived branches, many steps in the release process with no purpose / value only transport from one state/branch to another, only contributing to higher risk and low confidence and quality as the complicated process forced batches to always be large since changes kept piling up - there was no way to get a small change out the door quickly → forcing more QA to manage risk → developers/people spending time on non-valuable work → complicated hotfix/mitigation → less time coding → …)
