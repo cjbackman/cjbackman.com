@@ -53,19 +53,3 @@ Below is a table I've used (created together with ChatGPT) to enable teams to se
 | Rollback On-Demand | • Fast, automated rollback paths.<br>• Rollback supported in pipeline. | • Manual rollback steps.<br>• Rollback untested.<br>• Irreversible DB migrations.<br>• Rollback causes downtime.<br>• Not integrated into pipeline. | • Mean time to rollback<br>• # rollback tests per month<br>• % deploys with automated rollback<br>• Deployment recovery time |
 | Application Configuration | • Config separated from code.<br>• Config versioned.<br>• Changes flow via pipeline. | • Manual prod edits.<br>• Secrets not automated.<br>• Env-specific settings not tracked.<br>• Config drift → “works on my machine”. | • % configs version-controlled<br>• # manual config edits in prod<br>• Config rollback success rate |
 | Trunk-Based Development | • All changes integrated to trunk.<br>• Short-lived branches.<br>• Avoid merge hell. | • Branches live for weeks.<br>• Merges painful and delayed.<br>• Manual QA gating.<br>• Parallel branch drift.<br>• Fear of merging due to instability. | • Median branch lifetime<br>• Merge frequency per developer<br>• % commits merged conflict-free |
-
-```mermaid
----
-title: Software delivery as a system
----
-flowchart LR
-    inflow1@{ shape: cloud , label: " "}
-    -->|Coding rate| nc((New commits))
-    -->|Code review rate| rc((Reviewed commits))
-    -->|Deployment rate| dc((Deployed commits))
-    -->|Incident rate| in((Incidents))
-    -->|Recovery rate| revc((Reverted commits))
-    -->|Debug rate| nc
-```
-
-_Figure 1. Software delivery as a system (source: [Lethain](https://lethain.com/systems-thinking/))._
