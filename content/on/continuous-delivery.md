@@ -1,7 +1,7 @@
 +++
 title = 'Release value early and often'
 date = 2025-10-25T11:09:44+02:00
-draft = true
+draft = false
 tags = ['Technical Excellence', 'Productivity']
 summary = 'Learnings from implementing continuous delivery.'
 +++
