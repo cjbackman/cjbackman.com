@@ -84,15 +84,15 @@ I grew tons both professionally and personally due to work, however, I did not a
 
 I don't anticipate major changes in 2026, but rather a focus on continuous improvement and laying the foundation for the future. Some goals (like learning German) are carryovers from last year. _Disclaimer: the list below is not complete as there are a few goals I consider too personal to share publicly._
 
-- **[ <span style="font-size: 10px;background-color: lightcoral;">HEALTH</span> ] Improve my body composition by reducing body fat to 15% by end of Q1 and maintaining it for the rest of the year.** Completion: <span style="color: green;">17% (on track).</span>
+- **[ <span style="font-size: 10px;background-color: lightcoral;">HEALTH</span> ] Improve my body composition by reducing body fat to 15% by end of Q1 and maintaining it for the rest of the year.** Status: <span style="color: green;">17% (on track).</span>
 
-- **[ <span style="font-size: 10px;background-color: lightcoral;">HEALTH</span> ] Improve overall health by having max 12 weeks with more than 2 alcoholic drinks during 2026.** Completion: <span style="color: green;">0 weeks (on track).</span>
+- **[ <span style="font-size: 10px;background-color: lightcoral;">HEALTH</span> ] Improve overall health by having max 12 weeks with more than 2 alcoholic drinks during 2026.** Status: <span style="color: green;">0 weeks (on track).</span>
 
-- **[ <span style="font-size: 10px;background-color: darkseagreen;">GROWTH</span> ] Elevate my German skills by obtaining a B2 certificate by the end of Q3.** Completion: <span style="color: green;">No certificate (on track).</span>
+- **[ <span style="font-size: 10px;background-color: darkseagreen;">GROWTH</span> ] Elevate my German skills by obtaining a B2 certificate by the end of Q3.** Status: <span style="color: green;">No certificate (on track).</span>
 
-- **[ <span style="font-size: 10px;background-color: darkseagreen;">GROWTH</span> <span style="font-size: 10px;background-color: silver;">WORK</span> ] Elevate my AI skills by building an end-to-end AI-powered solution by the end of Q4.** Completion: <span style="color: green;">No certificate obtained (on track).</span>
+- **[ <span style="font-size: 10px;background-color: darkseagreen;">GROWTH</span> <span style="font-size: 10px;background-color: silver;">WORK</span> ] Elevate my AI skills by building an end-to-end AI-powered solution by the end of Q4.** Status: <span style="color: green;">No certificate obtained (on track).</span>
 
-- **[ <span style="font-size: 10px;background-color: gold;">WEALTH</span> ] Set long-term financial goals by the end of Q1.** Completion: <span style="color: green;">No goals set (on track).</span>
+- **[ <span style="font-size: 10px;background-color: gold;">WEALTH</span> ] Set long-term financial goals by the end of Q1.** Status: <span style="color: green;">No goals set (on track).</span>
 
 ## Execute: Action plan
 
