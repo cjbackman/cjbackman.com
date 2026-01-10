@@ -3,7 +3,7 @@ title = 'Retro: AI in the SDLC'
 date = 2026-01-10T16:03:14+01:00
 tags = ['AI', 'Strategy']
 summary = 'Learnings from driving AI adoption in the software development lifecycle.'
-draft = true
+draft = false
 +++
 
 I've been part of driving AI adoption in the SDLC in various shapes and forms, and here are some unpolished notes with my learnings so far. Not all measures below were implemented at the same place, so this is a collection of experiences across multiple organzations. Looking at [DORA 2025](https://services.google.com/fh/files/misc/2025_state_of_ai_assisted_software_development.pdf) and the [METR study](https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/) these experiences are not unique.
