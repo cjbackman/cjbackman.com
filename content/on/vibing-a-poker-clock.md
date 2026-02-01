@@ -1,7 +1,7 @@
 +++
 title = 'Vibing a poker clock'
 date = 2025-03-16T19:23:04+01:00
-tags = ['Vibe Coding', 'AI']
+tags = ['AI']
 summary = 'Impressions from vibing a poker clock.'
 draft = false
 +++

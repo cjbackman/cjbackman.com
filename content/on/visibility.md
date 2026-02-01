@@ -2,7 +2,7 @@
 title = 'Visibility'
 date = 2025-10-03T11:51:53+02:00
 draft = false
-tags = ['Leadership', 'Communication']
+tags = ['Leadership']
 summary = "Visibility done right isn't self-promotion, it's a signal of good work."
 +++
 

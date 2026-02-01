@@ -2,7 +2,7 @@
 title = 'Standards'
 date = 2025-10-19T09:14:32+02:00
 draft = false
-tags = ['Quality', 'Technical Excellence']
+tags = ['Engineering']
 summary = "A collection of standards that I've seen work well in different contexts."
 +++
 

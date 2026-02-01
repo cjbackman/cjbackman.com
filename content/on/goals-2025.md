@@ -1,7 +1,7 @@
 +++
 title = 'Annual review 2024/25'
 date = 2024-12-29T10:34:58+01:00
-tags = ['Personal Growth', 'Annual Review']
+tags = ['Annual Review']
 summary = "Reviewing 2024's progress and setting the focus for 2025."
 draft = false
 +++

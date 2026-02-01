@@ -2,7 +2,7 @@
 title = 'Respond with a link'
 date = 2025-10-18T11:09:44+02:00
 draft = false
-tags = ['Documentation', 'Developer Experience', 'Productivity']
+tags = ['Productivity']
 summary = 'A simple approach to building a well documented knowledge base.'
 +++
 

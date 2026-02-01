@@ -1,7 +1,7 @@
 +++
 title = 'Retro: AI in the SDLC'
 date = 2026-01-10T16:03:14+01:00
-tags = ['AI', 'Strategy']
+tags = ['AI', 'Leadership']
 summary = 'Learnings from driving AI adoption in the software development lifecycle.'
 draft = false
 +++
