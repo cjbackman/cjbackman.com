@@ -1,6 +1,7 @@
 +++
-title = "Nifties"
-date = "2025-01-01"
+title = 'Nifties'
+date = 2026-02-01T15:11:50+01:00
+summary = 'Some tinkering.'
 draft = false
 +++
 
