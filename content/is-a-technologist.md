@@ -1,5 +1,5 @@
 +++
-title = 'About the notetaker'
+title = 'Notetaker'
 date = 2023-09-09T21:11:50+02:00
 summary = 'A brief introduction.'
 draft = false
