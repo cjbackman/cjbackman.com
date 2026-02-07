@@ -2,6 +2,7 @@
 title = 'Why AI is net positive for learning'
 date = 2026-02-07T14:36:20+01:00
 draft = false
+tags = ['AI']
 summary = '..for now and for some.'
 +++
 
