@@ -1,5 +1,5 @@
 +++
-title = 'Release value early and often'
+title = 'Retro: Implementing continuous delivery'
 date = 2025-10-25T11:09:44+02:00
 draft = false
 tags = ['Engineering', 'Productivity']
