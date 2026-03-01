@@ -7,6 +7,11 @@ draft = false
 
 <div class="card-grid">
 
+<a class="card" href="https://app-vitals.vercel.app/" target="_blank" rel="noopener">
+  <h3>App Vitals</h3>
+  <p>Look up App Store and Google Play data side by side.</p>
+</a>
+
 <a class="card" href="https://cjbackman.github.io/poker-clock/" target="_blank" rel="noopener">
   <h3>Poker Clock</h3>
   <p>A simple tournament clock for home poker games.</p>
