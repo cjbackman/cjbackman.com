@@ -16,7 +16,7 @@ hugo server -D
 hugo --gc --minify
 ```
 
-Hugo must be version 0.140.2+ (extended) with Dart Sass.
+Hugo must be version 0.146.0+ (extended not required; theme declares `min = '0.146.0'`).
 
 ## Content
 

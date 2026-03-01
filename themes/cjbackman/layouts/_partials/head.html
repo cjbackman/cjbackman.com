@@ -6,6 +6,7 @@
 {{ range site.Params.customCSS }}
   <link rel="stylesheet" href="{{ . | relURL }}">
 {{ end }}
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
 {{ if site.Params.math }}
 <script>
   MathJax = {

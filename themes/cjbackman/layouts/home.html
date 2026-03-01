@@ -1,9 +1,4 @@
 {{ define "main" }}
-  <section class="bio">
-    <h1>{{ site.Title }}</h1>
-    {{ with site.Params.bio }}<p>{{ . }}</p>{{ end }}
-  </section>
-
   <section class="posts">
     {{ $posts := where site.RegularPages "Section" "on" }}
     {{ $paginator := .Paginate $posts }}

@@ -27,11 +27,6 @@ header nav {
 .nav-links a { color: #555; font-size: 0.9em; }
 .nav-links a + a { margin-left: 1rem; }
 
-/* Bio block (homepage) */
-.bio { margin-bottom: 2rem; }
-.bio h1 { font-size: 1.3rem; margin: 0 0 0.25rem; }
-.bio p { color: #555; margin: 0; }
-
 /* Post listing (homepage) */
 .posts article { margin-bottom: 2rem; }
 .posts h2 { font-size: 1rem; margin: 0 0 0.2rem; }

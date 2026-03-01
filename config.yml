@@ -5,16 +5,11 @@ theme: cjbackman
 
 defaultContentLanguage: en
 
-hasCJKLanguage: true
 permalinks:
   posts: /on/:title/
 
 pagination:
   pagerSize: 3
-
-# paginate: 3
-# googleAnalytics: your-google-analytics-id
-# disqusShortname: your-disqus-shortname
 
 # Hugo Configure Markup
 # More info: https://gohugo.io/getting-started/configuration-markup#
@@ -45,54 +40,21 @@ markup:
 
 # Site parameters
 params:
-  # Site Author
   author: cjbackman
-  # Author biography
-  bio: Become 1% better every day.
-  # Site Description, used in HTML meat
+  # Site description used in HTML meta
   description: Notes on engineering and leadership.
-  avatarLink: https://www.gravatar.com/avatar/af0b4f0e67655ac370ac552275cefa13?s=240&d=mp
 
   social:
     email: mailto:cj@cjbackman.com
     linkedin: https://www.linkedin.com/in/cjbackman
 
-  ###########################################
-  # Optional Configuration
-  ###########################################
-
-  # To enable RSS, you could set `enableRSS: true`, default is `true`
-  enableRSS: false
-  # To enable comments, you may need to set `disqusShortname`
-  enableComments: false
-  # To enable comments, you may need to set `googleAnalytics`
-  enableGoogleAnalytics: false
-  # To enable table of content, you could set `showToc: true`, default is `false`
-  showToc: true
-  # To hidden powerBy message in the page footer, you could set: `showPowerBy: false`, default is `true`
-  showPowerBy: true
-  # To enable math typesetting , you could set `math: true`, default is `false`
+  # Enable math typesetting (MathJax v4)
   math: true
-  # To hidden post summary in home page, you could set `hiddenPostSummaryInHomePage: true`, default is `false`
-  hiddenPostSummaryInHomePage: false
-  # Website copy write, default: '© Copyright 2021 ❤️ {params.author}'
-  copyright: ""
 
-  # More settings
+  # Nav labels
   archive: Notes
   about: Notetaker
   nifties: Nifties
 
-  # Extra links in navigation
-  links:
-    ## e.g.
-    # - name: Project
-    #   path: /project
-
-  # You can put your custom css and js to `static` directory, or use remote css and js files which start with `http://` or `https://`
   customCSS:
     - css/custom.css
-  customJS:
-    ## e.g.
-    # - js/custom.js # local js in `static/js/custom.js`
-    # - https://example.com/custom.js # remote js
