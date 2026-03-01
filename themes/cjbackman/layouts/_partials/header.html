@@ -1,0 +1,8 @@
+<nav>
+  <a href="{{ "/" | relURL }}" class="site-title">{{ site.Title }}</a>
+  <span class="nav-links">
+    <a href="{{ "/on" | relURL }}">{{ site.Params.archive | default "Notes" }}</a>
+    <a href="{{ "/nifties" | relURL }}">{{ site.Params.nifties | default "Nifties" }}</a>
+    <a href="{{ "/is-a-technologist" | relURL }}">{{ site.Params.about | default "About" }}</a>
+  </span>
+</nav>

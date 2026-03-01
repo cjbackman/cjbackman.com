@@ -1,0 +1,5 @@
+<p class="social">
+  {{ with site.Params.social.email }}<a href="{{ . }}">email</a>{{ end }}
+  {{ with site.Params.social.linkedin }}<a href="{{ . }}">linkedin</a>{{ end }}
+</p>
+<p class="copyright">© {{ now.Year }} {{ site.Params.author }}</p>

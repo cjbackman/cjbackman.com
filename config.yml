@@ -1,7 +1,7 @@
 baseURL: https://cjbackman.com/
 languageCode: en-us
 title: Hej, I'm CJ.
-theme: mini
+theme: cjbackman
 
 defaultContentLanguage: en
 

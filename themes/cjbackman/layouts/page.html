@@ -1,0 +1,15 @@
+{{ define "main" }}
+  <article>
+    <h1>{{ .Title }}</h1>
+    <time datetime="{{ .Date | time.Format "2006-01-02" }}">{{ .Date | time.Format "January 2, 2006" }}</time>
+    {{ .Content }}
+    {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}
+  </article>
+
+  {{ if .Page.Store.Get "hasMermaid" }}
+  <script type="module">
+    import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.esm.min.mjs';
+    mermaid.initialize({ startOnLoad: true });
+  </script>
+  {{ end }}
+{{ end }}
