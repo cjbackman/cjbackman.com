@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: cjbackman.com
+  description: Source code for my website.
+  labels:
+    tier: '3'
+spec:
+  type: service
+  lifecycle: production
+  owner: '@cjbackman'
