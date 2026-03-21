@@ -12,7 +12,7 @@ draft = true
 
 I was hoping I could achieve this with smaller means, like adjusting my sugar consumption. Turns out it wasn't that easy. Beginning of March when I realized I didn't make too much progress, I adjusted and revised my plan and essentially created a new 12 week plan. Reducing carbs further, and increasing protein intake.
 
-- **[ <span style="font-size: 10px;background-color: lightcoral;">HEALTH</span> ] Improve overall health by having max 12 weeks with more than 2 alcoholic drinks during 2026.** Completion: <span style="color: yellow;">4 weeks (off track).</span>
+- **[ <span style="font-size: 10px;background-color: lightcoral;">HEALTH</span> ] Improve overall health by having max 12 weeks with more than 2 alcoholic drinks during 2026.** Completion: <span style="color: yellow;">5 weeks (off track).</span>
 
 Beginning of the year had more parties than I had first planned. Overall the consumption is certainly low and that feels good. 
 
