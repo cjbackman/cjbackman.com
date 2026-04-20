@@ -19,3 +19,4 @@ I'm a big fan of conventions and the compounding value they provide. They create
 - [Architectural Decision Records](https://adr.github.io/)
 - [Pair Programming](https://ronjeffries.com/xprog/what-is-extreme-programming/#pair)
 - [Internal Open Source](https://blog.thepete.net/blog/2021/06/17/patterns-of-cross-team-collaboration/)
+- [AgentSkills](https://agentskills.io/home)
