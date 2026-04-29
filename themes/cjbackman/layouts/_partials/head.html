@@ -3,11 +3,8 @@
 <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ site.Params.description }}{{ end }}">
 <title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ printf "%s | %s" .Title site.Title }}{{ end }}</title>
 {{ partialCached "head/css.html" . "global" }}
-{{ range site.Params.customCSS }}
-  <link rel="stylesheet" href="{{ . | relURL }}">
-{{ end }}
+{{ if .Params.math }}
 <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
-{{ if site.Params.math }}
 <script>
   MathJax = {
     tex: {

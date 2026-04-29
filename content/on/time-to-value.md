@@ -4,6 +4,7 @@ date = 2026-03-29T11:36:42+02:00
 tags = ['Engineering', 'Leadership']
 summary = 'Time-to-market is an incomplete measure.'
 draft = false
+math = true
 +++
 
 A question I keep running into when engineering organizations set their metrics is some version of: how do we improve time-to-market? It's a reasonable instinct. But I think it's often the wrong north star, and the organizations that use it uncritically pay a quiet price for it.

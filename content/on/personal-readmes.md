@@ -115,6 +115,6 @@ _and what I hold myself accountable for._
 
 - Acting as a trusted partner to other functions and fostering strong collaboration within engineering and across the company.
 
-[![lake.jpg](/personal-readmes/lake.jpg)](/personal-readmes/lake.jpg)
+[![A still lake at dusk seen from a wooded shoreline.](/personal-readmes/lake.jpg)](/personal-readmes/lake.jpg)
 
 _Figure 1. The view from my sauna during a cold summer night._

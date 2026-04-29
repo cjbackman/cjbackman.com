@@ -11,7 +11,7 @@
     {{ end }}
   </section>
 
-  <nav class="pagination">
+  <nav class="pagination" aria-label="Pagination">
     {{ with $paginator.Next }}<a href="{{ .URL }}">← older</a>{{ end }}
     {{ with $paginator.Prev }}<a href="{{ .URL }}">newer →</a>{{ end }}
   </nav>

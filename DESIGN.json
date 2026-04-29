@@ -1,0 +1,208 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-04-29T00:00:00Z",
+  "title": "Design System: cjbackman.com",
+  "extensions": {
+    "colorMeta": {
+      "ink": {
+        "role": "neutral",
+        "displayName": "Ink",
+        "canonical": "#111111",
+        "tonalRamp": ["#000000", "#0a0a0a", "#111111", "#222222", "#444444", "#777777", "#bbbbbb", "#eeeeee"]
+      },
+      "paper": {
+        "role": "neutral",
+        "displayName": "Paper",
+        "canonical": "#ffffff",
+        "tonalRamp": ["#dddddd", "#e8e8e8", "#f0f0f0", "#f5f5f5", "#f8f8f8", "#fafafa", "#fcfcfc", "#ffffff"]
+      },
+      "link-blue": {
+        "role": "primary",
+        "displayName": "Link Blue",
+        "canonical": "#0000ee",
+        "tonalRamp": ["#000066", "#000099", "#0000bb", "#0000ee", "#3333ff", "#6666ff", "#9999ff", "#ccccff"]
+      },
+      "hover-blue": {
+        "role": "secondary",
+        "displayName": "Hover Blue",
+        "canonical": "#5badf0",
+        "tonalRamp": ["#1a4a78", "#2c6ba8", "#3e8cd0", "#5badf0", "#7dbdf3", "#9fcdf7", "#c1ddfa", "#e3edfd"]
+      },
+      "rule-line": {
+        "role": "neutral",
+        "displayName": "Rule Line",
+        "canonical": "#dddddd",
+        "tonalRamp": ["#666666", "#888888", "#aaaaaa", "#cccccc", "#dddddd", "#e6e6e6", "#f0f0f0", "#fafafa"]
+      },
+      "margin-gray": {
+        "role": "neutral",
+        "displayName": "Margin Gray",
+        "canonical": "#555555",
+        "tonalRamp": ["#1a1a1a", "#2e2e2e", "#424242", "#555555", "#777777", "#999999", "#bbbbbb", "#dddddd"]
+      },
+      "meta-gray": {
+        "role": "neutral",
+        "displayName": "Meta Gray",
+        "canonical": "#666666",
+        "tonalRamp": ["#222222", "#333333", "#4d4d4d", "#666666", "#888888", "#aaaaaa", "#cccccc", "#eeeeee"]
+      },
+      "archive-gray": {
+        "role": "neutral",
+        "displayName": "Archive Gray",
+        "canonical": "#888888",
+        "tonalRamp": ["#333333", "#4d4d4d", "#666666", "#888888", "#aaaaaa", "#bbbbbb", "#dddddd", "#f0f0f0"]
+      },
+      "card-edge": {
+        "role": "neutral",
+        "displayName": "Card Edge",
+        "canonical": "#eeeeee",
+        "tonalRamp": ["#888888", "#aaaaaa", "#cccccc", "#dddddd", "#e6e6e6", "#eeeeee", "#f5f5f5", "#fcfcfc"]
+      },
+      "card-tint": {
+        "role": "neutral",
+        "displayName": "Card Tint",
+        "canonical": "#f8f8f8",
+        "tonalRamp": ["#cccccc", "#dddddd", "#e6e6e6", "#eeeeee", "#f3f3f3", "#f8f8f8", "#fbfbfb", "#fefefe"]
+      },
+      "code-tint": {
+        "role": "neutral",
+        "displayName": "Code Tint",
+        "canonical": "#f5f5f5",
+        "tonalRamp": ["#cccccc", "#dddddd", "#e6e6e6", "#ededed", "#f0f0f0", "#f5f5f5", "#fafafa", "#fdfdfd"]
+      }
+    },
+    "typographyMeta": {
+      "body": {
+        "displayName": "Body",
+        "purpose": "Default running prose, the only voice on the page. 15px / 1.65, monospace, ink color."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Single-post H1. Used once per page. 1.4rem, weight 700."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "H2 inside a post; primary structural break. 1.15rem, weight 700."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Time stamps, footer, archive metadata. 0.85em, meta or archive gray."
+      }
+    },
+    "shadows": [],
+    "motion": [
+      {
+        "name": "ease-state",
+        "value": "0.2s ease",
+        "purpose": "Default transition for state changes (card border on hover). Capped at 200ms."
+      }
+    ],
+    "breakpoints": [
+      { "name": "sm", "value": "480px" },
+      { "name": "md", "value": "700px" },
+      { "name": "container", "value": "680px" }
+    ]
+  },
+  "components": [
+    {
+      "name": "Body Link",
+      "kind": "link",
+      "refersTo": "link",
+      "description": "Standard inline link inside running prose.",
+      "html": "<a href=\"#\" class=\"ds-link\">a body link</a>",
+      "css": ".ds-link { color: #0000ee; text-decoration: none; font-family: ui-monospace, Menlo, Consolas, monospace; } .ds-link:hover { text-decoration: underline; } .ds-link:visited { color: #551a8b; }"
+    },
+    {
+      "name": "Nav Link",
+      "kind": "nav",
+      "refersTo": "nav-link",
+      "description": "Top-bar navigation link, sits in margin gray at 0.9em.",
+      "html": "<a href=\"#\" class=\"ds-nav-link\">Notes</a>",
+      "css": ".ds-nav-link { color: #555555; font-size: 0.9em; font-family: ui-monospace, Menlo, Consolas, monospace; text-decoration: none; } .ds-nav-link:hover { text-decoration: underline; }"
+    },
+    {
+      "name": "Post Card",
+      "kind": "card",
+      "refersTo": "card",
+      "description": "Homepage card from custom.css — gently rounded, hairline border, hover-blue edge transition.",
+      "html": "<a href=\"#\" class=\"ds-card\"><h3 class=\"ds-card-title\">Continuous delivery</h3><p class=\"ds-card-body\">Notes on shipping small things often.</p></a>",
+      "css": ".ds-card { display: block; background: #f8f8f8; border: 1px solid #eeeeee; border-radius: 4px; padding: 1.2rem 1.4rem; text-decoration: none; color: inherit; transition: border-color 0.2s ease; font-family: ui-monospace, Menlo, Consolas, monospace; } .ds-card:hover { border-color: #5badf0; } .ds-card-title { margin: 0 0 0.4rem; font-size: 1.05rem; } .ds-card-body { margin: 0; color: #555555; font-size: 0.92rem; }"
+    },
+    {
+      "name": "Inline Code",
+      "kind": "custom",
+      "refersTo": "code-inline",
+      "description": "Inline code span — body font at 0.92em with code tint background.",
+      "html": "<code class=\"ds-code-inline\">hugo --gc --minify</code>",
+      "css": ".ds-code-inline { background: #f5f5f5; padding: 0.1em 0.3em; border-radius: 2px; font-family: ui-monospace, Menlo, Consolas, monospace; font-size: 0.92em; color: #111111; }"
+    },
+    {
+      "name": "Pre Block",
+      "kind": "custom",
+      "refersTo": "pre-block",
+      "description": "Code block — same family and size as body, code tint background, hairline radius, x-scrollable.",
+      "html": "<pre class=\"ds-pre\"><code>hugo server -D\nhugo --gc --minify</code></pre>",
+      "css": ".ds-pre { background: #f5f5f5; padding: 1em; border-radius: 2px; overflow-x: auto; margin: 1.2em 0; font-family: ui-monospace, Menlo, Consolas, monospace; font-size: 0.92em; color: #111111; line-height: 1.65; } .ds-pre code { background: none; padding: 0; }"
+    },
+    {
+      "name": "Blockquote",
+      "kind": "custom",
+      "refersTo": "blockquote",
+      "description": "The single sanctioned colored-side-stripe — uses rule-line gray, not an accent.",
+      "html": "<blockquote class=\"ds-blockquote\">A quoted passage from another voice, set in margin gray.</blockquote>",
+      "css": ".ds-blockquote { margin: 1em 0; padding-left: 1em; border-left: 3px solid #dddddd; color: #555555; font-family: ui-monospace, Menlo, Consolas, monospace; font-style: italic; }"
+    },
+    {
+      "name": "Table",
+      "kind": "custom",
+      "refersTo": "table",
+      "description": "Full-width data table — collapsed hairline borders, code-tint header background.",
+      "html": "<table class=\"ds-table\"><thead><tr><th>Column</th><th>Value</th></tr></thead><tbody><tr><td>Row</td><td>Cell</td></tr></tbody></table>",
+      "css": ".ds-table { width: 100%; border-collapse: collapse; margin: 1.5em 0; font-size: 0.9em; font-family: ui-monospace, Menlo, Consolas, monospace; } .ds-table th, .ds-table td { text-align: left; padding: 0.4em 0.8em; border: 1px solid #dddddd; } .ds-table th { background: #f5f5f5; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Working Notebook",
+    "overview": "A site that reads like an engineer's notebook left open on the desk. The default state is plain text on paper: monospace, single column, generous line-height, the only color reserved for links. The chrome — header, footer, dividers — is hairline-thin gray that frames the writing without competing with it. Nothing on the page is performing.\n\nThe system is deliberately the opposite of SaaS marketing. There are no hero sections, no metrics, no gradients, no illustrations, no card grids of features, no CTAs. Where most personal sites reach for editorial polish or Dribbble whimsy, this one stays in the lineage of the early-internet academic homepage and the developer's ~/notes directory. Plain over polished is not a starting point to be embellished; it is the finished aesthetic.\n\nThe voice the design carries is dry-witted, honest, thoughtful. The first impression is quiet confidence: a reader should feel they've stumbled into someone's working notebook, not a landing page.",
+    "keyCharacteristics": [
+      "Single 680px column, monospace throughout, near-zero ornament.",
+      "One accent color (link blue), used only for actual links.",
+      "Borders, never shadows. Flat by default.",
+      "Type hierarchy from weight + scale (≥1.15× steps), not from color or decoration.",
+      "Motion limited to 0.2s ease state transitions."
+    ],
+    "rules": [
+      { "name": "The One Color Rule", "body": "The link blue is the only saturated color on the page. Any future accent must justify why it isn't being expressed in weight, scale, or gray.", "section": "colors" },
+      { "name": "The No Pure Black, No Pure White Rule", "body": "Body text is #111111, not #000000. The page is #ffffff by intent (paper), but every surface tinted off-white must lean cool-neutral, never warm.", "section": "colors" },
+      { "name": "The Visited Link Rule", "body": "Visited links use the browser default. They are intentionally a different color from unvisited links. Do not override :visited.", "section": "colors" },
+      { "name": "The One Family Rule", "body": "The body font, code font, and heading font are the same monospace stack. Do not introduce a serif or proportional sans for any reason.", "section": "typography" },
+      { "name": "The Scale-and-Weight Rule", "body": "Hierarchy is built from scale steps (≥1.15×) and weight contrast (400 vs 700) only. Do not introduce italic, uppercase, letter-spacing, or color to make a heading feel different.", "section": "typography" },
+      { "name": "The Code-Looks-Like-Body Rule", "body": "Inline code and <pre> blocks use the body font at 0.92em with the code tint background. Code is not visually exotic on this site; it's prose's neighbor.", "section": "typography" },
+      { "name": "The Flat Rule", "body": "No box-shadow anywhere. None for cards at rest, none on hover, none for code blocks, none on the focus ring. Focus is communicated via outline, not shadow.", "section": "elevation" },
+      { "name": "The Hairline Rule", "body": "Every divider on the site is 1px solid #dddddd (rule lines) or 1px solid #eeeeee (card edges). Never thicker. Never a colored stripe.", "section": "elevation" }
+    ],
+    "dos": [
+      "Do keep the column at 680px and the body font monospace. Both are load-bearing for the working notebook voice.",
+      "Do reserve #0000ee for actual links and only for actual links. The one-color posture only works if it's enforced.",
+      "Do build hierarchy from scale + weight (≥1.15× steps, 400 vs 700). Anything that needs more visual weight needs better writing, not a second color.",
+      "Do use hairline borders (#dddddd for structure, #eeeeee for card edges) wherever a divider is needed. Borders, never shadows.",
+      "Do use the existing meta-gray ladder (#555 → #666 → #888) for secondary, tertiary, and quietest text. Don't invent new gray tones.",
+      "Do keep code and prose in the same font. Code blocks are not visually exotic on this site.",
+      "Do ship features as progressive enhancements (Mermaid, MathJax). Reading the site without JS must work."
+    ],
+    "donts": [
+      "Don't introduce a second font family. No serif display, no proportional sans, no webfont download. The mono-everywhere stack is the design.",
+      "Don't add hero sections, hero-metric blocks, or three-column feature grids. These are the SaaS-marketing cliches PRODUCT.md explicitly rejects.",
+      "Don't use gradient text, gradient backgrounds, gradient buttons, or background-clip: text. Anywhere.",
+      "Don't add glassmorphism, drop shadows, blurs, or any depth-theatre effect. Flat is the rule.",
+      "Don't add stock illustrations, AI-generated header art, or abstract tech imagery to posts or the homepage.",
+      "Don't add newsletter modals, exit-intent popups, sticky CTAs, or subscribe call-outs of any kind.",
+      "Don't add a dark-mode toggle as a personality move. If dark mode ever ships, it must be triggered by prefers-color-scheme only.",
+      "Don't override :visited link color. The two-tone link state is intentional.",
+      "Don't use border-left greater than 1px as a colored accent on cards or callouts, except the existing blockquote, which uses rule-line gray and is sanctioned.",
+      "Don't add bounce, elastic, or scroll-driven motion. Transitions cap at 0.2s ease for state changes.",
+      "Don't use em dashes in copy on this site (or --). Use commas, colons, semicolons, periods, parentheses.",
+      "Don't introduce conversion-optimized verbs (Unlock, Supercharge, Transform). The site does not sell."
+    ]
+  }
+}

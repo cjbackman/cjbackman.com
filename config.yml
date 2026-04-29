@@ -48,13 +48,7 @@ params:
     email: mailto:cj@cjbackman.com
     linkedin: https://www.linkedin.com/in/cjbackman
 
-  # Enable math typesetting (MathJax v4)
-  math: true
-
   # Nav labels
   archive: Notes
   about: Notetaker
   nifties: Nifties
-
-  customCSS:
-    - css/custom.css
