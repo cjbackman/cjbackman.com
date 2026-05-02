@@ -1,5 +1,5 @@
 baseURL: https://cjbackman.com/
-languageCode: en-us
+locale: en-us
 title: Hej, I'm CJ.
 theme: cjbackman
 
