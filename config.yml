@@ -52,3 +52,16 @@ params:
   archive: Notes
   about: Notetaker
   nifties: Nifties
+
+  # Giscus comments (GitHub Discussions). Fill repoId + categoryId from
+  # https://giscus.app to enable. Opt out per post with `comments = false`
+  # in frontmatter.
+  giscus:
+    repo: cjbackman/cjbackman.com
+    repoId: "MDEwOlJlcG9zaXRvcnkxNDA5NTY4NTU="
+    category: General
+    categoryId: "DIC_kwDOCGbUt84C8MVX"
+    mapping: pathname
+    inputPosition: bottom
+    theme: light
+    lang: en
