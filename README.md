@@ -21,3 +21,9 @@ git submodule update --init --recursive
 # to update theme
 git submodule update --remote --merge
 ```
+
+Enable git hooks (pre-push Hugo build check):
+
+```
+git config core.hooksPath .githooks
+```
