@@ -6,8 +6,8 @@ Personal blog and notes site for cjbackman.com. Built with Hugo (static site gen
 
 ## Tech Stack
 
-- **Static site generator**: Hugo 0.140.2 (extended, with Dart Sass)
-- **Theme**: [mini](https://github.com/dustinmichels/hugo-theme-mini) (git submodule in `themes/mini/`)
+- **Static site generator**: Hugo 0.161.1 (extended, with Dart Sass). CI version pinned in `.github/workflows/hugo.yaml`.
+- **Theme**: `cjbackman` (custom, vendored in-tree at `themes/cjbackman/`). Not a submodule.
 - **Content format**: Markdown with TOML frontmatter
 - **Deployment**: GitHub Actions → GitHub Pages
 - **Domain**: cjbackman.com (configured via `CNAME`)
@@ -19,9 +19,10 @@ content/on/          # Blog posts (markdown)
 content/             # Standalone pages (e.g. is-a-technologist.md)
 layouts/             # Custom Hugo layout overrides
 static/              # Static assets (images, favicons)
-themes/              # Hugo themes (git submodules, do not edit directly)
+themes/cjbackman/    # Custom theme (vendored in-tree)
 assets/css/          # SCSS/CSS stylesheets
 archetypes/          # Content templates for `hugo new`
+.githooks/           # Versioned git hooks (activated via core.hooksPath)
 .github/workflows/   # CI/CD pipeline
 config.yml           # Hugo site configuration
 ```
@@ -69,7 +70,17 @@ hugo server -D
 hugo --gc --minify
 ```
 
-Hugo must be version 0.140.2+ (extended) with Dart Sass installed.
+Hugo must be version 0.146.0+ (extended) — the theme declares this minimum. CI pins to 0.161.1; keep local close to that to avoid drift.
+
+## Git Hooks
+
+Versioned hooks live in `.githooks/`. Activate per-clone:
+
+```sh
+git config core.hooksPath .githooks
+```
+
+`pre-push` runs `hugo --gc --minify` and warns on Hugo version drift between local and CI. Bypass with `git push --no-verify` when needed.
 
 ## Deployment
 
@@ -103,6 +114,6 @@ There is no separate main/master branch. `gh-pages` is the sole active branch.
 
 ## Things to Avoid
 
-- Do not edit files inside `themes/` — these are git submodules.
-- Do not change the branch name from `gh-pages` — deployment depends on it.
-- Do not add `public/` to version control — it is gitignored and generated at build time.
+- The theme `themes/cjbackman/` is custom and vendored — edit with care, but it is not a submodule.
+- Do not change the branch name from `gh-pages`. Deployment depends on it.
+- Do not add `public/` to version control. It is gitignored and generated at build time.
