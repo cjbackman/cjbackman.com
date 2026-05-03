@@ -2,7 +2,7 @@
 title = 'The Future Org'
 date = 2026-05-03T08:41:47+02:00
 draft = true
-tags = ['AI', 'Leadership' 'Engineering']
+tags = ['AI', 'Leadership', 'Engineering']
 summary = 'Teams getting bigger, organisations getting smaller. What that asks of engineers and leaders.'
 +++
 
