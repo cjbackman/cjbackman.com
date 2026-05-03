@@ -1,0 +1,17 @@
+#!/bin/sh
+set -e
+
+echo "→ Hugo build check..."
+if ! hugo --gc --minify --quiet; then
+  echo "✗ Hugo build failed. Push aborted."
+  echo "  Fix locally first, then retry."
+  exit 1
+fi
+
+CI_VERSION=$(grep "HUGO_VERSION:" .github/workflows/hugo.yaml | awk '{print $2}')
+LOCAL_VERSION=$(hugo version | awk '{print $2}' | sed 's/^v//;s/+.*//')
+if [ "$CI_VERSION" != "$LOCAL_VERSION" ]; then
+  echo "⚠  Hugo version drift: local $LOCAL_VERSION ≠ CI $CI_VERSION"
+fi
+
+echo "✓ Build passed."
