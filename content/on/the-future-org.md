@@ -6,8 +6,6 @@ tags = ['AI', 'Leadership', 'Engineering']
 summary = 'Teams getting bigger, organisations getting smaller. What that asks of engineers and leaders.'
 +++
 
-# The future org
-
 Teams are getting bigger. Organisations are getting smaller.
 
 That's the bet, and we can see it in the most forward-leaning AI-native companies. [Cursor hit $100M ARR with around 20 people](https://www.linkedin.com/posts/miriamdong_ai-just-broke-saas-rip-the-first-1-activity-7301224634476023808-K4Zx). [Midjourney is doing $200M+ with roughly 40](https://byteiota.com/tiny-teams-revolution-11-person-midjourney-hits-200m/). [Mercor is generating around $4.5M per employee](https://andrew.ooo/posts/mercor-45m-revenue-per-employee-ai-training/). Atlassian, at a similar ARR milestone, had hundreds of people on payroll. The bar for revenue per employee has shifted by an order of magnitude.
