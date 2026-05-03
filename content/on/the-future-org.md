@@ -66,6 +66,6 @@ The new stressor is automation and data collection. The same tooling that enable
 
 ## So who leads well in this org?
 
-The leader of one of these teams has to be technically strong enough to get close to the technology, lead ICs directly, and make calls on architectural ephemerality. They have to create clarity in conditions that resist it. They have to build human trust in fluid teams where the org chart gives them less to lean on. And they have to do all of it across a larger span, with help from tooling that's still maturing.
+The leader of one of these teams has to be technically strong enough to get close to the technology, make architectual calls and lead ICs directly. They have to create clarity in conditions that resist it. They have to build human trust in fluid teams where the org chart gives them less to lean on. And they have to do all of it across a larger span, with help from tooling that's still maturing.
 
-The conditions that made the old leadership job tolerable (slow pace, durable teams, narrower spans, less data) are gone. The new job is harder. The leaders who thrive will be the ones who can hold the tensions without flinching: creating clarity, building trust in fluid teams, and staying close to the technology, even as the span doubles.
+The conditions that made the old leadership job tolerable (slow pace, durable teams, narrower spans, less data) are gone. The new job is harder.
