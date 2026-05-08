@@ -10,17 +10,15 @@ Teams are getting bigger. Organisations are getting smaller.
 
 That's the bet, and we can see it in the most forward-leaning AI-native companies. [Cursor hit $100M ARR with around 20 people](https://www.linkedin.com/posts/miriamdong_ai-just-broke-saas-rip-the-first-1-activity-7301224634476023808-K4Zx). [Midjourney is doing $200M+ with roughly 40](https://byteiota.com/tiny-teams-revolution-11-person-midjourney-hits-200m/). [Mercor is generating around $4.5M per employee](https://andrew.ooo/posts/mercor-45m-revenue-per-employee-ai-training/). Atlassian, at a similar ARR milestone, had hundreds of people on payroll. The bar for revenue per employee has shifted by an order of magnitude.
 
-What I haven't seen yet is an established organisation compress into that shape. The proof points are all greenfield, AI-native companies built lean from day one. My bet is we'll see more of them, and that some incumbents will figure out the compression. It's also possible none of them stay this lean as they scale. We don't know yet. But the form is plausible enough to think through now.
+There's not too much evidence of established organisation compressing yet. Yes, there are layoffs but they seem more related to financial necessity than anything else. The proof points are all greenfield, AI-native companies built lean from day one. My bet is we'll see more of them, and that some incumbents will figure out the compression. It's also possible none of them stay this lean as they scale. We don't know yet. But the form is plausible enough to think through now.
 
 ## Why bigger teams, not smaller
 
-The opposite forecast is also live. Solo founders ship full products, [Pieter Levels](https://levels.io/) operates several at once, and "$1M ARR with one person" is a real pattern. So why does the unit consolidate at double-digit people in this model rather than collapsing further?
-
-I think it's specialisation of judgement and resilience. Even when execution collapses into agents, distinct judgement is still needed for product, design, infrastructure, and go-to-market. Agents don't replace that yet. And one-person companies break the moment the founder burns out or loses interest. A team of fifteen with strong relationships absorbs that.
+The opposite forecast is also live. Solo founders ship full products, [Pieter Levels](https://levels.io/) operates several at once, and "$1M ARR with one person" is a real pattern. I don't think more complex products will collapse into single-digit work forces though. There is still a specialisation of judgement and resilience needed. Even when execution collapses into agents, distinct judgement is still needed for product, design, infrastructure, and go-to-market. Agents don't replace that yet. And one-person companies break the moment the founder burns out or loses interest. A team of fifteen with strong relationships absorbs that.
 
 The interesting consequence is that the team becomes synonymous with the organisation. Where before you'd have a 100-person org wrapped around a product, you now have one team that *is* the product organisation. Lean, flat, with most ICs reporting into one or a few leaders.
 
-[As Neal Ford said on the alphalist podcast](https://alphalist.com/podcast/136-136-ai-writes-code-who-architects-the-consequences-with-neal-ford-software-architect-author), there's a new *-ility* emerging in software architecture: *ephemerality*. Technical decisions now have to consider how ephemeral the product or architecture is. The same applies to organisational structure. Teams form, ship, dissolve, reform around the next bet.
+As for software architecture, I found [Neal Ford's comment on the alphalist podcast interesting](https://alphalist.com/podcast/136-136-ai-writes-code-who-architects-the-consequences-with-neal-ford-software-architect-author): there's a new *-ility* emerging in software architecture, *ephemerality*. Technical decisions now have to consider how ephemeral the product or architecture is. The same applies to organisational structure. Teams form, ship, dissolve, reform around the next bet.
 
 ## What it asks of engineers
 
@@ -44,7 +42,7 @@ The flip side is that juniors are freer to adopt new tools and aren't held back 
 
 If the team is the organisation, the role of the leader matters more, not less.
 
-Spans of control will grow. My instinct is 1:15 to 1:20 to start, scaling up or down depending on how well the supporting tooling works. That's enabled by automating the most time-consuming parts of the manager job: reviewing work to give feedback, staying on top of deliverables to manage risk, surfacing growth opportunities.
+Spans of control will grow, supported by tooling that automates the most time-consuming parts of the manager job: reviewing work to give feedback, staying on top of deliverables to manage risk, surfacing growth opportunities.
 
 Concretely: tools like [Mesmer](https://mesmer.co/) plugged into your VCS, issue tracking, and meeting notes, continuously farming for feedback opportunities, growth areas, and at-risk deliverables. The manager gets curated signal instead of digging.
 
