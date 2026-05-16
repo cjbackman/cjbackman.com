@@ -36,7 +36,7 @@ Include Google Sheet template? Share on the blog?
 
 ### Amended Goals
 
-- **[ <span style="font-size: 10px;background-color: lightcoral;">HEALTH</span> ] Improve overall health by having max 6 weeks with more than 5 alcoholic drinks and on 2 days of the weeks during Q3/Q4 2026.** Completion: <span style="color: yellow;">0 weeks (on track).</span>
+- **[ <span style="font-size: 10px;background-color: lightcoral;">HEALTH</span> ] Improve overall health by having max 6 weeks with <=5 drinks/week, <= 2 days/week, and <= 3 drinks/day during Q3/Q4 2026.** Completion: <span style="color: yellow;">0 weeks (on track).</span>
 
 - **[ <span style="font-size: 10px;background-color: darkseagreen;">GROWTH</span> ] Elevate my French skills by obtaining a A2 certificate by the end of Q3.** Completion: <span style="color: green;">No certificate (on track).</span>
 
