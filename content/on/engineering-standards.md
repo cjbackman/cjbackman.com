@@ -10,7 +10,7 @@ I'm a big fan of conventions and the compounding value they provide. They create
 
 - [Semantic Versioning](https://semver.org/)
 - [Changelogs](https://keepachangelog.com/en/1.1.0/)
-- [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/)
+- [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) (although there is [fair critique against is](https://sumnerevans.com/posts/software-engineering/stop-using-conventional-commits/) and a [potential alternative](https://scopedcommits.com/))
 - [OpenAPI](https://spec.openapis.org/oas/latest.html)
 - [AsyncAPI](https://www.asyncapi.com/docs/reference)
 - [Continuous Delivery](https://minimumcd.org/)
