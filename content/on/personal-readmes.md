@@ -16,7 +16,7 @@ _that might make it easier to get to know and understand me._
 
 - I grew up in a tiny village in a rural area in the north of Sweden. During childhood, I spent most of my time outdoors and taking care of a wide range of animals together with my grandmother. That upbringing gave me a love of nature, wildlife and taught me empathy.
 
-- Sweden has a non-confrontational and emotionally unexpressive culture which has shaped me and how I make decisions. Using the [DiSC model](https://www.discprofile.com/disc-styles) terminology, I tend to gravitate toward the styles i and S.
+- Sweden has a non-confrontational and emotionally unexpressive culture which has shaped me and how I make decisions. Using the [DiSC model](https://www.discprofile.com/disc-styles) terminology, I tend to gravitate toward [influence](https://www.discprofile.com/disc-styles/influence) and [steadiness](https://www.discprofile.com/disc-styles/steadiness).
 
 - My journey with computers started as a kid playing games on my friend’s Commodore 64. My interest grew after I inherited a Macintosh 128K from my uncle’s car dealership business and the relationship came to full fruition when I built my first computer around the age of 13. I attribute my passion for coding to an enthusiastic and dedicated computer science teacher in high school.
 
@@ -25,6 +25,8 @@ _that might make it easier to get to know and understand me._
 - The area of Sweden where I grew up is dominated by a working-class culture with few qualified jobs (my first job was as a lumberjack) and a strong sense of community. I believe this instilled a sense of solidarity in me and contributed to an interest in global development, human rights, and international relations. An interest that led me to work at [Amnesty](https://www.amnesty.org/en/), [Gapminder](https://www.gapminder.org/), and a short stint for the [UNDP](https://www.undp.org/) in Khartoum and New York.
 
 - I’m introverted and prefer to recharge with some quiet time. Please don’t mistake my quiet for lack of interest. I like to observe and reflect.
+
+- In the [CORE personality test](https://www.core-sciences.com/) I score high in _conscientiousness_ (a need for things to get done and be right) and _agreeableness_, and low in _need for stability_.
 
 - One of my favorite places on earth is a tiny cabin of mine located close to where I grew up. It’s not accessible by car and has no electricity, internet connection or running water. It sits right next to a lake and has a lovely wood-fired sauna (see Figure 1 below).
 
@@ -36,24 +38,19 @@ _that might make it easier to get to know and understand me._
 
 - I consider myself a lifelong learner and _joy of learning_ came out as my [top character strength](https://www.viacharacter.org/). I think this is also why I like software engineering. The best teams are those that learn the fastest.
 
-- In the [CORE personality test](https://www.core-sciences.com/) I score high in _conscientiousness_ (a need for things to get done and be right) and _agreeableness_, and low in _need for stability_.
+## Things I value
 
+_and strive to live by._
 
-## What I value
+- **Ownership.** I hold a high bar for myself, and I take great pride in always doing my best work and seeing things through. “It’s not my job” triggers me.
 
-_from myself and others._
+- **Proactivity.** Action beats reaction. Don't wait for approval. Decide, act, and inform.
 
-- **Ownership.** I hold a high bar for myself, and I take great pride in always doing my best work and getting things done. “It’s not my job” triggers me.
+- **Transparency.** I think an organization is much better off when there is transparency around the work being done, decisions, processes, data, whatever.
 
-- **Agency.** Action beats reaction. Autonomy is important for motivation and to do great work. Autonomy at scale only works with agency. I like to take matters into my own hands and drive execution, perhaps sometimes too much.
-
-- **Transparency.** I think an organization is much better off when there is transparency around the work being done, decisions, processes, data, whatever. I apply this to my work and appreciate it from others.
-
-- **Kindness.** I always try to assume good intentions and I know everyone is fighting their own battle. Kindness sometimes mean having tough discussions or making tough decisions.
+- **Kindness.** I always try to assume good intentions and I know everyone is fighting their own battle. Kindness sometimes means having tough discussions or making tough decisions.
 
 - **Play.** Work is hard enough as it is, so having fun together and finding joy in what we do is important to make it sustainable.
-
-- **Growth mindset.** It's possible to learn and achieve incredible things through dedication and great collaboration.
 
 - **Feedback.** I consider both the act of receiving and giving feedback a gift. Feel free to provide direct feedback to me in whatever format you prefer (sync or async), whenever you want. You don’t need to ask for permission and please be direct but not mean.
 
@@ -67,17 +64,13 @@ _and that I’m happy to help with if I can._
 
 - **Structure.** I’m an organized person and I thrive on structure. That’s one of the reasons I always loved writing documentation as an engineer.
 
-- **Strategizing.** I like observing and debugging situations and systems. I get into flow trying to piece various bits of information together, do some pattern matching, and craft a coherent response to a particular challenge.
-
-- **Communication.** I enjoy crafting messages, written as well as spoken. So I’m happy to help if you want feedback on something you wrote or dry run a presentation.
-
-- **Execution.** I like getting stuff done, and breaking ambiguous problems into executable chunks. I consider myself having a bias for action and a strong sense of urgency. _Note: I have high urgency on hiring, meaning if you have open positions to fill, I expect you make this one of your top priorities._
+- **Execution.** I like getting stuff done, and breaking ambiguous problems into executable chunks. I consider myself having a bias for action and a strong sense of urgency.
 
 ## Stuff that’s hard for me
 
 _and that I’d like to improve, so I’m grateful for any feedback that can help me do that._
 
-- I’m introverted with mild social anxiety that sometimes makes big-room meetings stressful for me. I’m usually not at my best in such situations. To improve, deliberately try to put myself in situations where I’m forced to face my fears, and to mitigate the impact I tend to write things down to bring my points across.
+- I’m introverted with mild social anxiety that sometimes makes big-room meetings stressful for me. I’m usually not at my best in such situations but I deliberately seek out such situations to help me improve.
 
 - I prefer to reflect for a while over thinking on my feet.
 
@@ -87,13 +80,11 @@ _and that I’d like to improve, so I’m grateful for any feedback that can hel
 
 ## How I work
 
-- I aim to keep my working hours between 9-18.
+- My working hours are typically 9-18.
 
-- Synchronous meetings are great for connecting and decision-making (assuming participants have a high degree of context). For almost everything else, I have a bias toward asynchronous communication, especially in remote settings.
+- Synchronous meetings are great for connecting and decision-making (assuming participants have a high degree of context). For almost everything else, I prefer asynchronous communication, especially in remote settings. That being said, I’m also a big fan of short ad-hoc calls.
 
-- However, if you wanna discuss something, I’m happy to jump on a quick call instead of chatting.
-
-- If I want to convey a concept or give a status update, I prefer to summarise my thoughts in written format.
+- If I want to convey a concept I prefer to summarise my thoughts in a written format first.
 
 - I prefer chat over email.
 
