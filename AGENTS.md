@@ -6,7 +6,7 @@ Personal blog and notes site for cjbackman.com. Built with Hugo (static site gen
 
 ## Tech Stack
 
-- **Static site generator**: Hugo 0.161.1 (extended, with Dart Sass). CI version pinned in `.github/workflows/hugo.yaml`.
+- **Static site generator**: Hugo 0.169.0 (extended, with Dart Sass). CI version pinned in `.github/workflows/hugo.yaml`.
 - **Theme**: `cjbackman` (custom, vendored in-tree at `themes/cjbackman/`). Not a submodule.
 - **Content format**: Markdown with TOML frontmatter
 - **Deployment**: GitHub Actions → GitHub Pages
@@ -70,7 +70,7 @@ hugo server -D
 hugo --gc --minify
 ```
 
-Hugo must be version 0.146.0+ (extended) — the theme declares this minimum. CI pins to 0.161.1; keep local close to that to avoid drift.
+Hugo must be version 0.146.0+ (extended) — the theme declares this minimum. CI pins to 0.169.0; keep local close to that to avoid drift.
 
 ## Git Hooks
 
